@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import XCTest
 /*#####################################
  user
  Login user screen
