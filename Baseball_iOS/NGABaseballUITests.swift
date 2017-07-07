@@ -20,9 +20,13 @@ import Foundation
 //}
 
 class NGABaseballUITests: XCTestCase {
-        
+    var accountemail:String = ""
+    static var pw: String = "@utoMat1on"
+    var accountname: String = ""
+    
     override func setUp() {
         super.setUp()
+        NGABaseballUITests.pw=""
         
         // Put setup code here. This method is called before the invocation of each test method in the class.
         
@@ -46,6 +50,7 @@ class NGABaseballUITests: XCTestCase {
         print("Start testExample ============")
         XCUIDevice.shared().orientation = .faceUp
         let fw=UIFramework(app: XCUIApplication())
+        NGABaseballUITests.pw="@utoMat1on"
         // startup screen ------------------------------------------------------
         var start=fw.uiStartup()
         start.test_startup_titles()
@@ -114,12 +119,17 @@ class NGABaseballUITests: XCTestCase {
     
     func testCreateAccount(){
         print("testCreateAccount ============")
+        print(type(of: self))
+        print("password:"+NGABaseballUITests.pw)
+        NGABaseballUITests.pw="@utoMat1on"
+        print("password:"+NGABaseballUITests.pw)
+
         XCUIDevice.shared().orientation = .faceUp
         //let app = XCUIApplication()
         let fw=UIFramework(app: XCUIApplication())
         // startup screen ------------------------------------------------------
         fw.printinfo(msg: "startup",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
-        var start=fw.uiStartup()
+        let start=fw.uiStartup()
         fw.printinfo(msg: "new account",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         let newact=start.tap_Create_New_Account()
         // New account, player or coach screen ---------------------------------
@@ -128,16 +138,16 @@ class NGABaseballUITests: XCTestCase {
         //newact=start.tap_Create_New_Account()
         // New account, player or coach screen ---------------------------------
         fw.printinfo(msg: "i'm a player",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
-        var newplayer = newact.tap_Player()
+        let newplayer = newact.tap_Player()
         // New account, player--------------------------------------------------
         fw.printinfo(msg: "youth",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         let acctForm=newplayer.tap_Youth()
-        var logininfo=fw.account_name//"blastautomation170704"
+        let logininfo=fw.account_name//"blastautomation170704"
         fw.printinfo(msg: "create account",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         var welcome=acctForm.inputAccountForm(FullName:logininfo,// acctForm.uifw.account_name,
                                             Email:logininfo+"@gmail.com",// acctForm.uifw.account_email,
                                             ConfirmEmail:logininfo+"@gmail.com",// acctForm.uifw.account_email,
-                                            Password: "@utomaT1on")
+                                            Password: NGABaseballUITests.pw)
         fw.printinfo(msg: "welcome",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         let basic=welcome.tap_Basic_Details()
         fw.printinfo(msg: "basic details",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
@@ -173,7 +183,10 @@ class NGABaseballUITests: XCTestCase {
         
         
         let main=welcome.tap_Skip()
-        let dash=main.tap_GetStarted()
+        _=main.tap_GetStarted()
+        
+        self.accountname=fw.account_name
+        self.accountemail=fw.account_email
         
         //newplayer=mmain.tap_Prev()
         //start=newact.tap_Prev()
@@ -188,7 +201,20 @@ class NGABaseballUITests: XCTestCase {
         //
         sleep(10)
     }
-    
+    func testMain_Progress_Welcome(){
+        print("testMain ============")
+        XCUIDevice.shared().orientation = .faceUp
+        //let app = XCUIApplication()
+        let fw=UIFramework(app: XCUIApplication())
+        // startup screen ------------------------------------------------------
+        fw.printinfo(msg: "startup",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
+        sleep(10) //wait for account info fetch
+        let main=ui_Main(fw1:fw,welcome:true)
+        main.tap_GetStarted()
+        
+        
+
+    }
     func testLogin(){
         XCUIDevice.shared().orientation = .portrait
         let fw=UIFramework(app: XCUIApplication())
@@ -203,18 +229,7 @@ class NGABaseballUITests: XCTestCase {
         let main=login.tap_Login()
     }
 
-    
 
-
-
-    
-    func testMain(){
-        XCUIDevice.shared().orientation = .portrait
-        let fw=UIFramework(app: XCUIApplication())
-
-        let main=ui_Main(fw:fw,welcome:true)
-        main.tap_GetStarted()
-    }
 }
 
 

@@ -34,6 +34,8 @@ public class ui_Startup{
     }
     
     func test_startup_titles(){
+        print(type(of: self))
+
         //1
         //XCUIApplication().tables.staticTexts["BASEBALL"].tap()
         self.uifw.fwapp.tables.staticTexts["THE COMPLETE HITTING SOLUTION"].tap()
@@ -232,17 +234,27 @@ public class ui_Player_CreateAccount{
         failbutton.tap()
     }
     func inputAccountForm(FullName: String,Email: String,ConfirmEmail: String,Password: String) -> ui_Welcome{
+        print(type(of: self))
+        print("FullName:"+FullName)
         self.key_Full_Name(txt: FullName)
+        print("Email:"+Email)
         self.key_Email(txt: Email)
+        print("ConfirmEmail:"+ConfirmEmail)
         self.key_Confirm_Email(txt: ConfirmEmail)
+        print("Password:"+Password)
         self.key_Password(txt: Password)
         return self.tap_Create_Account()
         //return ui_Welcome(fw: self.uifw)
     }
     func inputAccountFormFail(FullName: String,Email: String,ConfirmEmail: String,Password: String,FailMsg: String){
+        print(type(of: self))
+        print("FullName:"+FullName)
         self.key_Full_Name(txt: FullName)
+        print("Email:"+Email)
         self.key_Email(txt: Email)
+        print("ConfirmEmail:"+ConfirmEmail)
         self.key_Confirm_Email(txt: ConfirmEmail)
+        print("Password:"+Password)
         self.key_Password(txt: Password)
         self.tap_Create_Account_Fail(failMsg: FailMsg)
     }

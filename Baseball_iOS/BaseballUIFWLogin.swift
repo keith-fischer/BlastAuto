@@ -54,7 +54,7 @@ public class ui_Login{
         
         //login
         self.uifw.fwapp.tables.buttons["Log In"].tap()
-        return ui_Main(fw:self.uifw)
+        return ui_Main(fw1:self.uifw)
     }
 }
 

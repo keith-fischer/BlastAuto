@@ -275,6 +275,6 @@ public class UIFramework: UIFrameworkUtils{
         
     }
     func uiMain() -> ui_Main{
-        return ui_Main(fw: self)
+        return ui_Main(fw1: self)
     }
 }

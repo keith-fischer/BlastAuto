@@ -190,7 +190,7 @@ public class ui_Welcome{
     
     func tap_Skip() -> ui_Main{
         self.uifw.fwapp.navigationBars["Create Account"].buttons["Skip"].tap()
-        return ui_Main(fw:self.uifw)
+        return ui_Main(fw1:self.uifw)
     }
     
     func tap_Prev() -> ui_Welcome{
