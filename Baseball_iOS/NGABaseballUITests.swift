@@ -7,7 +7,7 @@
 //
 
 import XCTest
-
+import Foundation
 
 //class Baseball_UI{
 //    var app: XCUIElement
@@ -30,6 +30,9 @@ class NGABaseballUITests: XCTestCase {
         continueAfterFailure = false
         // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
         XCUIApplication().launch()
+//        let app = XCUIApplication()
+//        setupSnapshot(app)
+//        app.launch()
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
@@ -115,34 +118,62 @@ class NGABaseballUITests: XCTestCase {
         //let app = XCUIApplication()
         let fw=UIFramework(app: XCUIApplication())
         // startup screen ------------------------------------------------------
+        fw.printinfo(msg: "startup",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         var start=fw.uiStartup()
+        fw.printinfo(msg: "new account",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         let newact=start.tap_Create_New_Account()
         // New account, player or coach screen ---------------------------------
         //start=newact.tap_Prev()
         // startup screen ------------------------------------------------------
         //newact=start.tap_Create_New_Account()
         // New account, player or coach screen ---------------------------------
+        fw.printinfo(msg: "i'm a player",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         var newplayer = newact.tap_Player()
         // New account, player--------------------------------------------------
+        fw.printinfo(msg: "youth",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         let acctForm=newplayer.tap_Youth()
         var logininfo=fw.account_name//"blastautomation170704"
-        
+        fw.printinfo(msg: "create account",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         var welcome=acctForm.inputAccountForm(FullName:logininfo,// acctForm.uifw.account_name,
                                             Email:logininfo+"@gmail.com",// acctForm.uifw.account_email,
                                             ConfirmEmail:logininfo+"@gmail.com",// acctForm.uifw.account_email,
                                             Password: "@utomaT1on")
-        
+        fw.printinfo(msg: "welcome",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         let basic=welcome.tap_Basic_Details()
+        fw.printinfo(msg: "basic details",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
+        sleep(1)
         basic.FirstName(txt: "FirstName")
         basic.LastName(txt: "LastName")
-        sleep(1)
         basic.Weight(weight: "150 lbs")
         basic.Gender(gender: "Female")
         basic.BirthDate(year: "2000", month: "July", date: "12")
         basic.Height(ft: "5 ft", inches: "3 in")
-
+        basic.Bats(bat: "Left")
         welcome=basic.Save()
+        fw.printinfo(msg: "back to welcome",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
+        let bat=welcome.tap_Add_Bat()
+        bat.Brand(brand: "Easton Baseball")
+        bat.Model(model: "FS200 -10")
+        bat.Nickname(nick: "Z")
+        bat.Length(length: "33 in")
+        bat.Weight(weight: "30 oz")
+        let equipt=bat.tap_AddNewBat()
+        equipt.tap_VolumeOn()
+        sleep(4)
+        equipt.tap_VolumeOff()
+        welcome=equipt.tap_Done()
+        let sensor=welcome.tap_Register_Sensor()
+        sensor.tap_help_buy_web()
+        sensor.tap_help_buyweb_back()
+        sensor.set_serial_number(serial: "12345678")
+        sensor.tap_Done()
+        sleep(5)
+        sensor.handle_sensor_error_popup()
+        welcome=sensor.tap_Prev()
         
+        
+        let main=welcome.tap_Skip()
+        let dash=main.tap_GetStarted()
         
         //newplayer=mmain.tap_Prev()
         //start=newact.tap_Prev()
@@ -155,6 +186,7 @@ class NGABaseballUITests: XCTestCase {
         //verify user setup text instructions
         //tap to ui_BasicDetails
         //
+        sleep(10)
     }
     
     func testLogin(){
@@ -170,97 +202,11 @@ class NGABaseballUITests: XCTestCase {
         //login.type_UserPassword(pw: "@utomaT1on")
         let main=login.tap_Login()
     }
+
     
-    
-//        let app=fw.fwapp
-//        //app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .table).element.tap()
-//        app.staticTexts["Already have an account? Sign in here."].tap()
-//        app.staticTexts["THE COMPLETE HITTING SOLUTION"].tap()
-//        //input email
-//        app.tables.children(matching: .cell).element(boundBy: 4).children(matching: .textField).element.tap()
-//        app.tables.children(matching: .cell).element(boundBy: 4).children(matching: .textField).element.typeText("blastautomation170704@gmail.com")
-//
-//        //app.tables.textFields.containing(.button, identifier:"Clear text").element.typeText("blastautomation170704@gmail.com")
-//        app.toolbars.buttons["Done"].tap()
-//        
-//
-//        //login
-//        app.tables.buttons["Log In"].tap()
-        
 
 
 
-//    
-//    
-//    func testSetup_Welcome(){
-//        XCUIDevice.shared().orientation = .portrait
-//        let fw=UIFramework(app: XCUIApplication())
-//        
-//        let tablesQuery = XCUIApplication().tables
-//        fw.fwapp.tables.staticTexts["Welcome BlastAutomation170705"].tap()
-//        fw.fwapp.tables.staticTexts["To get started, please complete your account details. Have your sensor ready to register and connect it. Finish your setup by adding a bat."].tap()
-//        //select Basic Details*
-//        
-//
-//        fw.fwapp.tables.staticTexts["Basic Details*"].tap()
-//        //Basic Details*
-//        fw.fwapp.navigationBars["Basic Details"].staticTexts["Basic Details"].tap()
-//        
-//        fw.fwapp.tables.children(matching: .cell).element(boundBy: 3).children(matching: .textField).element.tap()
-//        
-//        
-//        fw.fwapp.tables.children(matching: .cell).element(boundBy: 4).children(matching: .textField).element
-//        textField2.tap()
-//        textField.tap()
-//        textField.typeText("z")
-//        textField2.tap()
-//        textField2.typeText("Llastt")
-//        tablesQuery.children(matching: .cell).element(boundBy: 5).children(matching: .textField).element.tap()
-//        
-//        let datePickersQuery = app.datePickers
-//        datePickersQuery.pickerWheels["July"].tap()
-//        datePickersQuery.pickerWheels["5"].tap()
-//        datePickersQuery.pickerWheels["2017"].tap()
-//        
-//        let doneButton = app.toolbars.buttons["Done"]
-//        doneButton.tap()
-//        
-//        let textField3 = tablesQuery.children(matching: .cell).element(boundBy: 6).children(matching: .textField).element
-//        textField3.tap()
-//        textField3.typeText("921299")
-//        doneButton.tap()
-//        tablesQuery.children(matching: .cell).element(boundBy: 7).children(matching: .textField).element.tap()
-//        
-//        let pickerWheel = app.pickers.children(matching: .pickerWheel).element
-//        pickerWheel.tap()
-//        app.pickerWheels["Female"].tap()
-//        doneButton.tap()
-//        tablesQuery.children(matching: .cell).element(boundBy: 8).children(matching: .textField).element.tap()
-//        pickerWheel.tap()
-//        app.pickerWheels["Left"].tap()
-//        doneButton.tap()
-//        tablesQuery.children(matching: .cell).element(boundBy: 9).children(matching: .textField).element.tap()
-//        app.pickerWheels["5 ft"].tap()
-//        app.pickerWheels["4 in"].tap()
-//        doneButton.tap()
-//        tablesQuery.children(matching: .cell).element(boundBy: 10).children(matching: .textField).element.tap()
-//        app.pickerWheels["130 lbs"].tap()
-//        doneButton.tap()
-//        
-//
-//        basicDetailsNavigationBar.buttons["Save"].tap()
-//        
-//        //skip
-//        
-//        let inboxNavigationBar = XCUIApplication().navigationBars["Inbox"]
-//        let inboxStaticText = inboxNavigationBar.staticTexts["Inbox"]
-//        inboxStaticText.tap()
-//        inboxStaticText.tap()
-//        inboxStaticText.tap()
-//        inboxStaticText.tap()
-//        inboxNavigationBar.buttons["icClose"].tap()
-//        
-//    }
     
     func testMain(){
         XCUIDevice.shared().orientation = .portrait
