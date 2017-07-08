@@ -201,6 +201,8 @@ class NGABaseballUITests: XCTestCase {
         //
         sleep(10)
     }
+    
+    
     func testMain_Progress_Welcome(){
         print("testMain ============")
         XCUIDevice.shared().orientation = .faceUp
@@ -210,8 +212,15 @@ class NGABaseballUITests: XCTestCase {
         fw.printinfo(msg: "startup",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         sleep(10) //wait for account info fetch
         let main=ui_Main(fw1:fw,welcome:true)
-        main.tap_GetStarted()
-        
+        let dash=main.tap_GetStarted()
+        let prog=dash.tap_Progress()
+        let lmenu=prog.tap_LeftMenu()
+        lmenu.tap_closeMenu()
+        let train=main.tap_Training()
+        let vids=train.tap_Videos()
+        let rec=vids.tap_Record()
+        rec.tab_Close()
+        sleep(10)
         
 
     }
