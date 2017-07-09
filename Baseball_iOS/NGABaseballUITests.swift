@@ -235,9 +235,34 @@ class NGABaseballUITests: XCTestCase {
         login.type_UserPassword(pw: spw)
         //login.type_Useremail(email: "blastautomation170704@gmail.com")
         //login.type_UserPassword(pw: "@utomaT1on")
-        let main=login.tap_Login()
+        login.tap_Login()
+    
     }
 
+    func testProfile(){
+        print("testProfile ============")
+        XCUIDevice.shared().orientation = .faceUp
+        //let app = XCUIApplication()
+        let fw=UIFramework(app: XCUIApplication())
+        // startup screen ------------------------------------------------------
+        fw.printinfo(msg: "startup",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
+        sleep(10) //wait for account info fetch
+        let main=ui_Main(fw1:fw,welcome:true)
+        let menu=main.tap_LeftMenu()
+        let profile=menu.tap_UserProfile()
+        profile.tap_Account()
+        profile.tap_BlastConnect()
+        profile.tap_Bio()
+        print(profile.fields_Bio.LastName())
+        profile.fields_Bio.LastName(txt: "ZZZ")
+        profile.tap_Account()
+        profile.tap_Bio()
+
+        
+        sleep(10)
+
+        
+    }
 
 }
 

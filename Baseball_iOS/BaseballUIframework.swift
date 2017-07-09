@@ -14,6 +14,18 @@ extension XCUIElement {
      Removes any current text in the field before typing in the new value
      - Parameter text: the text to enter into the field
      */
+    func clearText() {
+        let backspace = "\u{8}"
+        let backspaces = Array(((self.value as? String) ?? "").characters).map { _ in backspace }
+        self.typeText(backspaces.joined(separator: ""))
+    }
+    
+    func typeSlow(text: String) {
+        for i in text.characters {
+            self.typeText(String(i))
+        }
+    }
+    
     func clearAndEnterText(text: String) {
         guard let stringValue = self.value as? String else {
             XCTFail("Tried to clear and enter text into a non string value")
@@ -32,6 +44,21 @@ extension XCUIElement {
                                             expectedValue: true)
         let result = XCTWaiter().wait(for: [expectation], timeout: wait!)
         return result == .completed
+    }
+    
+    func forceTap(tapcount: uint?=1) {
+        print(type(of: self))
+        let ii=Int(tapcount!)
+        for _ in stride(from: 1, to: ii, by: 1){
+            if self.isHittable {
+                print("tap)")
+                self.tap()
+            } else {
+                print("Forced Tap")
+                let coordinate: XCUICoordinate = self.coordinate(withNormalizedOffset: CGVector(dx: 2.0, dy: 2.0))
+                coordinate.tap()
+            }
+        }
     }
 }
 extension XCTestCase {
@@ -190,6 +217,7 @@ public class UIFrameworkUtils{
     let new_account_email: String
     var account_email: String
     var account_name:String
+    var account_Lastname:String
     init(app: XCUIElement){
         self.fwapp = app
         print(type(of: self))
@@ -197,6 +225,7 @@ public class UIFrameworkUtils{
         self.new_account_email = self.account_name+"@gmail.com"
         self.account_email=self.new_account_email
         print("account email:"+self.account_email)
+        self.account_Lastname=""
     }
     
     func Title(){
