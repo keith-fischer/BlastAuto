@@ -55,7 +55,7 @@ extension XCUIElement {
                 self.tap()
             } else {
                 print("Forced Tap")
-                let coordinate: XCUICoordinate = self.coordinate(withNormalizedOffset: CGVector(dx: 2.0, dy: 2.0))
+                let coordinate: XCUICoordinate = self.coordinate(withNormalizedOffset: CGVector(dx: 0.0, dy: 0.0))
                 coordinate.tap()
             }
         }
@@ -227,7 +227,9 @@ public class UIFrameworkUtils{
         print("account email:"+self.account_email)
         self.account_Lastname=""
     }
-    
+    func returnNilAsEmpty(obj:String)->String{
+        return (obj ).isEmpty ? "" : obj
+    }
     func Title(){
         print(self.fwapp.title)
     }
