@@ -9,23 +9,31 @@
 import Foundation
 import XCTest
 
+// MARK: - <#Description#>
 extension XCUIElement {
     /**
      Removes any current text in the field before typing in the new value
      - Parameter text: the text to enter into the field
      */
+    /// <#Description#>
     func clearText() {
         let backspace = "\u{8}"
         let backspaces = Array(((self.value as? String) ?? "").characters).map { _ in backspace }
         self.typeText(backspaces.joined(separator: ""))
     }
     
+    /// <#Description#>
+    ///
+    /// - Parameter text: <#text description#>
     func typeSlow(text: String) {
         for i in text.characters {
             self.typeText(String(i))
         }
     }
     
+    /// <#Description#>
+    ///
+    /// - Parameter text: <#text description#>
     func clearAndEnterText(text: String) {
         guard let stringValue = self.value as? String else {
             XCTFail("Tried to clear and enter text into a non string value")
@@ -39,6 +47,12 @@ extension XCUIElement {
     /*************************
      UI Synch
      **************************/
+    /// <#Description#>
+    ///
+    /// - Parameters:
+    ///   - element: <#element description#>
+    ///   - wait: <#wait description#>
+    /// - Returns: <#return value description#>
     func waitForElementToAppear(_ element: XCUIElement, wait: Double?=5) -> Bool {
         let expectation = XCTKVOExpectation(keyPath: "exists", object: element,
                                             expectedValue: true)
@@ -46,6 +60,9 @@ extension XCUIElement {
         return result == .completed
     }
     
+    /// <#Description#>
+    ///
+    /// - Parameter tapcount: <#tapcount description#>
     func forceTap(tapcount: uint?=1) {
         print(type(of: self))
         let ii=Int(tapcount!)
@@ -61,11 +78,15 @@ extension XCUIElement {
         }
     }
 }
+// MARK: - <#Description#>
 extension XCTestCase {
     fileprivate struct WaitData {
         static var waitExpectation: XCTestExpectation?
     }
     
+    /// <#Description#>
+    ///
+    /// - Parameter duration: <#duration description#>
     public func waitForDuration(_ duration: TimeInterval) {
         WaitData.waitExpectation = expectation(description: "wait")
         Timer.scheduledTimer(timeInterval: duration, target: self,
@@ -73,6 +94,7 @@ extension XCTestCase {
         waitForExpectations(timeout: duration + 3, handler: nil)
     }
     
+    /// <#Description#>
     func waitForDurationDone() {
         WaitData.waitExpectation?.fulfill()
     }
@@ -80,17 +102,20 @@ extension XCTestCase {
     /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     http requests for web service reporting
     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    /// <#Description#>
     fileprivate struct SessionData {
         static var uiTestServerAddress = "http://localhost:5000"
         
         static var session: URLSession?
     }
     
+    /// <#Description#>
     public var uiTestServerAddress: String {
         get { return SessionData.uiTestServerAddress }
         set { SessionData.uiTestServerAddress = newValue }
     }
     
+    /// <#Description#>
     var session: URLSession {
         get {
             if SessionData.session == nil {
@@ -102,6 +127,12 @@ extension XCTestCase {
         }
     }
     
+    /// <#Description#>
+    ///
+    /// - Parameters:
+    ///   - endpoint: <#endpoint description#>
+    ///   - args: <#args description#>
+    /// - Returns: <#return value description#>
     func urlForEndpoint(_ endpoint: String, args: [String]) -> URL? {
         var urlString = "\(SessionData.uiTestServerAddress)/\(endpoint)"
         for arg in args {
@@ -116,6 +147,13 @@ extension XCTestCase {
         return url
     }
     
+    /// <#Description#>
+    ///
+    /// - Parameters:
+    ///   - endpoint: <#endpoint description#>
+    ///   - method: <#method description#>
+    ///   - args: <#args description#>
+    /// - Returns: <#return value description#>
     func dataFromRemoteEndpoint(_ endpoint: String, method: String, args: [String]) -> Data? {
         guard let url = urlForEndpoint(endpoint, args: args) else {
             return nil
@@ -150,10 +188,24 @@ extension XCTestCase {
         return result
     }
     
+    /// <#Description#>
+    ///
+    /// - Parameters:
+    ///   - endpoint: <#endpoint description#>
+    ///   - method: <#method description#>
+    ///   - args: <#args description#>
+    /// - Returns: <#return value description#>
     func dataFromRemoteEndpoint(_ endpoint: String, method: String = "GET", args: String...) -> Data? {
         return dataFromRemoteEndpoint(endpoint, method: method, args: args)
     }
     
+    /// <#Description#>
+    ///
+    /// - Parameters:
+    ///   - endpoint: <#endpoint description#>
+    ///   - method: <#method description#>
+    ///   - args: <#args description#>
+    /// - Returns: <#return value description#>
     func stringFromRemoteEndpoint(_ endpoint: String, method: String, args: [String]) -> String {
         let data = dataFromRemoteEndpoint(endpoint, method: method, args: args)
         if let stringData = data {
@@ -163,14 +215,33 @@ extension XCTestCase {
         return ""
     }
     
+    /// <#Description#>
+    ///
+    /// - Parameters:
+    ///   - endpoint: <#endpoint description#>
+    ///   - method: <#method description#>
+    ///   - args: <#args description#>
+    /// - Returns: <#return value description#>
     func stringFromRemoteEndpoint(_ endpoint: String, method: String = "GET", args: String...) -> String {
         return stringFromRemoteEndpoint(endpoint, method: method, args: args)
     }
     
+    /// <#Description#>
+    ///
+    /// - Parameters:
+    ///   - endpoint: <#endpoint description#>
+    ///   - method: <#method description#>
+    ///   - args: <#args description#>
     func callRemoteEndpoint(_ endpoint: String, method: String, args: [String]) {
         let _ = dataFromRemoteEndpoint(endpoint, method: method, args: args)
     }
     
+    /// <#Description#>
+    ///
+    /// - Parameters:
+    ///   - endpoint: <#endpoint description#>
+    ///   - method: <#method description#>
+    ///   - args: <#args description#>
     func callRemoteEndpoint(_ endpoint: String, method: String = "GET", args: String...) {
         callRemoteEndpoint(endpoint, method: method, args: args)
     }
@@ -179,6 +250,11 @@ extension XCTestCase {
      Send screenshot to test manager
      
      >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    /// saveScreenshot
+    ///
+    /// - Parameters:
+    ///   - filename: <#filename description#>
+    ///   - createDirectory: <#createDirectory description#>
     public func saveScreenshot(_ filename: String, createDirectory: Bool = true) {
         if createDirectory {
             let directory = (filename as NSString).deletingLastPathComponent

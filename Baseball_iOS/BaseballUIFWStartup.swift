@@ -15,24 +15,37 @@ import XCTest
  startup
  First screen with animation
  #######################################*/
+/// <#Description#>
 public class ui_Startup{
+    /// <#Description#>
     let uifw: UIFramework
+    /// <#Description#>
     var createNewAccountButton: XCUIElement
+    /// <#Description#>
+    ///
+    /// - Parameter fw: <#fw description#>
     init(fw: UIFramework){
         self.uifw = fw
         print(type(of: self))
         self.createNewAccountButton = self.uifw.fwapp.buttons["Create New Account"]
     }
+    /// <#Description#>
+    ///
+    /// - Returns: <#return value description#>
     func tap_Create_New_Account() -> ui_AccountType{
         self.createNewAccountButton.tap()
         return ui_AccountType(fw: self.uifw)
     }
+    /// <#Description#>
+    ///
+    /// - Returns: <#return value description#>
     func tap_Login() -> ui_Login{
         self.uifw.fwapp.staticTexts["Already have an account? Sign in here."].tap()
         return ui_Login(fw:self.uifw)
         //self.uifw.fwapp.tables.buttons["icClose"].tap()
     }
     
+    /// <#Description#>
     func test_startup_titles(){
         print(type(of: self))
 
@@ -71,21 +84,34 @@ public class ui_Startup{
  new user
  create account type
  #######################################*/
+/// <#Description#>
 public class ui_AccountType{
     var tablesQuery: XCUIElementQuery
     let uifw: UIFramework
+    /// <#Description#>
+    ///
+    /// - Parameter fw: <#fw description#>
     init(fw: UIFramework){
         self.uifw = fw
         print(type(of: self))
         self.tablesQuery=self.uifw.fwapp.tables
     }
+    /// <#Description#>
+    ///
+    /// - Returns: <#return value description#>
     func tap_Prev() -> ui_Startup{
         return ui_Startup(fw: self.uifw)
     }
+    /// <#Description#>
+    ///
+    /// - Returns: <#return value description#>
     func tap_Player() -> ui_Player{
         self.tablesQuery.staticTexts["I'M A PLAYER"].tap()
         return ui_Player(fw: self.uifw)
     }
+    /// <#Description#>
+    ///
+    /// - Returns: <#return value description#>
     func tap_Coach() -> ui_Coach{
         self.tablesQuery.staticTexts["I'M A COACH"].tap()
         return ui_Coach(fw: self.uifw)

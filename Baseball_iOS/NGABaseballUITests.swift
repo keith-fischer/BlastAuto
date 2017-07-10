@@ -224,6 +224,7 @@ class NGABaseballUITests: XCTestCase {
         
 
     }
+    /// <#Description#>
     func testLogin(){
         XCUIDevice.shared().orientation = .portrait
         let fw=UIFramework(app: XCUIApplication())
@@ -239,6 +240,8 @@ class NGABaseballUITests: XCTestCase {
     
     }
 
+
+    /// <#Description#>
     func testProfile(){
         print("testProfile ============")
         XCUIDevice.shared().orientation = .faceUp
@@ -279,6 +282,7 @@ class NGABaseballUITests: XCTestCase {
         profile.fields_Account.ZipCode(txt: "12345")
         profile.tap_Bio()
         profile.tap_Account()
+        print(profile.fields_Coach.ServicesProvided())
 //        let app = XCUIApplication()
 //        let textField = app.tables.children(matching: .cell).element(boundBy: 2).children(matching: .textField).element
 //        textField.tap()

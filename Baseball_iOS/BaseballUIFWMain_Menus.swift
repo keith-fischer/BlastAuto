@@ -10,6 +10,7 @@ import Foundation
 import XCTest
 
 
+/// <#Description#>
 class ui_menuLeft{
     //var icbackbutton: XCUIElement
     let uifw: UIFramework
@@ -25,6 +26,8 @@ class ui_menuLeft{
     /*************************
      
      **************************/
+
+    /// <#Description#>
     func tap_closeMenu(){
         self.uifw.fwapp.children(matching: .window).element(boundBy: 0).children(matching: .other).element(boundBy: 0).children(matching: .other).element(boundBy: 0).tap()
         
@@ -33,6 +36,9 @@ class ui_menuLeft{
     /*************************
      
      **************************/
+    /// <#Description#>
+    ///
+    /// - Returns: <#return value description#>
     func tap_UserProfile() -> ui_menu_UserProfile{
         self.uifw.fwapp.children(matching: .window).element(boundBy: 0).children(matching: .other).element(boundBy: 0).buttons["avatarNavDrawer"].tap()
         return ui_menu_UserProfile(fw: self.uifw)
@@ -48,6 +54,7 @@ class ui_menuLeft{
 /*************************
  
  **************************/
+/// <#Description#>
 class ui_menu_UserProfile{
     let uifw: UIFramework
     var fields_Bio: ui_menu_UserProfile.textFields_Bio
@@ -55,6 +62,9 @@ class ui_menu_UserProfile{
     var fields_BlastConnect: ui_menu_UserProfile.textFields_BlastConnect
     var fields_Coach: ui_menu_UserProfile.textFields_Coach
     let title: XCUIElement
+    /// <#Description#>
+    ///
+    /// - Parameter fw: <#fw description#>
     init(fw: UIFramework){
         print(type(of: self))
         //self.fields_Bio.uifw=fw
@@ -82,6 +92,7 @@ class ui_menu_UserProfile{
      returns to screen
      [Progrees|Dashboard|Training|Videos]
      **************************/
+    /// <#Description#>
     func tap_Close(){
         print(type(of: self))
         self.uifw.fwapp.navigationBars["User Profile"].buttons["icClose"].tap()
@@ -90,6 +101,7 @@ class ui_menu_UserProfile{
     /*************************
      set the Bio fields visible
      **************************/
+    /// <#Description#>
     func tap_Bio(){
         print(type(of: self))
         self.uifw.fwapp.buttons["Bio"].tap()
@@ -503,15 +515,15 @@ class ui_menu_UserProfile{
         init(fw:UIFramework){
             print(type(of: self))
             self.uifw=fw
-            self.uifw.fwapp.debugDescription
+            
         }
         /*************************
          
          **************************/
         func getElement(id: UInt, secure: Bool?=false)->XCUIElement{
             print(type(of: self))
-            let table = XCUIApplication().children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .table).element(boundBy: 1)
-            var txtelement = table.children(matching: .cell).element(boundBy: id).children(matching: .textField).element
+            let table = self.uifw.fwapp.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .table).element(boundBy: 1)
+            var txtelement = table.children(matching: .cell).element(boundBy: 2).children(matching: .textField).element
             if (secure)!{
                 txtelement=table.children(matching: .cell).element(boundBy: 3).children(matching: .secureTextField).element
             }
@@ -580,7 +592,65 @@ class ui_menu_UserProfile{
             
         }
     }
-    
+    ////email
+    //
+    //let app = XCUIApplication()
+    //let table = app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .table).element(boundBy: 1)
+    //table.children(matching: .cell).element(boundBy: 2).children(matching: .textField).element.tap()
+    //
+    //let tablesQuery = app.tables
+    //let clearTextTextField = tablesQuery.textFields.containing(.button, identifier:"Clear text").element
+    //clearTextTextField.typeText("fischertech")
+    //
+    //let moreKey = app.keys["more"]
+    //moreKey.tap()
+    //moreKey.tap()
+    //clearTextTextField.typeText("00@")
+    //
+    //let moreKey2 = app.keys["more"]
+    //moreKey2.tap()
+    //moreKey2.tap()
+    //clearTextTextField.typeText("gmaill.cc")
+    //
+    //let deleteKey = app.keys["delete"]
+    //deleteKey.tap()
+    //deleteKey.tap()
+    //clearTextTextField.typeText("comm")
+    //deleteKey.tap()
+    //deleteKey.tap()
+    //app.keys["m"].tap()
+    //clearTextTextField.typeText("m")
+    //clearTextTextField.tap()
+    //clearTextTextField.typeText("gmail")
+    //
+    //let doneButton = app.toolbars.buttons["Done"]
+    //doneButton.tap()
+    //
+    ////pw
+    //table.children(matching: .cell).element(boundBy: 3).children(matching: .secureTextField).element.tap()
+    //
+    //let shiftButton = app.buttons["shift"]
+    //shiftButton.tap()
+    //
+    //let clearTextSecureTextField = tablesQuery.secureTextFields.containing(.button, identifier:"Clear text").element
+    //clearTextSecureTextField.typeText("Qwerty")
+    //shiftButton.tap()
+    //shiftButton.tap()
+    //moreKey.tap()
+    //moreKey.tap()
+    //clearTextSecureTextField.typeText("1!")
+    //doneButton.tap()
+    //
+    ////login
+    //
+    //let app = XCUIApplication()
+    //app.tables.buttons["Log In"].tap()
+    //
+    //let blastConnectAlert = app.alerts["Blast Connect"]
+    //blastConnectAlert.staticTexts["Blast Connect"].tap()
+    //blastConnectAlert.staticTexts["Your password or email was invalid, please try again or reset your password."].tap()
+    //blastConnectAlert.buttons["OK"].tap()
+
     /*************************
      
      **************************/
