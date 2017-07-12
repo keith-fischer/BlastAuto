@@ -188,9 +188,9 @@ class ui_menu_UserProfile{
         func FirstName(txt:String){
             print(type(of: self))
             let textField = self.getElement(id:2)
-            textField.forceTap(tapcount: 3)
+            textField.forceTap(tapcount: 1)
             sleep(1)
-            textField.typeText(txt)
+            textField.clearAndEnterText(text: txt)
             self.uifw.fwapp.toolbars.buttons["Done"].tap()
         }
         
@@ -209,9 +209,9 @@ class ui_menu_UserProfile{
         func LastName(txt:String){
             print(type(of: self))
             let textField = self.getElement(id:3)
-            textField.forceTap(tapcount: 3)
+            textField.forceTap(tapcount: 1)
             sleep(1)
-            textField.typeText(txt)
+            textField.clearAndEnterText(text: txt)
             self.uifw.fwapp.toolbars.buttons["Done"].tap()
         }
         
@@ -416,9 +416,9 @@ class ui_menu_UserProfile{
         func Email(txt:String){
             print(type(of: self))
             let textField = self.getElement(id:2)
-            textField.forceTap(tapcount: 3)
+            textField.forceTap(tapcount: 1)
             sleep(1)
-            textField.typeText(txt)
+            textField.clearAndEnterText(text: txt)
             self.uifw.fwapp.toolbars.buttons["Done"].tap()
         }
         
@@ -437,9 +437,9 @@ class ui_menu_UserProfile{
         func Password(txt:String){
             print(type(of: self))
             let textField = self.getElement(id:3,secure:true)
-            textField.forceTap(tapcount: 3)
+            textField.forceTap(tapcount: 1)
             sleep(1)
-            textField.typeText(txt)
+            textField.clearAndEnterText(text: txt)
             self.uifw.fwapp.toolbars.buttons["Done"].tap()
         }
         
@@ -458,7 +458,7 @@ class ui_menu_UserProfile{
         func AccountType(txt:String){
             print(type(of: self))
             let textField = self.getElement(id:4)
-            textField.forceTap(tapcount: 3)
+            textField.forceTap(tapcount: 1)
             sleep(1)
             textField.typeText(txt)
             self.uifw.fwapp.toolbars.buttons["Done"].tap()
@@ -479,9 +479,10 @@ class ui_menu_UserProfile{
         func PhoneNumber(txt:String){
             print(type(of: self))
             let textField = self.getElement(id:5)
-            textField.forceTap(tapcount: 3)
+            textField.forceTap(tapcount: 1)
             sleep(1)
-            textField.typeText(txt)
+            //self.uifw.fwapp.tables.textFields.containing(.button, identifier:"Clear text").element.typeText(txt)
+            textField.clearAndEnterText(text: txt)
             self.uifw.fwapp.toolbars.buttons["Done"].tap()
         }
         
@@ -500,9 +501,9 @@ class ui_menu_UserProfile{
         func ZipCode(txt:String){
             print(type(of: self))
             let textField = self.getElement(id:6)
-            textField.forceTap(tapcount: 3)
+            textField.forceTap(tapcount: 1)
             sleep(1)
-            textField.typeText(txt)
+            textField.clearAndEnterText(text: txt)
             self.uifw.fwapp.toolbars.buttons["Done"].tap()
         }
         
@@ -523,9 +524,9 @@ class ui_menu_UserProfile{
         func getElement(id: UInt, secure: Bool?=false)->XCUIElement{
             print(type(of: self))
             let table = self.uifw.fwapp.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .table).element(boundBy: 1)
-            var txtelement = table.children(matching: .cell).element(boundBy: 2).children(matching: .textField).element
-            if (secure)!{
-                txtelement=table.children(matching: .cell).element(boundBy: 3).children(matching: .secureTextField).element
+            var txtelement = table.children(matching: .cell).element(boundBy: id).children(matching: .textField).element
+            if (secure==true){
+                txtelement=table.children(matching: .cell).element(boundBy: id).children(matching: .secureTextField).element
             }
             
             print(type(of: txtelement))
@@ -548,7 +549,7 @@ class ui_menu_UserProfile{
          **************************/
         func Email() -> String{
             print(type(of: self))
-            let textField = self.getElement(id: 5)
+            let textField = self.getElement(id: 2)
             return textField.value as! String
         }
         
@@ -557,10 +558,11 @@ class ui_menu_UserProfile{
          **************************/
         func Email(txt:String){
             print(type(of: self))
-            let textField = self.getElement(id:5)
-            textField.forceTap(tapcount: 3)
+            let textField = self.getElement(id:2)
+            textField.forceTap(tapcount: 1)
             sleep(1)
-            textField.typeText(txt)
+            textField.clearAndEnterText(text: txt)
+            
             self.uifw.fwapp.toolbars.buttons["Done"].tap()
         }
         
@@ -569,7 +571,7 @@ class ui_menu_UserProfile{
          **************************/
         func Password() -> String{
             print(type(of: self))
-            let textField = self.getElement(id: 5)
+            let textField = self.getElement(id: 3,secure: true)
             return textField.value as! String
         }
         
@@ -578,78 +580,39 @@ class ui_menu_UserProfile{
          **************************/
         func Password(txt:String){
             print(type(of: self))
-            let textField = self.getElement(id:5)
-            textField.forceTap(tapcount: 3)
+            
+            let window = self.uifw.fwapp.children(matching: .window).element(boundBy: 0)
+            let passwordfield=window.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .table).element(boundBy: 1).children(matching: .cell).element(boundBy: 3).children(matching: .secureTextField).element
+            passwordfield.tap()
             sleep(1)
-            textField.typeText(txt)
+            let fKey = self.uifw.fwapp.keys["z"]
+            fKey.tap()
+            sleep(1)
+            let clearTextSecureTextField = self.uifw.fwapp.tables.secureTextFields.containing(.button, identifier:"Clear text").element
+            clearTextSecureTextField.typeText(txt)
             self.uifw.fwapp.toolbars.buttons["Done"].tap()
         }
-        
+
+
         /*************************
          
          **************************/
-        func tab_Login(){
-            
+        func tap_Login_Fail(waitResponseSec: UInt32){
+            self.uifw.fwapp.tables.buttons["Log In"].tap()
+            sleep(waitResponseSec)
+            let blastConnectAlert = self.uifw.fwapp.alerts["Blast Connect"]
+            blastConnectAlert.staticTexts["Blast Connect"].tap()
+            blastConnectAlert.staticTexts["Your password or email was invalid, please try again or reset your password."].tap()
+            blastConnectAlert.buttons["OK"].tap()
+        }
+
+        /*************************
+         Need the resuling webview class
+         **************************/
+        func tap_Login(){
+            self.uifw.fwapp.tables.buttons["Log In"].tap()
         }
     }
-    ////email
-    //
-    //let app = XCUIApplication()
-    //let table = app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .table).element(boundBy: 1)
-    //table.children(matching: .cell).element(boundBy: 2).children(matching: .textField).element.tap()
-    //
-    //let tablesQuery = app.tables
-    //let clearTextTextField = tablesQuery.textFields.containing(.button, identifier:"Clear text").element
-    //clearTextTextField.typeText("fischertech")
-    //
-    //let moreKey = app.keys["more"]
-    //moreKey.tap()
-    //moreKey.tap()
-    //clearTextTextField.typeText("00@")
-    //
-    //let moreKey2 = app.keys["more"]
-    //moreKey2.tap()
-    //moreKey2.tap()
-    //clearTextTextField.typeText("gmaill.cc")
-    //
-    //let deleteKey = app.keys["delete"]
-    //deleteKey.tap()
-    //deleteKey.tap()
-    //clearTextTextField.typeText("comm")
-    //deleteKey.tap()
-    //deleteKey.tap()
-    //app.keys["m"].tap()
-    //clearTextTextField.typeText("m")
-    //clearTextTextField.tap()
-    //clearTextTextField.typeText("gmail")
-    //
-    //let doneButton = app.toolbars.buttons["Done"]
-    //doneButton.tap()
-    //
-    ////pw
-    //table.children(matching: .cell).element(boundBy: 3).children(matching: .secureTextField).element.tap()
-    //
-    //let shiftButton = app.buttons["shift"]
-    //shiftButton.tap()
-    //
-    //let clearTextSecureTextField = tablesQuery.secureTextFields.containing(.button, identifier:"Clear text").element
-    //clearTextSecureTextField.typeText("Qwerty")
-    //shiftButton.tap()
-    //shiftButton.tap()
-    //moreKey.tap()
-    //moreKey.tap()
-    //clearTextSecureTextField.typeText("1!")
-    //doneButton.tap()
-    //
-    ////login
-    //
-    //let app = XCUIApplication()
-    //app.tables.buttons["Log In"].tap()
-    //
-    //let blastConnectAlert = app.alerts["Blast Connect"]
-    //blastConnectAlert.staticTexts["Blast Connect"].tap()
-    //blastConnectAlert.staticTexts["Your password or email was invalid, please try again or reset your password."].tap()
-    //blastConnectAlert.buttons["OK"].tap()
 
     /*************************
      
@@ -690,26 +653,45 @@ class ui_menu_UserProfile{
         /*************************
          
          **************************/
-        func ServicesProvided() -> String{
+        /// <#Description#>
+        ///
+        /// - Returns: <#return value description#>
+        func ServicesProvided() -> [String]{
             print(type(of: self))
-            let textField = self.getElement(id: 5)
-            return textField.value as! String
+            let service=self.uifw.fwapp.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .table).element(boundBy: 1).children(matching: .cell).element(boundBy: 2).children(matching: .textField).element
+            var servicesval:String
+            servicesval=service.value as! String
+            var rc=[String]()
+            if((servicesval==nil) || (servicesval=="")){
+                return rc
+            }
+            rc=servicesval.components(separatedBy: ",")
+            return rc
         }
         
         /*************************
          
          **************************/
-        func ServicesProvided(txt:[String]){
+        func ServicesProvided(serviceslist:[String]){
             print(type(of: self))
-            let textField = self.getElement(id:5)
-            textField.forceTap(tapcount: 3)
+            print(type(of: self))
+            let service=self.uifw.fwapp.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .table).element(boundBy: 1).children(matching: .cell).element(boundBy: 2).children(matching: .textField).element
+            service.tap()
             sleep(1)
-            let coach_services=Coach_ServicesProvided(fw:self.uifw)
-            coach_services.tap_service(serviceselections: txt)
-            //textField.typeText(txt)
-            self.uifw.fwapp.toolbars.buttons["Done"].tap()
+            //validate title
+            let servicesNavigationBar = self.uifw.fwapp.navigationBars["Services"]
+            servicesNavigationBar.staticTexts["Services"].tap()
+            
+            let tbl=self.uifw.fwapp.tables
+            for serviceitem in serviceslist{
+                tbl.staticTexts[serviceitem].tap()
+                sleep(1)
+            }
+            servicesNavigationBar.buttons["icBack"].tap()
+            //self.uifw.fwapp.toolbars.buttons["Done"].tap()
+            
         }
-        
+
         /*************************
          
          **************************/
@@ -725,7 +707,7 @@ class ui_menu_UserProfile{
         func TrainingAddress(txt:String){
             print(type(of: self))
             let textField = self.getElement(id:5)
-            textField.forceTap(tapcount: 3)
+            textField.forceTap(tapcount: 1)
             sleep(1)
             textField.typeText(txt)
             self.uifw.fwapp.toolbars.buttons["Done"].tap()
@@ -746,7 +728,7 @@ class ui_menu_UserProfile{
         func PhoneNumber(txt:String){
             print(type(of: self))
             let textField = self.getElement(id:5)
-            textField.forceTap(tapcount: 3)
+            textField.forceTap(tapcount: 1)
             sleep(1)
             textField.typeText(txt)
             self.uifw.fwapp.toolbars.buttons["Done"].tap()
@@ -767,7 +749,7 @@ class ui_menu_UserProfile{
         func EmailAddress(txt:String){
             print(type(of: self))
             let textField = self.getElement(id:5)
-            textField.forceTap(tapcount: 3)
+            textField.forceTap(tapcount: 1)
             sleep(1)
             textField.typeText(txt)
             self.uifw.fwapp.toolbars.buttons["Done"].tap()
@@ -779,6 +761,7 @@ class ui_menu_UserProfile{
         func AcceptNewStudents() -> String{
             print(type(of: self))
             let textField = self.getElement(id: 5)
+            textField.forceTap(tapcount: 1)
             return textField.value as! String
         }
         
@@ -788,7 +771,7 @@ class ui_menu_UserProfile{
         func AcceptNewStudents(txt:String){
             print(type(of: self))
             let textField = self.getElement(id:5)
-            textField.forceTap(tapcount: 3)
+            textField.forceTap(tapcount: 1)
             sleep(1)
             textField.typeText(txt)
             self.uifw.fwapp.toolbars.buttons["Done"].tap()

@@ -21,7 +21,10 @@ extension XCUIElement {
         let backspaces = Array(((self.value as? String) ?? "").characters).map { _ in backspace }
         self.typeText(backspaces.joined(separator: ""))
     }
-    
+    /// <#Description#>
+    func UIDump(){
+        print(self.descendants(matching: .any).debugDescription)
+    }
     /// <#Description#>
     ///
     /// - Parameter text: <#text description#>
@@ -70,6 +73,8 @@ extension XCUIElement {
             if self.isHittable {
                 print("tap)")
                 self.tap()
+                //let coordinate: XCUICoordinate = self.coordinate(withNormalizedOffset: CGVector(dx: 0.0, dy: 0.0))
+                //coordinate.tap()
             } else {
                 print("Forced Tap")
                 let coordinate: XCUICoordinate = self.coordinate(withNormalizedOffset: CGVector(dx: 0.0, dy: 0.0))
@@ -310,10 +315,10 @@ public class UIFrameworkUtils{
         print(self.fwapp.title)
     }
     
-    func getTextField2(id:UInt) -> XCUIElement{
-        let textField = self.fwapp.tables.children(matching: .cell).element(boundBy: id).children(matching: .textField).element
-        return textField
-    }
+//    func getTextField2(id:UInt) -> XCUIElement{
+//        let textField = self.fwapp.tables.children(matching: .cell).element(boundBy: id).children(matching: .textField).element
+//        return textField
+//    }
     
     class func getUserName() -> String{
         let str1: String = "automation"
@@ -343,16 +348,7 @@ public class UIFrameworkUtils{
         
         print (elementLabels)
     }
-    func getTextField(id:UInt,secured:Bool?=false) -> XCUIElement{
-        if (secured==true){
-            let textField = self.fwapp.tables.children(matching: .cell).element(boundBy: id).children(matching: .secureTextField).element
-            return textField
-        }
-        else{
-            let textField = self.fwapp.tables.children(matching: .cell).element(boundBy: id).children(matching: .textField).element
-            return textField
-        }
-    }
+
     
     func printinfo(msg: String?="",in_out:Int?=0,fninfo:String?="fn: \(#function), line: \(#line), file: \(#file)"){
         var innout = String()

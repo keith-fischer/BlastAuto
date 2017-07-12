@@ -21,7 +21,16 @@ public class ui_Login{
         print(type(of: self))
         self.icbackbutton=self.uifw.fwapp.navigationBars["Create Account"].buttons["icBack"]
     }
-    
+    func getTextField(id:UInt,secured:Bool?=false) -> XCUIElement{
+        if (secured==true){
+            let textField = self.uifw.fwapp.tables.children(matching: .cell).element(boundBy: id).children(matching: .secureTextField).element
+            return textField
+        }
+        else{
+            let textField = self.uifw.fwapp.tables.children(matching: .cell).element(boundBy: id).children(matching: .textField).element
+            return textField
+        }
+    }
     func tap_Prev() -> ui_Startup{
         self.uifw.fwapp.tables.buttons["icClose"].tap()
         return ui_Startup(fw: self.uifw)
@@ -29,7 +38,7 @@ public class ui_Login{
     
     func type_Useremail(email:String){
         //input email
-        let txtemail=self.uifw.getTextField(id: 4)
+        let txtemail=self.getTextField(id: 4)
         txtemail.tap()
         txtemail.typeText(email)
         //app.tables.children(matching: .cell).element(boundBy: 4).children(matching: .textField).element.tap()
@@ -41,7 +50,7 @@ public class ui_Login{
     
     func type_UserPassword(pw:String){
         //input pw
-        let txtpw=self.uifw.getTextField(id: 5, secured: true)
+        let txtpw=self.getTextField(id: 5, secured: true)
         txtpw.tap()
         txtpw.typeText(pw)
         //app.tables.children(matching: .cell).element(boundBy: 5).children(matching: .textField).element.tap()
