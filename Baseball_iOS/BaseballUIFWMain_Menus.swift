@@ -44,6 +44,7 @@ class ui_menuLeft{
         return ui_menu_UserProfile(fw: self.uifw)
     }
 }
+
 ////select profile
 //
 //let app = XCUIApplication()
@@ -155,6 +156,10 @@ class ui_menu_UserProfile{
         /*************************
          
          **************************/
+        /// <#Description#>
+        ///
+        /// - Parameter id: <#id description#>
+        /// - Returns: <#return value description#>
         func getElement(id:UInt)->XCUIElement{
             print(type(of: self))
             let txtelement = self.uifw.fwapp.tables.children(matching: .cell).element(boundBy: id).children(matching: .textField).element
@@ -179,6 +184,16 @@ class ui_menu_UserProfile{
         func FirstName() -> String{
             print(type(of: self))
             let textField = self.getElement(id: 2)
+
+//            var qelement = self.uifw.fwapp.staticTexts["First Name"]
+//            print(type(of: qelement))
+//            print(type(of: qelement.otherElements))
+//            print(qelement.otherElements.debugDescription)
+//
+//            print(qelement.debugDescription)
+//            print(type(of: qelement))
+//            qelement = self.uifw.fwapp.staticTexts["Last Name"]
+//            print(qelement.debugDescription)
             return textField.value as! String
         }
         
@@ -187,7 +202,9 @@ class ui_menu_UserProfile{
          **************************/
         func FirstName(txt:String){
             print(type(of: self))
-            let textField = self.getElement(id:2)
+            //let textField = self.getElement(id:2)
+            let textField = self.uifw.fwapp.staticTexts["First Name"]
+
             textField.forceTap(tapcount: 1)
             sleep(1)
             textField.clearAndEnterText(text: txt)
@@ -218,10 +235,17 @@ class ui_menu_UserProfile{
         /*************************
          
          **************************/
-        func LevelOfPlay() -> String{
+        func LevelOfPlay() -> [String]{
             print(type(of: self))
             let textField = self.getElement(id: 4)
-            return textField.value as! String
+            let playlevel = textField.value as! String
+            var rc=[String]()
+            if((playlevel==nil) || (playlevel=="")){
+                return rc
+            }
+            rc=playlevel.components(separatedBy: ",")
+            return rc
+
         }
         
         /*************************
@@ -758,70 +782,70 @@ class ui_menu_UserProfile{
         /*************************
          
          **************************/
-        func AcceptNewStudents() -> String{
+        /// <#Description#>
+        ///
+        /// - Returns: <#return value description#>
+        func AcceptNewStudents() -> [String]{
             print(type(of: self))
-            let textField = self.getElement(id: 5)
-            textField.forceTap(tapcount: 1)
-            return textField.value as! String
+            let service=self.uifw.fwapp.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .table).element(boundBy: 1).children(matching: .cell).element(boundBy: 6).children(matching: .textField).element
+            var servicesval:String
+            servicesval=service.value as! String
+            var rc=[String]()
+            if((servicesval==nil) || (servicesval=="")){
+                return rc
+            }
+            rc=servicesval.components(separatedBy: ",")
+            return rc
         }
         
         /*************************
          
          **************************/
-        func AcceptNewStudents(txt:String){
+        func AcceptNewStudents(studentlist:[String]){
             print(type(of: self))
-            let textField = self.getElement(id:5)
-            textField.forceTap(tapcount: 1)
+            print(type(of: self))
+            let service=self.uifw.fwapp.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .table).element(boundBy: 1).children(matching: .cell).element(boundBy: 6).children(matching: .textField).element
+            service.tap()
             sleep(1)
-            textField.typeText(txt)
-            self.uifw.fwapp.toolbars.buttons["Done"].tap()
-        }
-        
-        /*************************
-         
-         **************************/
-        class Coach_ServicesProvided{
-            let uifw: UIFramework
-            init(fw:UIFramework){
-                print(type(of: self))
-                self.uifw=fw
-                
-            }
+            //validate title
+            let servicesNavigationBar = self.uifw.fwapp.navigationBars["Provider Options"]
+            servicesNavigationBar.staticTexts["Provider Options"].tap()
             
-            /*************************
-             
-             **************************/
-            func tap_service(serviceselections:[String]){
-                print(type(of: self))
-                for select in serviceselections{
-                    print(select)
-                }
+            let tbl=self.uifw.fwapp.tables
+            for student in studentlist{
+                tbl.staticTexts[student].tap()
+                sleep(1)
             }
+            servicesNavigationBar.buttons["icBack"].tap()
+            //self.uifw.fwapp.toolbars.buttons["Done"].tap()
+            
         }
         
-        /*************************
-         
-         **************************/
-        class Coach_TrainingAddress{
-            let uifw: UIFramework
-            init(fw:UIFramework){
-                print(type(of: self))
-                self.uifw=fw
-                
-            }
-        }
+
         
-        /*************************
-         
-         **************************/
-        class Coach_ProviderOptions{
-            let uifw: UIFramework
-            init(fw:UIFramework){
-                print(type(of: self))
-                self.uifw=fw
-                
-            }
-        }
+//        /*************************
+//         
+//         **************************/
+//        class Coach_TrainingAddress{
+//            let uifw: UIFramework
+//            init(fw:UIFramework){
+//                print(type(of: self))
+//                self.uifw=fw
+//                
+//            }
+//        }
+//        
+//        /*************************
+//         
+//         **************************/
+//        class Coach_ProviderOptions{
+//            let uifw: UIFramework
+//            init(fw:UIFramework){
+//                print(type(of: self))
+//                self.uifw=fw
+//                
+//            }
+//        }
     }
 }
 

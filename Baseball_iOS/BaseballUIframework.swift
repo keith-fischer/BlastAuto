@@ -23,7 +23,9 @@ extension XCUIElement {
     }
     /// <#Description#>
     func UIDump(){
+        print(">>>>>>>>>>>>>>>>")
         print(self.descendants(matching: .any).debugDescription)
+        print("<<<<<<<<<<<<<<<<")
     }
     /// <#Description#>
     ///
