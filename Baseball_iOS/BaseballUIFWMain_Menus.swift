@@ -185,29 +185,94 @@ class ui_menu_UserProfile{
             print(type(of: self))
             let textField = self.getElement(id: 2)
 
-//            var qelement = self.uifw.fwapp.staticTexts["First Name"]
-//            print(type(of: qelement))
-//            print(type(of: qelement.otherElements))
-//            print(qelement.otherElements.debugDescription)
+            var qelement = self.uifw.fwapp.staticTexts["First Name"]
+            print(type(of: qelement))
+            print(type(of: qelement.otherElements))
+            print(qelement.otherElements.debugDescription)
 //
-//            print(qelement.debugDescription)
+            print(qelement.debugDescription)
 //            print(type(of: qelement))
 //            qelement = self.uifw.fwapp.staticTexts["Last Name"]
 //            print(qelement.debugDescription)
-            return textField.value as! String
+            let rc = textField.value as! String
+            return rc
         }
         
         /*************************
          
          **************************/
         func FirstName(txt:String){
-            print(type(of: self))
+            
             //let textField = self.getElement(id:2)
-            let textField = self.uifw.fwapp.staticTexts["First Name"]
-
-            textField.forceTap(tapcount: 1)
+            print(type(of: self))
+            let p1 = NSPredicate(format: "label BEGINSWITH 'Last Name'")
+            self.uifw.fwapp.tables.UIDump(msg: "TABLE ")
+            self.uifw.fwapp.UIDump(msg: "ALL ")
+            self.uifw.fwapp.tables.children(matching: .cell).element(boundBy: 2).descendants(matching: .any).UIDump(msg: "celllist")
+            let txtelement = self.uifw.fwapp.tables.children(matching: .cell).element(boundBy: 2).children(matching: .textField).element
+            txtelement.UIDump(msg:"txtelement")
+            let lblelement = self.uifw.fwapp.staticTexts["Last Name"]
+            lblelement.UIDump(msg: "staticTexts ")
+            let lblelement2 = self.uifw.fwapp.descendants(matching: .any).containing(p1)
+            lblelement2.UIDump(msg:"lblelement")
+            
+            //let app = XCUIApplication()
+            
+            //let faxLabel = app.staticTexts.element(matching: faxPredicate)
+            //XCTAssert(faxLabel.exists)
+            //[app.cells containingType:XCUIElementTypeStaticText identifier:@"My Text"]
+            let c0=self.uifw.fwapp.tables.staticTexts.containing(.staticText, identifier: "Last Name")
+            c0.UIDump(msg:"c0")
+            let c1 = self.uifw.fwapp.tables.cells.containing(p1)
+            c1.UIDump(msg:"c1")
+//            for eitem in.self.uifw.fwapp.tables.children(matching: .cell).element(boundBy: 2).children as XCUIElement{
+//                eitem.UIDump()
+//            }
+            //let xe=XCUIApplication().cell(containing: ["First Name"])
+            //xe.UIDump()
+            print(c1.children(matching: .any).count)
+            let t0=c1.children(matching: .any).element(boundBy: 0)
+            let t1=c1.children(matching: .any).element(boundBy: 1)
+            let t2=c1.children(matching: .any).element(boundBy: 2)
+            t0.UIDump(msg:"t0")
+            t1.UIDump(msg:"t1")
+            t2.UIDump(msg:"t2")
+            let t3=c1.children(matching: .any).element(boundBy: 3)
+            t3.UIDump(msg:"t3")
+            t0.tap()
             sleep(1)
-            textField.clearAndEnterText(text: txt)
+            t0.typeText(txt)
+            //let textField = self.uifw.fwapp.staticTexts["First Name"]
+//            let ccells = self.uifw.fwapp.tables.children(matching: .cell).staticTexts["First Name"]
+//            
+//                ccells.UIDump()
+//                let textField1 = ccells.children(matching: .textField).element
+//            
+//                    print(type(of: textField1))
+//                    textField1.UIDump()
+//
+//                    textField1.tap()
+            
+        
+            let txtfld = self.uifw.fwapp.tables.children(matching: .cell).children(matching: .textField).element
+        
+        
+                
+                //self.uifw.fwapp.staticTexts["First Name"]
+        
+            txtfld.UIDump()
+            txtfld.tap()
+            txtfld.typeText(txt)
+            txtelement.tap()
+            txtelement.typeText(txt)
+            
+
+            sleep(1)
+            let fKey = self.uifw.fwapp.keys["z"]
+            fKey.tap()
+            sleep(1)
+            sleep(1)
+            //let textField1.clearAndEnterText(text: txt)
             self.uifw.fwapp.toolbars.buttons["Done"].tap()
         }
         

@@ -250,7 +250,7 @@ class NGABaseballUITests: XCTestCase {
         // startup screen ------------------------------------------------------
         fw.printinfo(msg: "startup",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         sleep(10) //wait for account info fetch
-        let main=ui_Main(fw1:fw,welcome:true)
+        let main=ui_Main(fw1:fw,welcome:false)
         let menu=main.tap_LeftMenu()
         let profile=menu.tap_UserProfile()
 

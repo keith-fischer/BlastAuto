@@ -9,6 +9,59 @@
 import Foundation
 import XCTest
 
+extension XCUIElementQuery {
+    func UIDump(msg:String?=""){
+        print(msg!+"XCUIElementQuery>>>>>>>>>>>>>>>>")
+        
+        debugPrint(self)
+        print("_________________")
+        print(self.descendants(matching: .any).count)
+        print("_________________")
+        print(type(of: self))
+        print("_________________")
+        print(self.debugDescription)
+        print("-----------")
+        print(self.descendants(matching: .any).debugDescription)
+        print("XCUIElementQuery<<<<<<<<<<<<<<<<")
+    }
+}
+extension XCUIApplication {
+    
+    func filterCells(containing labels: [String]) -> XCUIElementQuery {
+        var cells = self.cells
+        
+        for label in labels {
+            cells = cells.containing(NSPredicate(format: "label CONTAINS %@", label))
+        }
+        return cells
+    }
+    
+    func cell(containing labels: String...) -> XCUIElement {
+        return filterCells(containing: labels).element
+    }
+    
+    func cell(containing labels: [String]) -> XCUIElement {
+        return filterCells(containing: labels).element
+    }
+    
+    func tapCell(containing labels: String...) {
+        cell(containing: labels).tap()
+    }
+    
+    func swipeCellLeft(containing labels: String...) {
+        cell(containing: labels).swipeLeft()
+    }
+    
+    func swipeCellRight(containing labels: String...) {
+        cell(containing: labels).swipeRight()
+    }
+    
+    func existsCell(containing labels: String...) -> Bool {
+        return cell(containing: labels).exists
+    }
+}
+
+
 // MARK: - <#Description#>
 extension XCUIElement {
     /**
@@ -22,11 +75,26 @@ extension XCUIElement {
         self.typeText(backspaces.joined(separator: ""))
     }
     /// <#Description#>
-    func UIDump(){
-        print(">>>>>>>>>>>>>>>>")
+    func UIDump(msg:String?=""){
+        print(msg!+"XCUIElement>>>>>>>>>>>>>>>>")
+        debugPrint(self)
+        print("_________________")
+        print(self.descendants(matching: .any).count)
+        print("_________________")
+        print(type(of: self))
+        print("_________________")
+        print(self.debugDescription)
+        print("-----------")
         print(self.descendants(matching: .any).debugDescription)
-        print("<<<<<<<<<<<<<<<<")
+        print("XCUIElement<<<<<<<<<<<<<<<<")
     }
+//    func dodump(){
+//        print(self.descendants(matching: .any).debugDescription)
+//        
+//        for ele in self.descendants(matching: .any){
+//            ele.dodump()
+//        }
+//    }
     /// <#Description#>
     ///
     /// - Parameter text: <#text description#>
@@ -71,7 +139,7 @@ extension XCUIElement {
     func forceTap(tapcount: uint?=1) {
         print(type(of: self))
         let ii=Int(tapcount!)
-        for _ in stride(from: 1, to: ii, by: 1){
+        for _ in stride(from: 0, to: ii, by: 1){
             if self.isHittable {
                 print("tap)")
                 self.tap()
