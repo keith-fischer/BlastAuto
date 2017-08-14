@@ -272,39 +272,6 @@ class NGABaseballUITests: XCTestCase {
         profile.fields_Bio.Weight(txt: "144 lbs")
         profile.fields_Bio.LevelOfPlay(txt: ["Other","Youth","Professional MLB"])
         print(profile.fields_Bio.LevelOfPlay())
-        profile.tap_Coach()
-        
-        var loginfo=profile.fields_Coach.AcceptNewStudents()
-        print(loginfo)
-        profile.fields_Coach.AcceptNewStudents(studentlist: ["All","All","All"])
-        loginfo=profile.fields_Coach.AcceptNewStudents()
-        print(loginfo)
-        profile.fields_Coach.AcceptNewStudents(studentlist: ["Local"])
-        loginfo=profile.fields_Coach.AcceptNewStudents()
-        print(loginfo)
-        profile.fields_Coach.AcceptNewStudents(studentlist: ["Online"])
-        loginfo=profile.fields_Coach.AcceptNewStudents()
-        print(loginfo)
-
-        loginfo = profile.fields_Coach.ServicesProvided()
-        print(loginfo)
-        profile.fields_Coach.ServicesProvided(serviceslist: ["All","All","All"])//reset return none
-        loginfo = profile.fields_Coach.ServicesProvided()
-        print(loginfo)
-        
-        profile.fields_Coach.ServicesProvided(serviceslist: ["All","Hitting","Pitching","Virtual Coaching"])
-        loginfo = profile.fields_Coach.ServicesProvided()
-        print(loginfo)
-        profile.fields_Coach.ServicesProvided(serviceslist: ["All","All","Hitting","Pitching","Virtual Coaching"])
-        loginfo = profile.fields_Coach.ServicesProvided()
-        print(loginfo)
-        profile.fields_Coach.ServicesProvided(serviceslist: ["All"])//return all
-        loginfo = profile.fields_Coach.ServicesProvided()
-        print(loginfo)
-        profile.fields_Coach.ServicesProvided(serviceslist: ["All"])//inverse return none
-        loginfo = profile.fields_Coach.ServicesProvided()
-        print(loginfo)
-
         profile.tap_Account()
         print(profile.fields_Account.Email())
         print(profile.fields_Account.AccountType())
@@ -312,6 +279,49 @@ class NGABaseballUITests: XCTestCase {
         print(profile.fields_Account.ZipCode())
         profile.fields_Account.PhoneNumber(txt: "9998881234")
         profile.fields_Account.ZipCode(txt: "12345")
+        profile.fields_Account.AccountType(txt: "Coach")
+        sleep(10)
+        profile.tap_Coach()
+        
+        var loginfo=profile.fields_Coach.AcceptNewStudents()
+        print(loginfo)
+        
+        profile.fields_Coach.AcceptNewStudents(studentlist: ["All","All","All"])
+        loginfo=profile.fields_Coach.AcceptNewStudents()
+        print(loginfo)
+        
+        profile.fields_Coach.AcceptNewStudents(studentlist: ["Local"])
+        loginfo=profile.fields_Coach.AcceptNewStudents()
+        print(loginfo)
+        
+        profile.fields_Coach.AcceptNewStudents(studentlist: ["Online"])
+        loginfo=profile.fields_Coach.AcceptNewStudents()
+        print(loginfo)
+
+        loginfo = profile.fields_Coach.ServicesProvided()
+        print(loginfo)
+        
+        profile.fields_Coach.ServicesProvided(serviceslist: ["All","All","All"])//reset return none
+        loginfo = profile.fields_Coach.ServicesProvided()
+        print(loginfo)
+        
+        profile.fields_Coach.ServicesProvided(serviceslist: ["All","Hitting","Pitching","Virtual Coaching"])
+        loginfo = profile.fields_Coach.ServicesProvided()
+        print(loginfo)
+        
+        profile.fields_Coach.ServicesProvided(serviceslist: ["All","All","Hitting","Pitching","Virtual Coaching"])
+        loginfo = profile.fields_Coach.ServicesProvided()
+        print(loginfo)
+        
+        profile.fields_Coach.ServicesProvided(serviceslist: ["All"])//return all
+        loginfo = profile.fields_Coach.ServicesProvided()
+        print(loginfo)
+        
+        profile.fields_Coach.ServicesProvided(serviceslist: ["All"])//inverse return none
+        loginfo = profile.fields_Coach.ServicesProvided()
+        print(loginfo)
+
+
 
         profile.tap_BlastConnect()
         print(profile.uifw.fwapp.descendants(matching: .any).debugDescription)

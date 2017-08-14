@@ -22,7 +22,7 @@ dst="/Volumes/MAC"
 rsync -av "${src}/Automation/blast-nga-universal-ios/NextGenIOSUniversal/NGABaseballUITests/" "${dst}/Automation/BlastAuto/Baseball_iOS"
 dst="/Volumes/64GB-SD"
 rsync -av "${src}/Automation/blast-nga-universal-ios/NextGenIOSUniversal/NGABaseballUITests/" "${dst}/Automation/BlastAuto/Baseball_iOS"
-dst="/Volumes/64GB-SD"
+dst="/Volumes/SD-64GB"
 rsync -av "${src}/Automation/blast-nga-universal-ios/" "${dst}/blast-nga-universal-ios"
 
 #rsync -av "${src}/Automation/blast-nga-universal-ios/NextGenIOSUniversal/NGABaseballUITests/" "${dst}/Documents"

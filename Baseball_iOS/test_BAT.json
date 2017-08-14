@@ -1,0 +1,62 @@
+
+// BAT test data
+//Array of series of data
+[
+ [
+  {
+  "User": "fischertech00@gmail.com",
+  "pw": "Qwerty1!",
+  "FullName": "kf"
+  },
+  {
+  "Make": "sluger",
+  "model": "slx1",
+  "weight": 65,
+  "length": 53
+  },
+  {
+  "Make": "sluger",
+  "model": "slx1",
+  "weight": 65,
+  "length": 53
+  }
+  ],
+ [
+  {
+  "User": "fischertech00@gmail.com",
+  "pw": "Qwerty1!",
+  "FullName": "kf"
+  },
+  {
+  "Make": "sluger",
+  "model": "slx1",
+  "weight": 65,
+  "length": 53
+  },
+  {
+  "Make": "sluger",
+  "model": "slx1",
+  "weight": 65,
+  "length": 53
+  }
+  ],
+ [
+  {
+  "User": "fischertech00@gmail.com",
+  "pw": "Qwerty1!",
+  "FullName": "kf"
+  },
+  {
+  "Make": "sluger",
+  "model": "slx1",
+  "weight": 65,
+  "length": 53
+  },
+  {
+  "Make": "sluger",
+  "model": "slx1",
+  "weight": 65,
+  "length": 53
+  }
+  ]
+ ]
