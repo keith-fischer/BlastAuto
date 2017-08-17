@@ -15,9 +15,12 @@ public class ui_Record{
     init(fw: UIFramework){
         
         self.uifw = fw
+        self.uifw.fwapp=XCUIApplication()
         print(type(of: self))
+        sleep(1)
     }
-    func tab_Close(){
+    func tap_Close(){
         self.uifw.fwapp.buttons["icClose"].tap()
+        sleep(2)
     }
 }

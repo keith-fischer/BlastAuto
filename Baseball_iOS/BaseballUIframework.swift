@@ -88,17 +88,20 @@ public class UIFrameworkUtils{
 
 /*#####################################
 Init framework
+ Two app startup modes auto login and signed out
  #######################################*/
 public class UIFramework: UIFrameworkUtils{
     
     override init(app: XCUIElement){
         super.init(app: app)
     }
-
+    //default signed out
     func uiStartup() -> ui_Startup{
         return ui_Startup(fw: self)
         
     }
+    
+    //Auto login
     func uiMain() -> ui_Main{
         return ui_Main(fw1: self)
     }

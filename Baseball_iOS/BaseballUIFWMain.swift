@@ -31,7 +31,7 @@ import XCTest
 public class ui_Bottom_Buttons{
     let uifw: UIFramework
     let icbackbutton: XCUIElement
-    init(fw1: UIFramework,welcome: Bool?=false){
+    init(fw1: UIFramework){
         self.uifw=fw1
         print(type(of: self))
         self.icbackbutton=self.uifw.fwapp.navigationBars["Create Account"].buttons["icBack"]
@@ -85,14 +85,14 @@ public class ui_Main:ui_Bottom_Buttons{
     //var icbackbutton: XCUIElement
     //let uifw: UIFramework
     var new_welcome: Bool
-    override init(fw1 fw2: UIFramework,welcome: Bool?=false){
-        self.new_welcome=welcome!
+    init(fw1 fw2: UIFramework,welcome: Bool?=false){
+        new_welcome=welcome!
         super.init(fw1: fw2)
         
         //self.uifw=fw
         print(type(of: self))
         //self.icbackbutton=self.uifw.fwapp.navigationBars["Create Account"].buttons["icBack"]
-        print("waiting")
+        print("Check Welcome="+String(new_welcome))
         if (self.new_welcome){
             self.uifw.fwapp.staticTexts["Welcome to Blast Baseball!"].tap()
             self.uifw.fwapp.staticTexts["The Blast Baseball app helps to capture your swings and video highlights, provides drills for improving and delivers insights on your progress. Start getting better today. You currently do not have any swings stored in your device, lets get started."].tap()

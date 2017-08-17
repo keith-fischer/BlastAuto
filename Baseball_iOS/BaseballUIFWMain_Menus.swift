@@ -10,7 +10,7 @@ import Foundation
 import XCTest
 
 
-/// <#Description#>
+/// Invoke left side main menu from main screen and close menu
 class ui_menuLeft{
     //var icbackbutton: XCUIElement
     let uifw: UIFramework
@@ -116,10 +116,12 @@ class ui_menu_UserProfile{
         print(type(of: self))
         self.uifw.fwapp.buttons["Account"].tap()
         self.title.tap()
+        
         //self.fields_Account=textFields_Account(fw:self.uifw)
         
         //        let profileuser=self.uifw.account_name+" "+self.uifw.account_Lastname
         //        self.uifw.fwapp.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .table).element(boundBy: 1).staticTexts[profileuser].tap()
+    
     }
     
     /*************************
@@ -358,8 +360,11 @@ class ui_menu_UserProfile{
             let textField = self.getElement(id: 8)
             textField.tap()
             sleep(1)
+            
             self.uifw.fwapp.pickerWheels.element(boundBy: 0).adjust(toPickerWheelValue: feet)
+            sleep(1)
             self.uifw.fwapp.pickerWheels.element(boundBy: 1).adjust(toPickerWheelValue: inches)
+            sleep(1)
             self.uifw.fwapp.toolbars.buttons["Done"].tap()
         }
         
@@ -375,13 +380,13 @@ class ui_menu_UserProfile{
         /*************************
          
          **************************/
-        func Weight(txt:String){
+        func Weight(lbs:String){
             print(type(of: self))
             let textField = self.getElement(id: 9)
             textField.tap()
             sleep(1)
-            self.uifw.fwapp.pickerWheels.element.adjust(toPickerWheelValue: txt)
-            self.uifw.fwapp.pickerWheels[txt].tap()
+            self.uifw.fwapp.pickerWheels.element.adjust(toPickerWheelValue: lbs)
+            self.uifw.fwapp.pickerWheels[lbs].tap()
             self.uifw.fwapp.toolbars.buttons["Done"].tap()
         }
         
@@ -404,6 +409,7 @@ class ui_menu_UserProfile{
         func getElement(id: UInt, secure: Bool?=false)->XCUIElement{
             print(type(of: self))
             let table = XCUIApplication().children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .table).element(boundBy: 1)
+            
             var txtelement = table.children(matching: .cell).element(boundBy: id).children(matching: .textField).element
             if (secure)!{
                 txtelement=table.children(matching: .cell).element(boundBy: 3).children(matching: .secureTextField).element
@@ -478,13 +484,55 @@ class ui_menu_UserProfile{
         /*************************
          Select Coach or Player mode
          **************************/
-        func AccountType(txt:String){
+        func AccountType(txt:String,changeToCoach:Bool?=false){
             print(type(of: self))
-            let textField = self.getElement(id:4)
+            let textField=self.uifw.fwapp.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .table).element(boundBy: 1).children(matching: .cell).element(boundBy: 4).children(matching: .textField).element
+
+            
             textField.forceTap(tapcount: 1)
+            let tablesQuery = self.uifw.fwapp.tables
             sleep(1)
-            textField.typeText(txt)
-            self.uifw.fwapp.toolbars.buttons["Done"].tap()
+            if txt=="I'M A PLAYER"{
+                tablesQuery.staticTexts["I'M A PLAYER"].tap()
+            }
+            else if txt=="I'M A COACH"{
+                tablesQuery.staticTexts["I'M A COACH"].tap()
+
+                if changeToCoach!{
+                    self.uifw.fwapp.alerts["Account Change"].buttons["Upgrade"].tap()
+                }
+                else{
+                    self.uifw.fwapp.alerts["Account Change"].buttons["Cancel"].tap()
+                }
+            }
+            else{
+                print("Invalid Selection: "+txt)
+            }
+            //textField.typeText(txt)
+            //self.uifw.fwapp.toolbars.buttons["Done"].tap()
+            
+            //---------
+//            let app = app2
+//            app.navigationBars["NGABaseball.ProgressView"].children(matching: .button).element.tap()
+//            
+//            let window = app.children(matching: .window).element(boundBy: 0)
+//            window.children(matching: .other).element(boundBy: 0).buttons["avatarNavDrawer"].tap()
+//            
+//            let app2 = app
+//            app2.buttons["Account"].tap()
+//            
+//            let textField = window.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .table).element(boundBy: 1).children(matching: .cell).element(boundBy: 4).children(matching: .textField).element
+//            textField.tap()
+//            
+//            let tablesQuery = app2.tables
+//            tablesQuery.staticTexts["I'M A PLAYER"].tap()
+//            textField.tap()
+//            tablesQuery.staticTexts["I'M A COACH"].tap()
+//            app.alerts["Account Change"].buttons["Cancel"].tap()
+
+            
+            
+            
         }
         
         /*************************

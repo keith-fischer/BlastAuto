@@ -46,7 +46,7 @@ public class ui_Startup{
     }
     
     /// <#Description#>
-    func test_startup_titles(){
+    func ttest_startup_titles(){
         print(type(of: self))
 
         //1
