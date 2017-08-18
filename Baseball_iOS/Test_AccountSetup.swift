@@ -14,9 +14,9 @@ extension NGABaseballUITests{
     func ttestCreateAccount(){
         print("testCreateAccount ============")
         print(type(of: self))
-        print("password:"+self.pw)
-        self.pw="@utoMat1on"
-        print("password:"+self.pw)
+        print("password:"+(TESTDATA?.getTestValueStr(fieldname: "signin_pw"))!)
+        //self.pw="@utoMat1on"
+        print("password:"+(TESTDATA?.getTestValueStr(fieldname: "signin_pw"))!)
         
         XCUIDevice.shared().orientation = .faceUp
         //let app = XCUIApplication()
@@ -41,7 +41,7 @@ extension NGABaseballUITests{
         var welcome=acctForm.inputAccountForm(FullName:logininfo,// acctForm.uifw.account_name,
             Email:logininfo+"@gmail.com",// acctForm.uifw.account_email,
             ConfirmEmail:logininfo+"@gmail.com",// acctForm.uifw.account_email,
-            Password: self.pw)
+            Password: (TESTDATA?.getTestValueStr(fieldname: "signin_pw"))!)
         fw.printinfo(msg: "welcome",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         let basic=welcome.tap_Basic_Details()
         fw.printinfo(msg: "basic details",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
@@ -79,8 +79,8 @@ extension NGABaseballUITests{
         let main=welcome.tap_Skip()
         _=main.tap_GetStarted()
         
-        self.accountname=fw.account_name
-        self.accountemail=fw.account_email
+//        self.accountname=fw.account_name
+//        self.accountemail=fw.account_email
         
         //newplayer=mmain.tap_Prev()
         //start=newact.tap_Prev()

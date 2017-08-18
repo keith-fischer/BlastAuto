@@ -601,7 +601,7 @@ class ui_menu_UserProfile{
             }
             
             print(type(of: txtelement))
-            print(txtelement.elementType)
+            //print(txtelement.elementType)
             print("VALUE=" + (txtelement.value as! String))
             print("LABEL=" + (txtelement.label))
             //print("ID=" + self.uifw.returnNilAsEmpty(obj: (txtelement.identifier)))

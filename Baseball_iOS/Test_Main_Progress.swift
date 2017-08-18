@@ -54,5 +54,62 @@ extension NGABaseballUITests{
         sleep(10)
     }
     
+    func ttestMain_Progress_SwipeCharts(){
+        print("ttestMain ============")
+        XCUIDevice.shared().orientation = .faceUp
+        //let app = XCUIApplication()
+        
+        // startup screen ------------------------------------------------------
+        var rc=false
+        sleep(10) //wait for account info fetch
+        let fw=UIFramework(app: XCUIApplication())
+        fw.printinfo(msg: "startup",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
+        let main=ui_Main(fw1:fw,welcome:false)//Not new user ,no welcome display
+        
+        let prog=main.tap_Progress()
+        var ss=prog.getLowStat()
+        ss=prog.getHighStat()
+        prog.setDay()
+        prog.setMonth()
+        prog.setWeek()
+        prog.setYear()
+        prog.setDay()
+        let chars:[String]=(TESTDATA?.getTestValueStrArr(fieldname: "main_progress_chartnames"))!
+        //go to last chart
+        rc=prog.setToLastChart(chartlist: chars)
+        
+        if !rc{
+            print("FAILED SWIPE LEFT AND FIND CHART TEST: "+chars[chars.count-1])
+        }
+        else{
+            print("PASSED SWIPE LEFT AND FIND CHART TEST: "+chars[chars.count-1])
+        }
+        //got first
+        rc=prog.setToFirstChart(chartlist: chars)
+        if !rc{
+            print("FAILED SWIPE RIGHT AND FIND CHART TEST: "+chars[0])
+        }
+        else{
+            print("PASSED SWIPE RIGHT AND FIND CHART TEST: "+chars[0])
+        }
+        
+        rc=prog.searchChartNameSwipeLeft(chartname: chars[5], chartlist: chars)
+        if !rc{
+            print("FAILED SWIPE LEFT AND FIND CHART TEST: "+chars[5])
+        }
+        else{
+            print("PASSED SWIPE LEFT AND FIND CHART TEST: "+chars[5])
+        }
+        rc=prog.searchChartNameSwipeRight(chartname: chars[3], chartlist: chars)
+        if !rc{
+            print("FAILED SWIPE LEFT AND FIND CHART TEST: "+chars[3])
+        }
+        else{
+            print("PASSED SWIPE LEFT AND FIND CHART TEST: "+chars[3])
+        }
+        sleep(10)
+        
+    }
+    
 }
 

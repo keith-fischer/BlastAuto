@@ -32,7 +32,7 @@ extension NGABaseballUITests{
         print("Start testExample ============")
         XCUIDevice.shared().orientation = .faceUp
         let fw=UIFramework(app: XCUIApplication())
-        self.pw="@utoMat1on"
+        //self.pw="@utoMat1on"
         // startup screen ------------------------------------------------------
         var start=fw.uiStartup()
         start.ttest_startup_titles()

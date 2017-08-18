@@ -3,7 +3,156 @@
 
 
 
+//=======================
+//main progress
+//scroll and datetime and check values
+XCUIDevice.shared().orientation = .portrait
 
+let app = app2
+app.navigationBars["NGABaseball.ProgressView"].staticTexts["Progress"].tap()
+
+let app2 = app
+//date range
+app2.buttons["Day"].tap()
+//chart name
+let scrollViewsQuery = app.scrollViews
+scrollViewsQuery.otherElements.staticTexts["Bat Speed"].tap()
+scrollViewsQuery.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).children(matching: .button).element(boundBy: 0).tap()
+
+//tap low number
+app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.tap()
+
+app.staticTexts["Lowest Bat Speed"].tap()
+app.staticTexts["271 Maple"].tap()
+
+let collectionViewsQuery = app2.collectionViews
+collectionViewsQuery.staticTexts["Bat Speed"].tap()
+collectionViewsQuery.staticTexts["35.8"].tap()
+collectionViewsQuery.staticTexts["MPH"].tap()
+app.buttons["icClose"].tap()
+//tap avg num
+XCUIApplication().scrollViews.otherElements.staticTexts["43.6"].tap()
+
+let scrollViewsQuery = XCUIApplication().scrollViews
+let elementsQuery = scrollViewsQuery.otherElements
+let staticText = elementsQuery.staticTexts["43.6"]
+staticText.tap()
+
+let element = scrollViewsQuery.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
+element.children(matching: .other).element(boundBy: 2).tap()
+
+let batSpeedStaticText = elementsQuery.staticTexts["Bat Speed"]
+batSpeedStaticText.tap()
+elementsQuery.staticTexts["Average"].tap()
+
+let element2 = element.children(matching: .other).element(boundBy: 3)
+element2.tap()
+element2.tap()
+element2.tap()
+element2.tap()
+element2.tap()
+staticText.tap()
+staticText.tap()
+batSpeedStaticText.tap()
+element2.tap()
+
+
+//tap high num
+
+let app = XCUIApplication()
+app.scrollViews.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).children(matching: .button).element(boundBy: 1).tap()
+app.staticTexts["Highest Bat Speed"].tap()
+app.staticTexts["271 Maple"].tap()
+
+let collectionViewsQuery = app.collectionViews
+collectionViewsQuery.staticTexts["Bat Speed"].tap()
+collectionViewsQuery.staticTexts["48.4"].tap()
+app.buttons["icClose"].tap()
+//swings
+
+let app = XCUIApplication()
+let staticText = app.scrollViews.otherElements.collectionViews.staticTexts["6 swings"]
+staticText.tap()
+
+let ngabaseballVideolibraryviewNavigationBar = app.navigationBars["NGABaseball.VideoLibraryView"]
+ngabaseballVideolibraryviewNavigationBar.staticTexts["My Swings"].tap()
+app.collectionViews.staticTexts["42.2"].tap()
+app.buttons["icClose"].tap()
+
+let iccloseButton = ngabaseballVideolibraryviewNavigationBar.buttons["icClose"]
+iccloseButton.tap()
+staticText.tap()
+iccloseButton.tap()
+// swip left
+
+let scrollViewsQuery = XCUIApplication().scrollViews
+let elementsQuery = scrollViewsQuery.otherElements
+elementsQuery.staticTexts["Bat Speed"].tap()
+
+let element = scrollViewsQuery.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 0)
+element.swipeLeft()
+elementsQuery.staticTexts["Peak Hand Speed"].tap()
+element.swipeLeft()
+elementsQuery.staticTexts["Attack Angle"].tap()
+element.swipeLeft()
+elementsQuery.staticTexts["Time to Contact"].tap()
+element.tap()
+elementsQuery.staticTexts["Blast Factor"].tap()
+element.swipeLeft()
+elementsQuery.staticTexts["Power"].tap()
+element.swipeLeft()
+elementsQuery.staticTexts["Peak Bat Speed"].tap()
+element.tap()
+elementsQuery.staticTexts["On Plane"].tap()
+element.swipeLeft()
+elementsQuery.staticTexts["Body Rotation"].tap()
+element.tap()
+elementsQuery.staticTexts["Vertical Bat Angle"].tap()
+//swipe right
+
+let scrollViewsQuery = XCUIApplication().scrollViews
+let elementsQuery = scrollViewsQuery.otherElements
+elementsQuery.staticTexts["Vertical Bat Angle"].tap()
+
+let element2 = scrollViewsQuery.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
+let element = element2.children(matching: .other).element(boundBy: 0)
+element.swipeRight()
+element.swipeRight()
+elementsQuery.staticTexts["Body Rotation"].tap()
+element.swipeRight()
+elementsQuery.staticTexts["On Plane"].tap()
+element.tap()
+elementsQuery.staticTexts["Peak Bat Speed"].tap()
+element.tap()
+elementsQuery.staticTexts["Power"].tap()
+element.swipeRight()
+elementsQuery.staticTexts["Blast Factor"].tap()
+element.tap()
+elementsQuery.staticTexts["Time to Contact"].tap()
+element.tap()
+
+let attackAngleStaticText = elementsQuery.staticTexts["Attack Angle"]
+attackAngleStaticText.tap()
+element.tap()
+element.swipeRight()
+attackAngleStaticText.tap()
+element2.children(matching: .other).element(boundBy: 1).tap()
+element.swipeRight()
+elementsQuery.staticTexts["Peak Hand Speed"].tap()
+element.swipeRight()
+elementsQuery.staticTexts["Bat Speed"].tap()
+//date times
+
+let app = XCUIApplication()
+app.buttons["Day"].tap()
+app.buttons["Week"].tap()
+app.buttons["Month"].tap()
+app.buttons["Year"].tap()
+app.scrollViews.otherElements.staticTexts["Bat Speed"].tap()
+
+
+
+//=========================
 
 
 
