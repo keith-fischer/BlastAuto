@@ -17,7 +17,7 @@ extension NGABaseballUITests{
         print("testProfile ============")
         XCUIDevice.shared().orientation = .faceUp
         //let app = XCUIApplication()
-        let fw=UIFramework(app: XCUIApplication())
+        let fw=UIFramework()
         // startup screen ------------------------------------------------------
         fw.printinfo(msg: "startup",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         sleep(10) //wait for account info fetch
@@ -26,7 +26,7 @@ extension NGABaseballUITests{
         let profile=menu.tap_UserProfile()
         
         profile.tap_Bio()
-        profile.fields_Bio.FirstName(txt: (TESTDATA?.getTestValueStr(fieldname: "profile_bio_FirstName"))!)
+        profile.fields_Bio.FirstName(txt: (fw.TESTDATA?.getTestValueStr(fieldname: "profile_bio_FirstName"))!)
         print("FirstName: "+profile.fields_Bio.FirstName())
         print("LastName: "+profile.fields_Bio.LastName())
         //print("LevelOfPlay: "+profile.fields_Bio.LevelOfPlay())
@@ -36,23 +36,23 @@ extension NGABaseballUITests{
         print("Height: "+profile.fields_Bio.Height())
         print("Weight: "+profile.fields_Bio.Weight())
         
-        profile.fields_Bio.BirthDate(year: (TESTDATA?.getTestValueStr(fieldname: "profile_bio_BirthDate_year"))!,
-                                     month: (TESTDATA?.getTestValueStr(fieldname: "profile_bio_BirthDate_month"))!,
-                                     day: (TESTDATA?.getTestValueStr(fieldname: "profile_bio_BirthDate_day"))!)
-        profile.fields_Bio.Gender(txt: (TESTDATA?.getTestValueStr(fieldname: "profile_bio_Gender"))!)
-        profile.fields_Bio.Bats(txt: (TESTDATA?.getTestValueStr(fieldname: "profile_bio_Bats"))!)
-        profile.fields_Bio.Height(feet: (TESTDATA?.getTestValueStr(fieldname: "profile_bio_Height_feet"))!,
-                                  inches: (TESTDATA?.getTestValueStr(fieldname: "profile_bio_Height_inches"))!)
-        profile.fields_Bio.Weight(lbs: (TESTDATA?.getTestValueStr(fieldname: "profile_bio_Weight"))!)
-        profile.fields_Bio.LevelOfPlay(txt: (TESTDATA?.getTestValueStrArr(fieldname: "profile_bio_LevelOfPlay"))!)
+        profile.fields_Bio.BirthDate(year: (fw.TESTDATA?.getTestValueStr(fieldname: "profile_bio_BirthDate_year"))!,
+                                     month: (fw.TESTDATA?.getTestValueStr(fieldname: "profile_bio_BirthDate_month"))!,
+                                     day: (fw.TESTDATA?.getTestValueStr(fieldname: "profile_bio_BirthDate_day"))!)
+        profile.fields_Bio.Gender(txt: (fw.TESTDATA?.getTestValueStr(fieldname: "profile_bio_Gender"))!)
+        profile.fields_Bio.Bats(txt: (fw.TESTDATA?.getTestValueStr(fieldname: "profile_bio_Bats"))!)
+        profile.fields_Bio.Height(feet: (fw.TESTDATA?.getTestValueStr(fieldname: "profile_bio_Height_feet"))!,
+                                  inches: (fw.TESTDATA?.getTestValueStr(fieldname: "profile_bio_Height_inches"))!)
+        profile.fields_Bio.Weight(lbs: (fw.TESTDATA?.getTestValueStr(fieldname: "profile_bio_Weight"))!)
+        profile.fields_Bio.LevelOfPlay(txt: (fw.TESTDATA?.getTestValueStrArr(fieldname: "profile_bio_LevelOfPlay"))!)
         profile.tap_Account()
         print("Email: "+profile.fields_Account.Email())
         print("AccountType: "+profile.fields_Account.AccountType())
         print("PhoneNumber: "+profile.fields_Account.PhoneNumber())
         print("accountType: "+profile.fields_Account.ZipCode())
-        profile.fields_Account.PhoneNumber(txt: (TESTDATA?.getTestValueStr(fieldname: "profile_account_phoneNumber"))!)
-        profile.fields_Account.ZipCode(txt: (TESTDATA?.getTestValueStr(fieldname: "profile_account_ZipCode"))!)
-        profile.fields_Account.AccountType(txt: (TESTDATA?.getTestValueStr(fieldname: "profile_account_accountType"))!)
+        profile.fields_Account.PhoneNumber(txt: (fw.TESTDATA?.getTestValueStr(fieldname: "profile_account_phoneNumber"))!)
+        profile.fields_Account.ZipCode(txt: (fw.TESTDATA?.getTestValueStr(fieldname: "profile_account_ZipCode"))!)
+        profile.fields_Account.AccountType(txt: (fw.TESTDATA?.getTestValueStr(fieldname: "profile_account_accountType"))!)
         print("accountType: "+profile.fields_Account.AccountType())
         sleep(1)
         
@@ -60,8 +60,8 @@ extension NGABaseballUITests{
         print(profile.uifw.fwapp.descendants(matching: .any).debugDescription)
         print(profile.fields_BlastConnect.Email())
         print(profile.fields_BlastConnect.Password())
-        profile.fields_BlastConnect.Email(txt: (TESTDATA?.getTestValueStr(fieldname: "profile_blastconnect_email"))!)
-        profile.fields_BlastConnect.Password(txt: (TESTDATA?.getTestValueStr(fieldname: "profile_blastconnect_password"))!)
+        profile.fields_BlastConnect.Email(txt: (fw.TESTDATA?.getTestValueStr(fieldname: "profile_blastconnect_email"))!)
+        profile.fields_BlastConnect.Password(txt: (fw.TESTDATA?.getTestValueStr(fieldname: "profile_blastconnect_password"))!)
         profile.fields_BlastConnect.tap_Login_Fail(waitResponseSec: 8)
         profile.tap_Close()
         sleep(5)
@@ -72,7 +72,7 @@ extension NGABaseballUITests{
         print("testProfile ============")
         XCUIDevice.shared().orientation = .faceUp
         //let app = XCUIApplication()
-        let fw=UIFramework(app: XCUIApplication())
+        let fw=UIFramework()
         // startup screen ------------------------------------------------------
         fw.printinfo(msg: "startup",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         sleep(10) //wait for account info fetch

@@ -23,7 +23,100 @@ public class ui_Progress: ui_Main{
         self.uifw.fwapp=XCUIApplication()
         self.uifw.fwapp.navigationBars["NGABaseball.ProgressView"].staticTexts["Progress"].tap()
     }
+    func setdatalabel(testname:String,daterange:String,chart:String,hilo:String)->String{
+        let rc:String=chart+"_"+daterange+"_"+hilo
+        return rc
+        
+    }
+    func ScrapeProgressStatData(testname:String?="test1"){
+        print("ScrapeProgressStatData")
+        var datakey:String
+        let as_statnames: [String]=(self.uifw.TESTDATA?.getTestValueStrArr(
+            fieldname: "main_progress_chartnames"))!
+        var datakeyreport:String=""
 
+        //var s_daterange:String
+        
+        let as_dateranges:[String] = (self.uifw.TESTDATA?.getTestValueStrArr(
+            fieldname: "main_progress_stats_profile_daterange"))!
+        
+        let as_hilow:[String] = (self.uifw.TESTDATA?.getTestValueStrArr(
+            fieldname: "main_progress_stats_profile_lowhigh"))!
+        
+        //loop1 iterate dateranges
+        for dt in as_dateranges{
+            setDateRange(range:dt)
+            setToFirstChart(chartlist: as_statnames)
+            //loop2 iterate charts
+            for chartstat in as_statnames{
+               
+                //loop3 iterate hi/low stats
+                for hl in as_hilow{
+                    tapHighestLowestStat(hilow: hl)
+                    datakey=setdatalabel(testname:testname!,daterange:dt,chart:chartstat,hilo:hl)
+                    print(datakey+"====================")
+                    sleep(1)
+                }
+            }
+            
+        }
+        XCUIDevice.shared().orientation = .portrait
+        let lowhigh:[String]=["Lowest","Highest"]
+        
+        let app = XCUIApplication()
+        app.buttons["Day"].tap()
+        //tap low
+        app.scrollViews.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).children(matching: .button).element(boundBy: 0).tap()
+        
+        app.staticTexts["Lowest Bat Speed"].tap()
+        
+        //let staticText = app.staticTexts["271 Maple"]
+
+        
+        let collectionViewsQuery = app.collectionViews
+        var elementLabels = [String]()
+        
+        var stat:String=""
+        var lastel:XCUIElement
+        var firstel:XCUIElement
+        //var lastindex:UInt32=0
+        for stat in statnames{
+            
+            for i in 0..<collectionViewsQuery.staticTexts.count {
+                elementLabels.append (stat+" - " + collectionViewsQuery.staticTexts.element(boundBy: i).label)
+                //lastindex=i
+                
+            }
+            lastel=collectionViewsQuery.staticTexts.element(boundBy: 2)
+            firstel=app.staticTexts["Lowest Bat Speed"]
+            //while lastel.isHittable {
+            lastel.press(forDuration: 1, thenDragTo: firstel)
+            //}
+        }
+        print (elementLabels)
+    }
+    
+
+    /// <#Description#>
+    ///
+    /// - Parameter range: <#range description#>
+    func setDateRange(range: String?="Day")->String{
+        if range == (self.uifw.TESTDATA?.getTestValueStrArr(
+            fieldname: "main_progress_stats_profile_daterange"))![0] {setDay()}
+        else if range == (self.uifw.TESTDATA?.getTestValueStrArr(
+            fieldname: "main_progress_stats_profile_daterange"))![1] {setWeek()}
+        else if range == (self.uifw.TESTDATA?.getTestValueStrArr(
+            fieldname: "main_progress_stats_profile_daterange"))![2] {setMonth()}
+        else if range == (self.uifw.TESTDATA?.getTestValueStrArr(
+            fieldname: "main_progress_stats_profile_daterange"))![3] {setYear()}
+        return range!
+    }
+    
+    func setDateRange(range: Int?=0)-> String{
+        return setDateRange((self.uifw.TESTDATA?.getTestValueStrArr(
+            fieldname: "main_progress_stats_profile_daterange"))![range!])
+    }
+    
     /// <#Description#>
     func setDay(){
         self.uifw.fwapp.buttons["Day"].tap()
@@ -44,13 +137,13 @@ public class ui_Progress: ui_Main{
         self.uifw.fwapp.buttons["Year"].tap()
     }
     
-    func swipeUp(){
-        
-    }
-    func swipeDown(){
+    func showStatInfoLowest(){
         
     }
     
+    func showStatInfoHighest(){
+        
+    }
     /// <#Description#>
     func swipeLeft(){
         let scrollViewsQuery = XCUIApplication().scrollViews
@@ -68,7 +161,10 @@ public class ui_Progress: ui_Main{
     }
     
     func swipeLeftVerify(chartname:String)->Bool{
-        swipeLeft()
+        if !isChartName(chartlist: (self.uifw.TESTDATA?.getTestValueStrArr(
+            fieldname: "main_progress_chartnames"))!,chartname:chartname){
+            swipeLeft()
+        }
         let scrollViewsQuery = XCUIApplication().scrollViews
         let elementsQuery = scrollViewsQuery.otherElements
         
@@ -79,6 +175,7 @@ public class ui_Progress: ui_Main{
         }
         return false
     }
+    
     func swipeRightVerify(chartname:String)->Bool{
         swipeRight()
         let scrollViewsQuery = XCUIApplication().scrollViews
@@ -176,11 +273,69 @@ public class ui_Progress: ui_Main{
         return false
     }
     
+    
+    /// <#Description#>
+    ///
+    /// - Returns: <#return value description#>
+    func tapHighStat()->ui_Progress_Stats{
+        self.uifw.fwapp.scrollViews.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).children(matching: .button).element(boundBy: 1).tap()
+        sleep(1)
+        self.uifw.fwapp=XCUIApplication()
+        return ui_Progress_Stats(fw: self.uifw, hilow: (self.uifw.TESTDATA?.getTestValueStrArr(
+            fieldname: "main_progress_stats_profile_lowhigh"))![1])
+    }
+    
+    /// <#Description#>
+    ///
+    /// - Returns: <#return value description#>
+    func tapLowStat()->ui_Progress_Stats{
+        self.uifw.fwapp.scrollViews.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).children(matching: .button).element(boundBy: 0).tap()
+        sleep(1)
+        self.uifw.fwapp=XCUIApplication()
+        return ui_Progress_Stats(fw: self.uifw, hilow: (self.uifw.TESTDATA?.getTestValueStrArr(
+            fieldname: "main_progress_stats_profile_lowhigh"))![0])
+    }
+    
+    /// <#Description#>
+    ///
+    /// - Parameter hilow: <#hilow description#>
+    /// - Returns: <#return value description#>
+    func tapHighestLowestStat(hilow:String)->ui_Progress_Stats{
+        if hilow==(self.uifw.TESTDATA?.getTestValueStrArr(
+            fieldname: "main_progress_stats_profile_lowhigh"))![0]{
+            tapLowStat()
+        }
+        else if hilow==(self.uifw.TESTDATA?.getTestValueStrArr(
+            fieldname: "main_progress_stats_profile_lowhigh"))![1]{
+            tapHighStat()
+        }
+    }
+    
     func getLowStat()->String{
+        self.uifw.fwapp=XCUIApplication()
         let scrollViewsQuery = self.uifw.fwapp.scrollViews
-        var stat=scrollViewsQuery.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).children(matching: .button).element//(boundBy: 0).element
+        var staticlist:XCUIElementQuery = self.uifw.fwapp.staticTexts.children(matching: .staticText)
+        var txt=scrollViewsQuery.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).children(matching: .staticText).element(boundBy: 0)
+        
+        txt.UIDump()
+        print(String(describing: txt))
+        var stat=scrollViewsQuery.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).children(matching: .staticText).element(boundBy: 0)
+        
         stat.UIDump()
-        //var s=stat.value
+        //stat.tap()
+        //sleep(2)
+        
+//        self.uifw.fwapp=XCUIApplication()
+//        staticlist:XCUIElementQuery = self.uifw.fwapp.staticTexts.children(matching: .staticText)
+//        let count=staticlist.count
+//        var i:Int = 0
+//        var el:XCUIElement
+//        for i in 0...count{
+//            el=staticlist.element(boundBy:i)
+//            print(String(describing: el))
+//        }
+
+        var s:Any=stat.value ?? "None"
         var t=stat.label
         var d=stat.title
 //        var s:String=""//=stat.label
@@ -206,10 +361,11 @@ public class ui_Progress: ui_Main{
         return ""
     }
     func getHighStat()->String{
+        self.uifw.fwapp=XCUIApplication()
         let scrollViewsQuery = self.uifw.fwapp.scrollViews
 
-        let stat=scrollViewsQuery.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).children(matching: .button).element(boundBy: 1).tap()
-
+        let stat=scrollViewsQuery.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).children(matching: .button).element(boundBy: 1)
+        stat.UIDump()
         return ""
     }
 //    func checkStats(chartname:String,datadict: [String:[String])->Bool{

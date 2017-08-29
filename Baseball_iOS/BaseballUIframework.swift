@@ -16,14 +16,16 @@ put reusable UI query functions here
 
 #######################################*/
 public class UIFrameworkUtils{
-    var fwapp: XCUIElement
+    var fwapp: XCUIApplication
     let new_account_email: String
     var account_email: String
     var account_name:String
     var account_Lastname:String
-    init(app: XCUIElement){
-        self.fwapp = app
+    var TESTDATA: TestData? = nil
+    init(testname:String?="test1"){
+        self.fwapp = XCUIApplication()
         print(type(of: self))
+        self.TESTDATA = TestData(testname: testname!)
         self.account_name=UIFrameworkUtils.getUserName()
         self.new_account_email = self.account_name+"@gmail.com"
         self.account_email=self.new_account_email
@@ -92,9 +94,9 @@ Init framework
  #######################################*/
 public class UIFramework: UIFrameworkUtils{
     
-    override init(app: XCUIElement){
-        super.init(app: app)
-    }
+    override init(){
+        super.init()
+            }
     //default signed out
     func uiStartup() -> ui_Startup{
         return ui_Startup(fw: self)

@@ -15,7 +15,7 @@ extension NGABaseballUITests{
     /// <#Description#>
     func ttestLogin(){
         XCUIDevice.shared().orientation = .portrait
-        let fw=UIFramework(app: XCUIApplication())
+        let fw=UIFramework()
         let start=fw.uiStartup()
         let semail="fischertech00@gmail.com"
         let spw="Qwerty1!"
@@ -31,7 +31,7 @@ extension NGABaseballUITests{
     func ttestStartup(){
         print("Start testExample ============")
         XCUIDevice.shared().orientation = .faceUp
-        let fw=UIFramework(app: XCUIApplication())
+        let fw=UIFramework()
         //self.pw="@utoMat1on"
         // startup screen ------------------------------------------------------
         var start=fw.uiStartup()
@@ -44,7 +44,7 @@ extension NGABaseballUITests{
         print("Start testExample ============")
         XCUIDevice.shared().orientation = .faceUp
         //let app = XCUIApplication()
-        let fw=UIFramework(app: XCUIApplication())
+        let fw=UIFramework()
         // startup screen ------------------------------------------------------
         let start=fw.uiStartup()
         //fw.uiMain()

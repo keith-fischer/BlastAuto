@@ -16,7 +16,7 @@ extension NGABaseballUITests{
         print("ttestMain ============")
         XCUIDevice.shared().orientation = .faceUp
         //let app = XCUIApplication()
-        let fw=UIFramework(app: XCUIApplication())
+        let fw=UIFramework()
         // startup screen ------------------------------------------------------
         fw.printinfo(msg: "startup",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         sleep(10) //wait for account info fetch
@@ -38,7 +38,7 @@ extension NGABaseballUITests{
         print("testMain ============")
         XCUIDevice.shared().orientation = .faceUp
         //let app = XCUIApplication()
-        let fw=UIFramework(app: XCUIApplication())
+        let fw=UIFramework()
         // startup screen ------------------------------------------------------
         fw.printinfo(msg: "startup",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         sleep(10) //wait for account info fetch
@@ -62,19 +62,20 @@ extension NGABaseballUITests{
         // startup screen ------------------------------------------------------
         var rc=false
         sleep(10) //wait for account info fetch
-        let fw=UIFramework(app: XCUIApplication())
+        let fw=UIFramework()
         fw.printinfo(msg: "startup",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         let main=ui_Main(fw1:fw,welcome:false)//Not new user ,no welcome display
         
         let prog=main.tap_Progress()
         var ss=prog.getLowStat()
-        ss=prog.getHighStat()
+        //ss=prog.getHighStat()
         prog.setDay()
         prog.setMonth()
         prog.setWeek()
         prog.setYear()
         prog.setDay()
-        let chars:[String]=(TESTDATA?.getTestValueStrArr(fieldname: "main_progress_chartnames"))!
+        
+        let chars:[String]=(fw.TESTDATA?.getTestValueStrArr(fieldname: "main_progress_chartnames"))!
         //go to last chart
         rc=prog.setToLastChart(chartlist: chars)
         

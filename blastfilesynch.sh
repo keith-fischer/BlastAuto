@@ -20,10 +20,10 @@ src="/Volumes/MAC"
 dst="/Volumes/GOPROCAMERA"
 dst="/Volumes/MAC"
 rsync -av "${src}/Automation/blast-nga-universal-ios/NextGenIOSUniversal/NGABaseballUITests/" "${dst}/Automation/BlastAuto/Baseball_iOS"
-dst="/Volumes/SD-64GB"
+dst="/Volumes/Mac-boot-SSD"
 rsync -av "${src}/Automation/blast-nga-universal-ios/NextGenIOSUniversal/NGABaseballUITests/" "${dst}/Automation/BlastAuto/Baseball_iOS"
-dst="/Volumes/SD-64GB"
-rsync -av "${src}/Automation/blast-nga-universal-ios/" "${dst}/blast-nga-universal-ios"
+dst="/Volumes/Mac-boot-SSD"
+rsync -av "${src}/Automation/blast-nga-universal-ios/" "${dst}/Automation/blast-nga-universal-ios"
 
 #rsync -av "${src}/Automation/blast-nga-universal-ios/NextGenIOSUniversal/NGABaseballUITests/" "${dst}/Documents"
 

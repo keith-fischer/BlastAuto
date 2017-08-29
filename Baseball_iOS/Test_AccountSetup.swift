@@ -20,7 +20,7 @@ extension NGABaseballUITests{
         
         XCUIDevice.shared().orientation = .faceUp
         //let app = XCUIApplication()
-        let fw=UIFramework(app: XCUIApplication())
+        let fw=UIFramework()
         // startup screen ------------------------------------------------------
         fw.printinfo(msg: "startup",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         let start=fw.uiStartup()
