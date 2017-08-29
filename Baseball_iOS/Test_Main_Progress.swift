@@ -11,6 +11,22 @@ import Foundation
 
 
 extension NGABaseballUITests{
+    func ttest_ScrapeData(){
+        print("ttestMain ============")
+        XCUIDevice.shared().orientation = .faceUp
+        //let app = XCUIApplication()
+        let fw=UIFramework()
+        // startup screen ------------------------------------------------------
+        fw.printinfo(msg: "startup",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
+        sleep(10) //wait for account info fetch
+        let main=ui_Main(fw1:fw,welcome:false)
+        
+        let prog=main.tap_Progress()
+        let rpt = prog.ScrapeProgressStatData(testname: "LongAcct")
+        print (rpt)
+        sleep(10)
+        
+    }
     
     func ttest_Main_Basic(){
         print("ttestMain ============")

@@ -14,13 +14,14 @@ extension NGABaseballUITests{
     func ttestCreateAccount(){
         print("testCreateAccount ============")
         print(type(of: self))
-        print("password:"+(TESTDATA?.getTestValueStr(fieldname: "signin_pw"))!)
-        //self.pw="@utoMat1on"
-        print("password:"+(TESTDATA?.getTestValueStr(fieldname: "signin_pw"))!)
         
         XCUIDevice.shared().orientation = .faceUp
         //let app = XCUIApplication()
-        let fw=UIFramework()
+        let fw=UIFramework(testname: "test1")
+        print("password:"+(fw.TESTDATA?.getTestValueStr(fieldname: "signin_pw"))!)
+        //self.pw="@utoMat1on"
+        print("password:"+(fw.TESTDATA?.getTestValueStr(fieldname: "signin_pw"))!)
+        
         // startup screen ------------------------------------------------------
         fw.printinfo(msg: "startup",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         let start=fw.uiStartup()
@@ -41,7 +42,7 @@ extension NGABaseballUITests{
         var welcome=acctForm.inputAccountForm(FullName:logininfo,// acctForm.uifw.account_name,
             Email:logininfo+"@gmail.com",// acctForm.uifw.account_email,
             ConfirmEmail:logininfo+"@gmail.com",// acctForm.uifw.account_email,
-            Password: (TESTDATA?.getTestValueStr(fieldname: "signin_pw"))!)
+            Password: (fw.TESTDATA?.getTestValueStr(fieldname: "signin_pw"))!)
         fw.printinfo(msg: "welcome",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         let basic=welcome.tap_Basic_Details()
         fw.printinfo(msg: "basic details",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")

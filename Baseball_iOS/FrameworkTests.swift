@@ -55,10 +55,13 @@ extension NGABaseballUITests{
             ttest_Main_Basic()}
         else if testname=="ttestMain_Progress_SwipeCharts"{
             ttestMain_Progress_SwipeCharts()}
+        else if testname=="ttest_ScrapeData"{
+            ttest_ScrapeData()}
         else{
             print("Test Not found")}
     }
 }
+
 //    //=====================================================
 //    //  T E S T  D A T A
 //    //=====================================================

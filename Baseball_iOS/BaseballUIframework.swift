@@ -94,9 +94,9 @@ Init framework
  #######################################*/
 public class UIFramework: UIFrameworkUtils{
     
-    override init(){
-        super.init()
-            }
+    override init(testname:String?="test1"){
+        super.init(testname: testname)
+    }
     //default signed out
     func uiStartup() -> ui_Startup{
         return ui_Startup(fw: self)

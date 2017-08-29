@@ -85,9 +85,9 @@ public class ui_Main:ui_Bottom_Buttons{
     //var icbackbutton: XCUIElement
     //let uifw: UIFramework
     var new_welcome: Bool
-    init(fw1 fw2: UIFramework,welcome: Bool?=false){
+    init(fw1: UIFramework, welcome: Bool?=false){
         new_welcome=welcome!
-        super.init(fw1: fw2)
+        super.init(fw1: fw1)
         
         //self.uifw=fw
         print(type(of: self))

@@ -28,12 +28,16 @@ public class ui_Progress: ui_Main{
         return rc
         
     }
+    
+    /// <#Description#>
+    ///
+    /// - Parameter testname: <#testname description#>
     func ScrapeProgressStatData(testname:String?="test1"){
         print("ScrapeProgressStatData")
         var datakey:String
-        let as_statnames: [String]=(self.uifw.TESTDATA?.getTestValueStrArr(
+        let as_statnames: [String] = (self.uifw.TESTDATA?.getTestValueStrArr(
             fieldname: "main_progress_chartnames"))!
-        var datakeyreport:String=""
+        var datakeyreport:String = ""
 
         //var s_daterange:String
         
@@ -42,59 +46,63 @@ public class ui_Progress: ui_Main{
         
         let as_hilow:[String] = (self.uifw.TESTDATA?.getTestValueStrArr(
             fieldname: "main_progress_stats_profile_lowhigh"))!
-        
+        var statsrn:ui_Progress_Stats? = nil
         //loop1 iterate dateranges
         for dt in as_dateranges{
-            setDateRange(range:dt)
+            setDateRange(range: dt)
             setToFirstChart(chartlist: as_statnames)
             //loop2 iterate charts
             for chartstat in as_statnames{
-               
+               searchChartNameSwipeLeft(chartname: chartstat, chartlist: as_statnames)
                 //loop3 iterate hi/low stats
                 for hl in as_hilow{
-                    tapHighestLowestStat(hilow: hl)
+                    //drill into stat details
+                    statsrn=tapHighestLowestStat(hilow: hl)
+                    
                     datakey=setdatalabel(testname:testname!,daterange:dt,chart:chartstat,hilo:hl)
                     print(datakey+"====================")
                     sleep(1)
+                    statsrn?.tap_Close()
                 }
             }
             
         }
-        XCUIDevice.shared().orientation = .portrait
-        let lowhigh:[String]=["Lowest","Highest"]
-        
-        let app = XCUIApplication()
-        app.buttons["Day"].tap()
-        //tap low
-        app.scrollViews.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).children(matching: .button).element(boundBy: 0).tap()
-        
-        app.staticTexts["Lowest Bat Speed"].tap()
-        
-        //let staticText = app.staticTexts["271 Maple"]
-
-        
-        let collectionViewsQuery = app.collectionViews
-        var elementLabels = [String]()
-        
-        var stat:String=""
-        var lastel:XCUIElement
-        var firstel:XCUIElement
-        //var lastindex:UInt32=0
-        for stat in statnames{
-            
-            for i in 0..<collectionViewsQuery.staticTexts.count {
-                elementLabels.append (stat+" - " + collectionViewsQuery.staticTexts.element(boundBy: i).label)
-                //lastindex=i
-                
-            }
-            lastel=collectionViewsQuery.staticTexts.element(boundBy: 2)
-            firstel=app.staticTexts["Lowest Bat Speed"]
-            //while lastel.isHittable {
-            lastel.press(forDuration: 1, thenDragTo: firstel)
-            //}
-        }
-        print (elementLabels)
     }
+//        XCUIDevice.shared().orientation = .portrait
+//        let lowhigh:[String]=["Lowest","Highest"]
+//        
+//        let app = XCUIApplication()
+//        app.buttons["Day"].tap()
+//        //tap low
+//        app.scrollViews.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).children(matching: .button).element(boundBy: 0).tap()
+//        
+//        app.staticTexts["Lowest Bat Speed"].tap()
+//        
+//        //let staticText = app.staticTexts["271 Maple"]
+//
+//        
+//        let collectionViewsQuery = app.collectionViews
+//        var elementLabels = [String]()
+//        
+//        var stat:String=""
+//        var lastel:XCUIElement
+//        var firstel:XCUIElement
+//        //var lastindex:UInt32=0
+//        for stat in statnames{
+//            
+//            for i in 0..<collectionViewsQuery.staticTexts.count {
+//                elementLabels.append (stat+" - " + collectionViewsQuery.staticTexts.element(boundBy: i).label)
+//                //lastindex=i
+//                
+//            }
+//            lastel=collectionViewsQuery.staticTexts.element(boundBy: 2)
+//            firstel=app.staticTexts["Lowest Bat Speed"]
+//            //while lastel.isHittable {
+//            lastel.press(forDuration: 1, thenDragTo: firstel)
+//            //}
+//        }
+//        print (elementLabels)
+//    }
     
 
     /// <#Description#>
@@ -113,8 +121,9 @@ public class ui_Progress: ui_Main{
     }
     
     func setDateRange(range: Int?=0)-> String{
-        return setDateRange((self.uifw.TESTDATA?.getTestValueStrArr(
-            fieldname: "main_progress_stats_profile_daterange"))![range!])
+        let sdt:String = (self.uifw.TESTDATA?.getTestValueStrArr(
+            fieldname: "main_progress_stats_profile_daterange"))![range!]
+        return setDateRange(range: sdt)
     }
     
     /// <#Description#>
@@ -281,8 +290,10 @@ public class ui_Progress: ui_Main{
         self.uifw.fwapp.scrollViews.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).children(matching: .button).element(boundBy: 1).tap()
         sleep(1)
         self.uifw.fwapp=XCUIApplication()
-        return ui_Progress_Stats(fw: self.uifw, hilow: (self.uifw.TESTDATA?.getTestValueStrArr(
-            fieldname: "main_progress_stats_profile_lowhigh"))![1])
+        let progstat:ui_Progress_Stats = ui_Progress_Stats(fw: self.uifw)
+        progstat.hi_lo=(self.uifw.TESTDATA?.getTestValueStrArr(
+            fieldname: "main_progress_stats_profile_lowhigh"))![1]
+        return progstat
     }
     
     /// <#Description#>
@@ -292,8 +303,10 @@ public class ui_Progress: ui_Main{
         self.uifw.fwapp.scrollViews.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2).children(matching: .button).element(boundBy: 0).tap()
         sleep(1)
         self.uifw.fwapp=XCUIApplication()
-        return ui_Progress_Stats(fw: self.uifw, hilow: (self.uifw.TESTDATA?.getTestValueStrArr(
-            fieldname: "main_progress_stats_profile_lowhigh"))![0])
+        let progstat:ui_Progress_Stats = ui_Progress_Stats(fw: self.uifw)
+        progstat.hi_lo=(self.uifw.TESTDATA?.getTestValueStrArr(
+            fieldname: "main_progress_stats_profile_lowhigh"))![0]
+        return progstat
     }
     
     /// <#Description#>
@@ -301,14 +314,18 @@ public class ui_Progress: ui_Main{
     /// - Parameter hilow: <#hilow description#>
     /// - Returns: <#return value description#>
     func tapHighestLowestStat(hilow:String)->ui_Progress_Stats{
+        var statdetail:ui_Progress_Stats? = nil
         if hilow==(self.uifw.TESTDATA?.getTestValueStrArr(
             fieldname: "main_progress_stats_profile_lowhigh"))![0]{
-            tapLowStat()
+            statdetail = tapLowStat()
+            statdetail?.hi_lo=hilow
         }
         else if hilow==(self.uifw.TESTDATA?.getTestValueStrArr(
             fieldname: "main_progress_stats_profile_lowhigh"))![1]{
-            tapHighStat()
+            statdetail = tapHighStat()
+            statdetail?.hi_lo=hilow
         }
+        return statdetail!
     }
     
     func getLowStat()->String{

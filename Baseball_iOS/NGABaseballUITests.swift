@@ -46,11 +46,11 @@ class NGABaseballUITests: XCTestCase {
     // TODO: Need to impleament reflection so parameter string can call test func
     //=====================================================
     /// Entry for the test driver
-    func ttest_Tests(){
+    func test_Tests(){
         var runtests:[String]
         runtests=["ttestMain_Progress_SwipeCharts","ttest_Main_Basic","ttest_Menu_Profile_Player"]
-        //runtests=["ttestMain_Progress_SwipeCharts"]
-        //self.ttestdotest(tests: runtests)
+        runtests=["ttest_ScrapeData"]
+        self.ttestdotest(tests: runtests)
     }
     
     
