@@ -21,93 +21,92 @@ public class ui_StatsViews: ui_Main{
         self.uifw.fwapp=XCUIApplication()
         self.uifw.fwapp.navigationBars["NGABaseball.ProgressView"].staticTexts["Progress"].tap()
     }
-    
-    func LowestBatSpeed(){
-        
-        
-    }
-    
-    func HighestBatSpeed(){
-        
-    }
-    
-    func LowestPeakHandSpeed(){
-        
-    }
-    
-    func HighestPeakHandSpeed(){
-        
-    }
-    
-    func LowestAttackAngle(){
-        
-    }
-    
-    func HighestAttackAngle(){
-        
-    }
-    
-    func LowestTimeToContact(){
-        
-    }
-    
-    func HighestTimeToContact(){
-        
-    }
-    
-    func LowestBlastFactor(){
-        
-    }
-    
-    func HighestBlastFactor(){
-        
-    }
-    
-    
-    func LowestPower(){
-        
-    }
-    
-    func HighestPower(){
-        
-    }
-    
-    
-    func LowestPeakSpeed(){
-        
-    }
-    
-    func HighestPeakSpeed(){
-        
-    }
-    
-    
-    func LowestOnPlane(){
-        
-    }
-    
-    func HighestOnPlane(){
-        
-    }
-    
-    
-    func LowestBodyRotation(){
-        
-    }
-    
-    func HighestBodyRotation(){
-        
-    }
-    
-    
-    func LowestVerticalBatRotation(){
-        
-    }
-    
-    func HighestVerticalBatRotation(){
-        
-    }
-    
-
-    
 }
+
+//    func LowestBatSpeed(){
+//        
+//        
+//    }
+//    
+//    func HighestBatSpeed(){
+//        
+//    }
+//    
+//    func LowestPeakHandSpeed(){
+//        
+//    }
+//    
+//    func HighestPeakHandSpeed(){
+//        
+//    }
+//    
+//    func LowestAttackAngle(){
+//        
+//    }
+//    
+//    func HighestAttackAngle(){
+//        
+//    }
+//    
+//    func LowestTimeToContact(){
+//        
+//    }
+//    
+//    func HighestTimeToContact(){
+//        
+//    }
+//    
+//    func LowestBlastFactor(){
+//        
+//    }
+//    
+//    func HighestBlastFactor(){
+//        
+//    }
+//    
+//    
+//    func LowestPower(){
+//        
+//    }
+//    
+//    func HighestPower(){
+//        
+//    }
+//    
+//    
+//    func LowestPeakSpeed(){
+//        
+//    }
+//    
+//    func HighestPeakSpeed(){
+//        
+//    }
+//    
+//    
+//    func LowestOnPlane(){
+//        
+//    }
+//    
+//    func HighestOnPlane(){
+//        
+//    }
+//    
+//    
+//    func LowestBodyRotation(){
+//        
+//    }
+//    
+//    func HighestBodyRotation(){
+//        
+//    }
+//    
+//    
+//    func LowestVerticalBatRotation(){
+//        
+//    }
+//    
+//    func HighestVerticalBatRotation(){
+//        
+//    }
+//    
+//}

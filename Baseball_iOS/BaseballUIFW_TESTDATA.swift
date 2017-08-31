@@ -66,11 +66,11 @@ extension UIFrameworkUtils{
             "test1_main_progress_month_sessions":["1 session"],
             "test1_main_progress_year_sessions":["10 sessions"],
             //this need to be in correct swipe order
-            "test1_main_progress_chartnames":["Bat Speed","Peak Hand Speed","Attack Angle","Time to Contact","Blast Factor","Power","Peak Bat Speed","On Plane","Body Rotation","Vertical Bat Angle"],
+            "main_progress_chartnames":["Bat Speed","Peak Hand Speed","Attack Angle","Time to Contact","Blast Factor","Power","Peak Bat Speed","On Plane","Body Rotation","Vertical Bat Angle"],
             
             //progress data
-            "test1_main_progress_stats_profile_lowhigh":["Lowest","Highest"],
-            "test1_main_progress_stats_profile_daterange":["Day","Week","Month","Year"],
+            "main_progress_stats_profile_lowhigh":["Lowest","Highest"],
+            "main_progress_stats_profile_daterange":["Day","Week","Month","Year"],
             
             //BatSpeed =============================
             "BatSpeed_low_day_BatSpeed":["35.8"],
@@ -1094,6 +1094,16 @@ extension UIFrameworkUtils{
                     return ""
                 }
             }
+            else if let val = dict[fieldname] {
+                if val.count>0{
+                    let rc = val[dataindex!]
+                    print("DICT: "+fieldname+":"+rc)
+                    return rc
+                }
+                else{
+                    return ""
+                }
+            }
             else{
                 return "KEY NOT FOUND"
             }
@@ -1101,12 +1111,16 @@ extension UIFrameworkUtils{
         
         /// <#Description#>
         ///
-        /// - Parameter fieldname: <#fieldname description#>
+        /// - Parameter fieldname: fieldname description
         /// - Returns: string array
         public func getTestValueStrArr(fieldname:String) -> [String]{
             let key=self._testname+"_"+fieldname
             if let val = dict[key] {
                 print("DICT: "+key+":"+String(describing: val))
+                return val
+            }
+            else if let val = dict[fieldname] {
+                print("DICT: "+fieldname+":"+String(describing: val))
                 return val
             }
             else{

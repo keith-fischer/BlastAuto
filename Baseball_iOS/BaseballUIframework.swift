@@ -22,10 +22,12 @@ public class UIFrameworkUtils{
     var account_name:String
     var account_Lastname:String
     var TESTDATA: TestData? = nil
+    var testName:String = ""
     init(testname:String?="test1"){
         self.fwapp = XCUIApplication()
+        self.testName = testname!
         print(type(of: self))
-        self.TESTDATA = TestData(testname: testname!)
+        self.TESTDATA = TestData(testname: self.testName)
         self.account_name=UIFrameworkUtils.getUserName()
         self.new_account_email = self.account_name+"@gmail.com"
         self.account_email=self.new_account_email

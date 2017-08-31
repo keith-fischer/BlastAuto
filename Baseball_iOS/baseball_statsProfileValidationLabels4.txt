@@ -1,0 +1,800 @@
+blastmotionqa-lt-student13-gmail|Day|Lowest Bat Speed|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Bat Speed|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Bat Speed|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest Bat Speed|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Day|Lowest Bat Speed|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Day|Lowest Bat Speed|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Day|Lowest Bat Speed|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Bat Speed|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Bat Speed|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Bat Speed|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Bat Speed|Bat Speed|48.4|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Bat Speed|Peak Hand Speed|14.6|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Bat Speed|Attack Angle|7|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Bat Speed|Time to Contact|.27|Sec
+blastmotionqa-lt-student13-gmail|Day|Highest Bat Speed|Blast Factor|57|Score
+blastmotionqa-lt-student13-gmail|Day|Highest Bat Speed|Power|1.11|kW
+blastmotionqa-lt-student13-gmail|Day|Highest Bat Speed|Peak Bat Speed|48.4|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Bat Speed|On Plane|54|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Bat Speed|Body Rotation|44|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Bat Speed|Vertical Bat Angle|-19|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Hand Speed|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Hand Speed|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Hand Speed|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Hand Speed|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Hand Speed|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Hand Speed|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Hand Speed|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Hand Speed|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Hand Speed|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Hand Speed|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Hand Speed|Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Hand Speed|Peak Hand Speed|16.1|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Hand Speed|Attack Angle|5|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Hand Speed|Time to Contact|.30|Sec
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Hand Speed|Blast Factor|34|Score
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Hand Speed|Power|0.74|kW
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Hand Speed|Peak Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Hand Speed|On Plane|30|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Hand Speed|Body Rotation|36|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Hand Speed|Vertical Bat Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest Attack Angle|Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Attack Angle|Peak Hand Speed|16.1|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Attack Angle|Attack Angle|5|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest Attack Angle|Time to Contact|.30|Sec
+blastmotionqa-lt-student13-gmail|Day|Lowest Attack Angle|Blast Factor|34|Score
+blastmotionqa-lt-student13-gmail|Day|Lowest Attack Angle|Power|0.74|kW
+blastmotionqa-lt-student13-gmail|Day|Lowest Attack Angle|Peak Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Attack Angle|On Plane|30|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Attack Angle|Body Rotation|36|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Attack Angle|Vertical Bat Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Attack Angle|Bat Speed|42.2|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Attack Angle|Peak Hand Speed|12.3|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Attack Angle|Attack Angle|24|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Attack Angle|Time to Contact|.30|Sec
+blastmotionqa-lt-student13-gmail|Day|Highest Attack Angle|Blast Factor|37|Score
+blastmotionqa-lt-student13-gmail|Day|Highest Attack Angle|Power|0.76|kW
+blastmotionqa-lt-student13-gmail|Day|Highest Attack Angle|Peak Bat Speed|42.2|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Attack Angle|On Plane|36|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Attack Angle|Body Rotation|43|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Attack Angle|Vertical Bat Angle|-14|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest Time to Contact|Bat Speed|47.2|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Time to Contact|Peak Hand Speed|15.5|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Time to Contact|Attack Angle|6|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest Time to Contact|Time to Contact|.26|Sec
+blastmotionqa-lt-student13-gmail|Day|Lowest Time to Contact|Blast Factor|51|Score
+blastmotionqa-lt-student13-gmail|Day|Lowest Time to Contact|Power|1.10|kW
+blastmotionqa-lt-student13-gmail|Day|Lowest Time to Contact|Peak Bat Speed|47.2|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Time to Contact|On Plane|48|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Time to Contact|Body Rotation|42|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Time to Contact|Vertical Bat Angle|-15|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Time to Contact|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Time to Contact|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Time to Contact|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Time to Contact|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Day|Highest Time to Contact|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Day|Highest Time to Contact|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Day|Highest Time to Contact|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Time to Contact|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Time to Contact|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Time to Contact|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest Blast Factor|Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Blast Factor|Peak Hand Speed|16.1|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Blast Factor|Attack Angle|5|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest Blast Factor|Time to Contact|.30|Sec
+blastmotionqa-lt-student13-gmail|Day|Lowest Blast Factor|Blast Factor|34|Score
+blastmotionqa-lt-student13-gmail|Day|Lowest Blast Factor|Power|0.74|kW
+blastmotionqa-lt-student13-gmail|Day|Lowest Blast Factor|Peak Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Blast Factor|On Plane|30|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Blast Factor|Body Rotation|36|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Blast Factor|Vertical Bat Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Blast Factor|Bat Speed|48.4|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Blast Factor|Peak Hand Speed|14.6|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Blast Factor|Attack Angle|7|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Blast Factor|Time to Contact|.27|Sec
+blastmotionqa-lt-student13-gmail|Day|Highest Blast Factor|Blast Factor|57|Score
+blastmotionqa-lt-student13-gmail|Day|Highest Blast Factor|Power|1.11|kW
+blastmotionqa-lt-student13-gmail|Day|Highest Blast Factor|Peak Bat Speed|48.4|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Blast Factor|On Plane|54|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Blast Factor|Body Rotation|44|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Blast Factor|Vertical Bat Angle|-19|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest Power|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Power|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Power|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest Power|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Day|Lowest Power|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Day|Lowest Power|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Day|Lowest Power|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Power|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Power|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Power|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Power|Bat Speed|48.4|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Power|Peak Hand Speed|14.6|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Power|Attack Angle|7|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Power|Time to Contact|.27|Sec
+blastmotionqa-lt-student13-gmail|Day|Highest Power|Blast Factor|57|Score
+blastmotionqa-lt-student13-gmail|Day|Highest Power|Power|1.11|kW
+blastmotionqa-lt-student13-gmail|Day|Highest Power|Peak Bat Speed|48.4|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Power|On Plane|54|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Power|Body Rotation|44|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Power|Vertical Bat Angle|-19|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Bat Speed|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Bat Speed|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Bat Speed|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Bat Speed|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Bat Speed|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Bat Speed|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Bat Speed|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Bat Speed|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Bat Speed|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Peak Bat Speed|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Bat Speed|Bat Speed|48.4|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Bat Speed|Peak Hand Speed|14.6|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Bat Speed|Attack Angle|7|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Bat Speed|Time to Contact|.27|Sec
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Bat Speed|Blast Factor|57|Score
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Bat Speed|Power|1.11|kW
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Bat Speed|Peak Bat Speed|48.4|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Bat Speed|On Plane|54|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Bat Speed|Body Rotation|44|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Peak Bat Speed|Vertical Bat Angle|-19|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest On Plane|Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest On Plane|Peak Hand Speed|16.1|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest On Plane|Attack Angle|5|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest On Plane|Time to Contact|.30|Sec
+blastmotionqa-lt-student13-gmail|Day|Lowest On Plane|Blast Factor|34|Score
+blastmotionqa-lt-student13-gmail|Day|Lowest On Plane|Power|0.74|kW
+blastmotionqa-lt-student13-gmail|Day|Lowest On Plane|Peak Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest On Plane|On Plane|30|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest On Plane|Body Rotation|36|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest On Plane|Vertical Bat Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest On Plane|Bat Speed|48.4|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest On Plane|Peak Hand Speed|14.6|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest On Plane|Attack Angle|7|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest On Plane|Time to Contact|.27|Sec
+blastmotionqa-lt-student13-gmail|Day|Highest On Plane|Blast Factor|57|Score
+blastmotionqa-lt-student13-gmail|Day|Highest On Plane|Power|1.11|kW
+blastmotionqa-lt-student13-gmail|Day|Highest On Plane|Peak Bat Speed|48.4|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest On Plane|On Plane|54|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest On Plane|Body Rotation|44|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest On Plane|Vertical Bat Angle|-19|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest Body Rotation|Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Body Rotation|Peak Hand Speed|16.1|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Body Rotation|Attack Angle|5|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest Body Rotation|Time to Contact|.30|Sec
+blastmotionqa-lt-student13-gmail|Day|Lowest Body Rotation|Blast Factor|34|Score
+blastmotionqa-lt-student13-gmail|Day|Lowest Body Rotation|Power|0.74|kW
+blastmotionqa-lt-student13-gmail|Day|Lowest Body Rotation|Peak Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Body Rotation|On Plane|30|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Body Rotation|Body Rotation|36|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Body Rotation|Vertical Bat Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Body Rotation|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Body Rotation|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Body Rotation|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Body Rotation|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Day|Highest Body Rotation|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Day|Highest Body Rotation|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Day|Highest Body Rotation|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Body Rotation|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Body Rotation|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Body Rotation|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest Vertical Bat Angle|Bat Speed|46.2|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Vertical Bat Angle|Peak Hand Speed|14.2|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Vertical Bat Angle|Attack Angle|9|Degrees
+blastmotionqa-lt-student13-gmail|Day|Lowest Vertical Bat Angle|Time to Contact|.27|Sec
+blastmotionqa-lt-student13-gmail|Day|Lowest Vertical Bat Angle|Blast Factor|52|Score
+blastmotionqa-lt-student13-gmail|Day|Lowest Vertical Bat Angle|Power|1.01|kW
+blastmotionqa-lt-student13-gmail|Day|Lowest Vertical Bat Angle|Peak Bat Speed|46.2|MPH
+blastmotionqa-lt-student13-gmail|Day|Lowest Vertical Bat Angle|On Plane|50|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Vertical Bat Angle|Body Rotation|44|Percent
+blastmotionqa-lt-student13-gmail|Day|Lowest Vertical Bat Angle|Vertical Bat Angle|-20|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Vertical Bat Angle|Bat Speed|42.2|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Vertical Bat Angle|Peak Hand Speed|12.3|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Vertical Bat Angle|Attack Angle|24|Degrees
+blastmotionqa-lt-student13-gmail|Day|Highest Vertical Bat Angle|Time to Contact|.30|Sec
+blastmotionqa-lt-student13-gmail|Day|Highest Vertical Bat Angle|Blast Factor|37|Score
+blastmotionqa-lt-student13-gmail|Day|Highest Vertical Bat Angle|Power|0.76|kW
+blastmotionqa-lt-student13-gmail|Day|Highest Vertical Bat Angle|Peak Bat Speed|42.2|MPH
+blastmotionqa-lt-student13-gmail|Day|Highest Vertical Bat Angle|On Plane|36|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Vertical Bat Angle|Body Rotation|43|Percent
+blastmotionqa-lt-student13-gmail|Day|Highest Vertical Bat Angle|Vertical Bat Angle|-14|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Bat Speed|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Bat Speed|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Bat Speed|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Bat Speed|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Week|Lowest Bat Speed|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Week|Lowest Bat Speed|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Week|Lowest Bat Speed|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Bat Speed|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Bat Speed|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Bat Speed|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Bat Speed|Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Bat Speed|Peak Hand Speed|19.8|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Bat Speed|Attack Angle|-18|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Bat Speed|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Week|Highest Bat Speed|Blast Factor|83|Score
+blastmotionqa-lt-student13-gmail|Week|Highest Bat Speed|Power|8.31|kW
+blastmotionqa-lt-student13-gmail|Week|Highest Bat Speed|Peak Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Bat Speed|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Bat Speed|Body Rotation|41|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Bat Speed|Vertical Bat Angle|4|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Hand Speed|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Hand Speed|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Hand Speed|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Hand Speed|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Hand Speed|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Hand Speed|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Hand Speed|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Hand Speed|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Hand Speed|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Hand Speed|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Hand Speed|Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Hand Speed|Peak Hand Speed|19.8|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Hand Speed|Attack Angle|-18|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Hand Speed|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Hand Speed|Blast Factor|83|Score
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Hand Speed|Power|8.31|kW
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Hand Speed|Peak Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Hand Speed|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Hand Speed|Body Rotation|41|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Hand Speed|Vertical Bat Angle|4|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Attack Angle|Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Attack Angle|Peak Hand Speed|19.8|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Attack Angle|Attack Angle|-18|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Attack Angle|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Week|Lowest Attack Angle|Blast Factor|83|Score
+blastmotionqa-lt-student13-gmail|Week|Lowest Attack Angle|Power|8.31|kW
+blastmotionqa-lt-student13-gmail|Week|Lowest Attack Angle|Peak Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Attack Angle|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Attack Angle|Body Rotation|41|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Attack Angle|Vertical Bat Angle|4|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Attack Angle|Bat Speed|42.2|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Attack Angle|Peak Hand Speed|12.3|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Attack Angle|Attack Angle|24|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Attack Angle|Time to Contact|.30|Sec
+blastmotionqa-lt-student13-gmail|Week|Highest Attack Angle|Blast Factor|37|Score
+blastmotionqa-lt-student13-gmail|Week|Highest Attack Angle|Power|0.76|kW
+blastmotionqa-lt-student13-gmail|Week|Highest Attack Angle|Peak Bat Speed|42.2|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Attack Angle|On Plane|36|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Attack Angle|Body Rotation|43|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Attack Angle|Vertical Bat Angle|-14|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Time to Contact|Bat Speed|70.7|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Time to Contact|Peak Hand Speed|18.4|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Time to Contact|Attack Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Time to Contact|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Week|Lowest Time to Contact|Blast Factor|85|Score
+blastmotionqa-lt-student13-gmail|Week|Lowest Time to Contact|Power|7.41|kW
+blastmotionqa-lt-student13-gmail|Week|Lowest Time to Contact|Peak Bat Speed|70.9|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Time to Contact|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Time to Contact|Body Rotation|42|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Time to Contact|Vertical Bat Angle|10|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Time to Contact|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Time to Contact|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Time to Contact|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Time to Contact|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Week|Highest Time to Contact|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Week|Highest Time to Contact|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Week|Highest Time to Contact|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Time to Contact|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Time to Contact|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Time to Contact|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Blast Factor|Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Blast Factor|Peak Hand Speed|16.1|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Blast Factor|Attack Angle|5|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Blast Factor|Time to Contact|.30|Sec
+blastmotionqa-lt-student13-gmail|Week|Lowest Blast Factor|Blast Factor|34|Score
+blastmotionqa-lt-student13-gmail|Week|Lowest Blast Factor|Power|0.74|kW
+blastmotionqa-lt-student13-gmail|Week|Lowest Blast Factor|Peak Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Blast Factor|On Plane|30|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Blast Factor|Body Rotation|36|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Blast Factor|Vertical Bat Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Blast Factor|Bat Speed|70.7|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Blast Factor|Peak Hand Speed|18.4|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Blast Factor|Attack Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Blast Factor|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Week|Highest Blast Factor|Blast Factor|85|Score
+blastmotionqa-lt-student13-gmail|Week|Highest Blast Factor|Power|7.41|kW
+blastmotionqa-lt-student13-gmail|Week|Highest Blast Factor|Peak Bat Speed|70.9|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Blast Factor|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Blast Factor|Body Rotation|42|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Blast Factor|Vertical Bat Angle|10|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Power|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Power|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Power|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Power|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Week|Lowest Power|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Week|Lowest Power|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Week|Lowest Power|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Power|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Power|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Power|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Power|Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Power|Peak Hand Speed|19.8|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Power|Attack Angle|-18|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Power|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Week|Highest Power|Blast Factor|83|Score
+blastmotionqa-lt-student13-gmail|Week|Highest Power|Power|8.31|kW
+blastmotionqa-lt-student13-gmail|Week|Highest Power|Peak Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Power|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Power|Body Rotation|41|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Power|Vertical Bat Angle|4|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Bat Speed|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Bat Speed|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Bat Speed|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Bat Speed|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Bat Speed|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Bat Speed|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Bat Speed|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Bat Speed|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Bat Speed|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Peak Bat Speed|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Bat Speed|Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Bat Speed|Peak Hand Speed|19.8|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Bat Speed|Attack Angle|-18|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Bat Speed|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Bat Speed|Blast Factor|83|Score
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Bat Speed|Power|8.31|kW
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Bat Speed|Peak Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Bat Speed|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Bat Speed|Body Rotation|41|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Peak Bat Speed|Vertical Bat Angle|4|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest On Plane|Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest On Plane|Peak Hand Speed|16.1|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest On Plane|Attack Angle|5|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest On Plane|Time to Contact|.30|Sec
+blastmotionqa-lt-student13-gmail|Week|Lowest On Plane|Blast Factor|34|Score
+blastmotionqa-lt-student13-gmail|Week|Lowest On Plane|Power|0.74|kW
+blastmotionqa-lt-student13-gmail|Week|Lowest On Plane|Peak Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest On Plane|On Plane|30|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest On Plane|Body Rotation|36|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest On Plane|Vertical Bat Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest On Plane|Bat Speed|59.9|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest On Plane|Peak Hand Speed|16.7|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest On Plane|Attack Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest On Plane|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Week|Highest On Plane|Blast Factor|76|Score
+blastmotionqa-lt-student13-gmail|Week|Highest On Plane|Power|5.32|kW
+blastmotionqa-lt-student13-gmail|Week|Highest On Plane|Peak Bat Speed|66.0|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest On Plane|On Plane|98|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest On Plane|Body Rotation|39|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest On Plane|Vertical Bat Angle|6|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Body Rotation|Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Body Rotation|Peak Hand Speed|16.1|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Body Rotation|Attack Angle|5|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Body Rotation|Time to Contact|.30|Sec
+blastmotionqa-lt-student13-gmail|Week|Lowest Body Rotation|Blast Factor|34|Score
+blastmotionqa-lt-student13-gmail|Week|Lowest Body Rotation|Power|0.74|kW
+blastmotionqa-lt-student13-gmail|Week|Lowest Body Rotation|Peak Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Body Rotation|On Plane|30|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Body Rotation|Body Rotation|36|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Body Rotation|Vertical Bat Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Body Rotation|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Body Rotation|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Body Rotation|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Body Rotation|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Week|Highest Body Rotation|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Week|Highest Body Rotation|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Week|Highest Body Rotation|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Body Rotation|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Body Rotation|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Body Rotation|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Vertical Bat Angle|Bat Speed|46.2|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Vertical Bat Angle|Peak Hand Speed|14.2|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Vertical Bat Angle|Attack Angle|9|Degrees
+blastmotionqa-lt-student13-gmail|Week|Lowest Vertical Bat Angle|Time to Contact|.27|Sec
+blastmotionqa-lt-student13-gmail|Week|Lowest Vertical Bat Angle|Blast Factor|52|Score
+blastmotionqa-lt-student13-gmail|Week|Lowest Vertical Bat Angle|Power|1.01|kW
+blastmotionqa-lt-student13-gmail|Week|Lowest Vertical Bat Angle|Peak Bat Speed|46.2|MPH
+blastmotionqa-lt-student13-gmail|Week|Lowest Vertical Bat Angle|On Plane|50|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Vertical Bat Angle|Body Rotation|44|Percent
+blastmotionqa-lt-student13-gmail|Week|Lowest Vertical Bat Angle|Vertical Bat Angle|-20|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Vertical Bat Angle|Bat Speed|70.7|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Vertical Bat Angle|Peak Hand Speed|18.4|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Vertical Bat Angle|Attack Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Week|Highest Vertical Bat Angle|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Week|Highest Vertical Bat Angle|Blast Factor|85|Score
+blastmotionqa-lt-student13-gmail|Week|Highest Vertical Bat Angle|Power|7.41|kW
+blastmotionqa-lt-student13-gmail|Week|Highest Vertical Bat Angle|Peak Bat Speed|70.9|MPH
+blastmotionqa-lt-student13-gmail|Week|Highest Vertical Bat Angle|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Vertical Bat Angle|Body Rotation|42|Percent
+blastmotionqa-lt-student13-gmail|Week|Highest Vertical Bat Angle|Vertical Bat Angle|10|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Bat Speed|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Bat Speed|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Bat Speed|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Bat Speed|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Month|Lowest Bat Speed|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Month|Lowest Bat Speed|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Month|Lowest Bat Speed|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Bat Speed|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Bat Speed|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Bat Speed|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Bat Speed|Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Bat Speed|Peak Hand Speed|19.8|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Bat Speed|Attack Angle|-18|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Bat Speed|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Month|Highest Bat Speed|Blast Factor|83|Score
+blastmotionqa-lt-student13-gmail|Month|Highest Bat Speed|Power|8.31|kW
+blastmotionqa-lt-student13-gmail|Month|Highest Bat Speed|Peak Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Bat Speed|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Bat Speed|Body Rotation|41|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Bat Speed|Vertical Bat Angle|4|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Hand Speed|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Hand Speed|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Hand Speed|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Hand Speed|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Hand Speed|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Hand Speed|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Hand Speed|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Hand Speed|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Hand Speed|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Hand Speed|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Hand Speed|Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Hand Speed|Peak Hand Speed|19.8|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Hand Speed|Attack Angle|-18|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Hand Speed|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Hand Speed|Blast Factor|83|Score
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Hand Speed|Power|8.31|kW
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Hand Speed|Peak Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Hand Speed|On Plane|--|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Hand Speed|Body Rotation|--|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Hand Speed|Vertical Bat Angle|--|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Attack Angle|Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Attack Angle|Peak Hand Speed|19.8|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Attack Angle|Attack Angle|-18|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Attack Angle|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Month|Lowest Attack Angle|Blast Factor|83|Score
+blastmotionqa-lt-student13-gmail|Month|Lowest Attack Angle|Power|8.31|kW
+blastmotionqa-lt-student13-gmail|Month|Lowest Attack Angle|Peak Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Attack Angle|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Attack Angle|Body Rotation|41|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Attack Angle|Vertical Bat Angle|4|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Attack Angle|Bat Speed|42.2|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Attack Angle|Peak Hand Speed|12.3|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Attack Angle|Attack Angle|24|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Attack Angle|Time to Contact|.30|Sec
+blastmotionqa-lt-student13-gmail|Month|Highest Attack Angle|Blast Factor|37|Score
+blastmotionqa-lt-student13-gmail|Month|Highest Attack Angle|Power|0.76|kW
+blastmotionqa-lt-student13-gmail|Month|Highest Attack Angle|Peak Bat Speed|42.2|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Attack Angle|On Plane|36|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Attack Angle|Body Rotation|43|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Attack Angle|Vertical Bat Angle|-14|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Time to Contact|Bat Speed|70.7|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Time to Contact|Peak Hand Speed|18.4|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Time to Contact|Attack Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Time to Contact|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Month|Lowest Time to Contact|Blast Factor|85|Score
+blastmotionqa-lt-student13-gmail|Month|Lowest Time to Contact|Power|7.41|kW
+blastmotionqa-lt-student13-gmail|Month|Lowest Time to Contact|Peak Bat Speed|70.9|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Time to Contact|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Time to Contact|Body Rotation|42|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Time to Contact|Vertical Bat Angle|10|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Time to Contact|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Time to Contact|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Time to Contact|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Time to Contact|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Month|Highest Time to Contact|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Month|Highest Time to Contact|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Month|Highest Time to Contact|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Time to Contact|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Time to Contact|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Time to Contact|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Blast Factor|Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Blast Factor|Peak Hand Speed|16.1|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Blast Factor|Attack Angle|5|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Blast Factor|Time to Contact|.30|Sec
+blastmotionqa-lt-student13-gmail|Month|Lowest Blast Factor|Blast Factor|34|Score
+blastmotionqa-lt-student13-gmail|Month|Lowest Blast Factor|Power|0.74|kW
+blastmotionqa-lt-student13-gmail|Month|Lowest Blast Factor|Peak Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Blast Factor|On Plane|30|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Blast Factor|Body Rotation|36|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Blast Factor|Vertical Bat Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Blast Factor|Bat Speed|70.7|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Blast Factor|Peak Hand Speed|18.4|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Blast Factor|Attack Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Blast Factor|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Month|Highest Blast Factor|Blast Factor|85|Score
+blastmotionqa-lt-student13-gmail|Month|Highest Blast Factor|Power|7.41|kW
+blastmotionqa-lt-student13-gmail|Month|Highest Blast Factor|Peak Bat Speed|70.9|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Blast Factor|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Blast Factor|Body Rotation|42|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Blast Factor|Vertical Bat Angle|10|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Power|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Power|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Power|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Power|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Month|Lowest Power|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Month|Lowest Power|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Month|Lowest Power|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Power|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Power|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Power|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Power|Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Power|Peak Hand Speed|19.8|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Power|Attack Angle|-18|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Power|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Month|Highest Power|Blast Factor|83|Score
+blastmotionqa-lt-student13-gmail|Month|Highest Power|Power|8.31|kW
+blastmotionqa-lt-student13-gmail|Month|Highest Power|Peak Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Power|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Power|Body Rotation|41|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Power|Vertical Bat Angle|4|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Bat Speed|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Bat Speed|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Bat Speed|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Bat Speed|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Bat Speed|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Bat Speed|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Bat Speed|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Bat Speed|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Bat Speed|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Peak Bat Speed|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Bat Speed|Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Bat Speed|Peak Hand Speed|19.8|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Bat Speed|Attack Angle|-18|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Bat Speed|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Bat Speed|Blast Factor|83|Score
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Bat Speed|Power|8.31|kW
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Bat Speed|Peak Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Bat Speed|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Bat Speed|Body Rotation|41|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Peak Bat Speed|Vertical Bat Angle|4|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest On Plane|Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest On Plane|Peak Hand Speed|16.1|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest On Plane|Attack Angle|5|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest On Plane|Time to Contact|.30|Sec
+blastmotionqa-lt-student13-gmail|Month|Lowest On Plane|Blast Factor|34|Score
+blastmotionqa-lt-student13-gmail|Month|Lowest On Plane|Power|0.74|kW
+blastmotionqa-lt-student13-gmail|Month|Lowest On Plane|Peak Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest On Plane|On Plane|30|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest On Plane|Body Rotation|36|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest On Plane|Vertical Bat Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest On Plane|Bat Speed|59.9|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest On Plane|Peak Hand Speed|16.7|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest On Plane|Attack Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest On Plane|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Month|Highest On Plane|Blast Factor|76|Score
+blastmotionqa-lt-student13-gmail|Month|Highest On Plane|Power|5.32|kW
+blastmotionqa-lt-student13-gmail|Month|Highest On Plane|Peak Bat Speed|66.0|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest On Plane|On Plane|98|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest On Plane|Body Rotation|39|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest On Plane|Vertical Bat Angle|6|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Body Rotation|Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Body Rotation|Peak Hand Speed|16.1|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Body Rotation|Attack Angle|5|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Body Rotation|Time to Contact|.30|Sec
+blastmotionqa-lt-student13-gmail|Month|Lowest Body Rotation|Blast Factor|34|Score
+blastmotionqa-lt-student13-gmail|Month|Lowest Body Rotation|Power|0.74|kW
+blastmotionqa-lt-student13-gmail|Month|Lowest Body Rotation|Peak Bat Speed|41.9|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Body Rotation|On Plane|30|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Body Rotation|Body Rotation|36|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Body Rotation|Vertical Bat Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Body Rotation|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Body Rotation|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Body Rotation|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Body Rotation|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Month|Highest Body Rotation|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Month|Highest Body Rotation|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Month|Highest Body Rotation|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Body Rotation|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Body Rotation|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Body Rotation|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Vertical Bat Angle|Bat Speed|52.1|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Vertical Bat Angle|Peak Hand Speed|18.1|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Vertical Bat Angle|Attack Angle|12|Degrees
+blastmotionqa-lt-student13-gmail|Month|Lowest Vertical Bat Angle|Time to Contact|.24|Sec
+blastmotionqa-lt-student13-gmail|Month|Lowest Vertical Bat Angle|Blast Factor|66|Score
+blastmotionqa-lt-student13-gmail|Month|Lowest Vertical Bat Angle|Power|1.43|kW
+blastmotionqa-lt-student13-gmail|Month|Lowest Vertical Bat Angle|Peak Bat Speed|52.1|MPH
+blastmotionqa-lt-student13-gmail|Month|Lowest Vertical Bat Angle|On Plane|57|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Vertical Bat Angle|Body Rotation|46|Percent
+blastmotionqa-lt-student13-gmail|Month|Lowest Vertical Bat Angle|Vertical Bat Angle|-29|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Vertical Bat Angle|Bat Speed|70.7|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Vertical Bat Angle|Peak Hand Speed|18.4|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Vertical Bat Angle|Attack Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Month|Highest Vertical Bat Angle|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Month|Highest Vertical Bat Angle|Blast Factor|85|Score
+blastmotionqa-lt-student13-gmail|Month|Highest Vertical Bat Angle|Power|7.41|kW
+blastmotionqa-lt-student13-gmail|Month|Highest Vertical Bat Angle|Peak Bat Speed|70.9|MPH
+blastmotionqa-lt-student13-gmail|Month|Highest Vertical Bat Angle|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Vertical Bat Angle|Body Rotation|42|Percent
+blastmotionqa-lt-student13-gmail|Month|Highest Vertical Bat Angle|Vertical Bat Angle|10|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Bat Speed|Bat Speed|33.5|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Bat Speed|Peak Hand Speed|11.5|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Bat Speed|Attack Angle|10|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Bat Speed|Time to Contact|.26|Sec
+blastmotionqa-lt-student13-gmail|Year|Lowest Bat Speed|Blast Factor|46|Score
+blastmotionqa-lt-student13-gmail|Year|Lowest Bat Speed|Power|0.55|kW
+blastmotionqa-lt-student13-gmail|Year|Lowest Bat Speed|Peak Bat Speed|33.5|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Bat Speed|On Plane|36|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Bat Speed|Body Rotation|46|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Bat Speed|Vertical Bat Angle|-24|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Bat Speed|Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Bat Speed|Peak Hand Speed|19.8|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Bat Speed|Attack Angle|-18|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Bat Speed|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Year|Highest Bat Speed|Blast Factor|83|Score
+blastmotionqa-lt-student13-gmail|Year|Highest Bat Speed|Power|8.31|kW
+blastmotionqa-lt-student13-gmail|Year|Highest Bat Speed|Peak Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Bat Speed|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Bat Speed|Body Rotation|41|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Bat Speed|Vertical Bat Angle|4|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Hand Speed|Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Hand Speed|Peak Hand Speed|9.5|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Hand Speed|Attack Angle|16|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Hand Speed|Time to Contact|.33|Sec
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Hand Speed|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Hand Speed|Power|0.50|kW
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Hand Speed|Peak Bat Speed|35.8|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Hand Speed|On Plane|40|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Hand Speed|Body Rotation|47|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Hand Speed|Vertical Bat Angle|-17|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Hand Speed|Bat Speed|71.6|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Hand Speed|Peak Hand Speed|21.5|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Hand Speed|Attack Angle|12|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Hand Speed|Time to Contact|.16|Sec
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Hand Speed|Blast Factor|81|Score
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Hand Speed|Power|4.13|kW
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Hand Speed|Peak Bat Speed|71.6|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Hand Speed|On Plane|48|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Hand Speed|Body Rotation|33|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Hand Speed|Vertical Bat Angle|-27|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Attack Angle|Bat Speed|41.8|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Attack Angle|Peak Hand Speed|16.4|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Attack Angle|Attack Angle|-32|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Attack Angle|Time to Contact|.13|Sec
+blastmotionqa-lt-student13-gmail|Year|Lowest Attack Angle|Blast Factor|57|Score
+blastmotionqa-lt-student13-gmail|Year|Lowest Attack Angle|Power|1.67|kW
+blastmotionqa-lt-student13-gmail|Year|Lowest Attack Angle|Peak Bat Speed|41.8|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Attack Angle|On Plane|77|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Attack Angle|Body Rotation|51|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Attack Angle|Vertical Bat Angle|-11|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Attack Angle|Bat Speed|59.8|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Attack Angle|Peak Hand Speed|18.7|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Attack Angle|Attack Angle|30|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Attack Angle|Time to Contact|.18|Sec
+blastmotionqa-lt-student13-gmail|Year|Highest Attack Angle|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Year|Highest Attack Angle|Power|2.56|kW
+blastmotionqa-lt-student13-gmail|Year|Highest Attack Angle|Peak Bat Speed|59.8|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Attack Angle|On Plane|5|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Attack Angle|Body Rotation|29|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Attack Angle|Vertical Bat Angle|-20|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Time to Contact|Bat Speed|70.7|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Time to Contact|Peak Hand Speed|18.4|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Time to Contact|Attack Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Time to Contact|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Year|Lowest Time to Contact|Blast Factor|85|Score
+blastmotionqa-lt-student13-gmail|Year|Lowest Time to Contact|Power|7.41|kW
+blastmotionqa-lt-student13-gmail|Year|Lowest Time to Contact|Peak Bat Speed|70.9|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Time to Contact|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Time to Contact|Body Rotation|42|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Time to Contact|Vertical Bat Angle|10|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Time to Contact|Bat Speed|36.5|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Time to Contact|Peak Hand Speed|13.3|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Time to Contact|Attack Angle|-1|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Time to Contact|Time to Contact|.35|Sec
+blastmotionqa-lt-student13-gmail|Year|Highest Time to Contact|Blast Factor|30|Score
+blastmotionqa-lt-student13-gmail|Year|Highest Time to Contact|Power|0.49|kW
+blastmotionqa-lt-student13-gmail|Year|Highest Time to Contact|Peak Bat Speed|36.5|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Time to Contact|On Plane|42|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Time to Contact|Body Rotation|37|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Time to Contact|Vertical Bat Angle|-20|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Blast Factor|Bat Speed|36.5|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Blast Factor|Peak Hand Speed|13.3|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Blast Factor|Attack Angle|-1|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Blast Factor|Time to Contact|.35|Sec
+blastmotionqa-lt-student13-gmail|Year|Lowest Blast Factor|Blast Factor|30|Score
+blastmotionqa-lt-student13-gmail|Year|Lowest Blast Factor|Power|0.49|kW
+blastmotionqa-lt-student13-gmail|Year|Lowest Blast Factor|Peak Bat Speed|36.5|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Blast Factor|On Plane|42|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Blast Factor|Body Rotation|37|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Blast Factor|Vertical Bat Angle|-20|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Blast Factor|Bat Speed|70.7|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Blast Factor|Peak Hand Speed|18.4|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Blast Factor|Attack Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Blast Factor|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Year|Highest Blast Factor|Blast Factor|85|Score
+blastmotionqa-lt-student13-gmail|Year|Highest Blast Factor|Power|7.41|kW
+blastmotionqa-lt-student13-gmail|Year|Highest Blast Factor|Peak Bat Speed|70.9|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Blast Factor|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Blast Factor|Body Rotation|42|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Blast Factor|Vertical Bat Angle|10|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Power|Bat Speed|36.5|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Power|Peak Hand Speed|13.3|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Power|Attack Angle|-1|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Power|Time to Contact|.35|Sec
+blastmotionqa-lt-student13-gmail|Year|Lowest Power|Blast Factor|30|Score
+blastmotionqa-lt-student13-gmail|Year|Lowest Power|Power|0.49|kW
+blastmotionqa-lt-student13-gmail|Year|Lowest Power|Peak Bat Speed|36.5|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Power|On Plane|42|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Power|Body Rotation|37|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Power|Vertical Bat Angle|-20|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Power|Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Power|Peak Hand Speed|19.8|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Power|Attack Angle|-18|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Power|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Year|Highest Power|Blast Factor|83|Score
+blastmotionqa-lt-student13-gmail|Year|Highest Power|Power|8.31|kW
+blastmotionqa-lt-student13-gmail|Year|Highest Power|Peak Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Power|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Power|Body Rotation|41|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Power|Vertical Bat Angle|4|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Bat Speed|Bat Speed|33.5|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Bat Speed|Peak Hand Speed|11.5|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Bat Speed|Attack Angle|10|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Bat Speed|Time to Contact|.26|Sec
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Bat Speed|Blast Factor|46|Score
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Bat Speed|Power|0.55|kW
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Bat Speed|Peak Bat Speed|33.5|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Bat Speed|On Plane|36|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Bat Speed|Body Rotation|46|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Peak Bat Speed|Vertical Bat Angle|-24|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Bat Speed|Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Bat Speed|Peak Hand Speed|19.8|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Bat Speed|Attack Angle|-18|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Bat Speed|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Bat Speed|Blast Factor|83|Score
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Bat Speed|Power|8.31|kW
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Bat Speed|Peak Bat Speed|75.7|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Bat Speed|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Bat Speed|Body Rotation|41|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Peak Bat Speed|Vertical Bat Angle|4|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest On Plane|Bat Speed|59.8|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest On Plane|Peak Hand Speed|18.7|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest On Plane|Attack Angle|30|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest On Plane|Time to Contact|.18|Sec
+blastmotionqa-lt-student13-gmail|Year|Lowest On Plane|Blast Factor|45|Score
+blastmotionqa-lt-student13-gmail|Year|Lowest On Plane|Power|2.56|kW
+blastmotionqa-lt-student13-gmail|Year|Lowest On Plane|Peak Bat Speed|59.8|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest On Plane|On Plane|5|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest On Plane|Body Rotation|29|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest On Plane|Vertical Bat Angle|-20|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest On Plane|Bat Speed|48.3|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest On Plane|Peak Hand Speed|15.7|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest On Plane|Attack Angle|8|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest On Plane|Time to Contact|.22|Sec
+blastmotionqa-lt-student13-gmail|Year|Highest On Plane|Blast Factor|55|Score
+blastmotionqa-lt-student13-gmail|Year|Highest On Plane|Power|1.33|kW
+blastmotionqa-lt-student13-gmail|Year|Highest On Plane|Peak Bat Speed|48.3|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest On Plane|On Plane|99|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest On Plane|Body Rotation|37|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest On Plane|Vertical Bat Angle|-32|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Body Rotation|Bat Speed|61.3|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Body Rotation|Peak Hand Speed|15.3|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Body Rotation|Attack Angle|-2|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Body Rotation|Time to Contact|.16|Sec
+blastmotionqa-lt-student13-gmail|Year|Lowest Body Rotation|Blast Factor|51|Score
+blastmotionqa-lt-student13-gmail|Year|Lowest Body Rotation|Power|2.95|kW
+blastmotionqa-lt-student13-gmail|Year|Lowest Body Rotation|Peak Bat Speed|61.3|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Body Rotation|On Plane|22|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Body Rotation|Body Rotation|22|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Body Rotation|Vertical Bat Angle|-10|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Body Rotation|Bat Speed|39.7|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Body Rotation|Peak Hand Speed|15.9|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Body Rotation|Attack Angle|4|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Body Rotation|Time to Contact|.16|Sec
+blastmotionqa-lt-student13-gmail|Year|Highest Body Rotation|Blast Factor|54|Score
+blastmotionqa-lt-student13-gmail|Year|Highest Body Rotation|Power|1.24|kW
+blastmotionqa-lt-student13-gmail|Year|Highest Body Rotation|Peak Bat Speed|39.7|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Body Rotation|On Plane|63|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Body Rotation|Body Rotation|56|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Body Rotation|Vertical Bat Angle|-10|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Vertical Bat Angle|Bat Speed|54.7|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Vertical Bat Angle|Peak Hand Speed|18.3|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Vertical Bat Angle|Attack Angle|0|Degrees
+blastmotionqa-lt-student13-gmail|Year|Lowest Vertical Bat Angle|Time to Contact|.19|Sec
+blastmotionqa-lt-student13-gmail|Year|Lowest Vertical Bat Angle|Blast Factor|62|Score
+blastmotionqa-lt-student13-gmail|Year|Lowest Vertical Bat Angle|Power|2.05|kW
+blastmotionqa-lt-student13-gmail|Year|Lowest Vertical Bat Angle|Peak Bat Speed|54.7|MPH
+blastmotionqa-lt-student13-gmail|Year|Lowest Vertical Bat Angle|On Plane|65|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Vertical Bat Angle|Body Rotation|42|Percent
+blastmotionqa-lt-student13-gmail|Year|Lowest Vertical Bat Angle|Vertical Bat Angle|-43|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Vertical Bat Angle|Bat Speed|70.7|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Vertical Bat Angle|Peak Hand Speed|18.4|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Vertical Bat Angle|Attack Angle|-16|Degrees
+blastmotionqa-lt-student13-gmail|Year|Highest Vertical Bat Angle|Time to Contact|.09|Sec
+blastmotionqa-lt-student13-gmail|Year|Highest Vertical Bat Angle|Blast Factor|85|Score
+blastmotionqa-lt-student13-gmail|Year|Highest Vertical Bat Angle|Power|7.41|kW
+blastmotionqa-lt-student13-gmail|Year|Highest Vertical Bat Angle|Peak Bat Speed|70.9|MPH
+blastmotionqa-lt-student13-gmail|Year|Highest Vertical Bat Angle|On Plane|93|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Vertical Bat Angle|Body Rotation|42|Percent
+blastmotionqa-lt-student13-gmail|Year|Highest Vertical Bat Angle|Vertical Bat Angle|10|Degrees

@@ -1,0 +1,800 @@
+Day|Lowest Bat Speed|Bat Speed|35.8|MPH
+Day|Lowest Bat Speed|Peak Hand Speed|9.5|MPH
+Day|Lowest Bat Speed|Attack Angle|16|Degrees
+Day|Lowest Bat Speed|Time to Contact|.33|Sec
+Day|Lowest Bat Speed|Blast Factor|45|Score
+Day|Lowest Bat Speed|Power|0.50|kW
+Day|Lowest Bat Speed|Peak Bat Speed|35.8|MPH
+Day|Lowest Bat Speed|On Plane|40|Percent
+Day|Lowest Bat Speed|Body Rotation|47|Percent
+Day|Lowest Bat Speed|Vertical Bat Angle|-17|Degrees
+Day|Highest Bat Speed|Bat Speed|48.4|MPH
+Day|Highest Bat Speed|Peak Hand Speed|14.6|MPH
+Day|Highest Bat Speed|Attack Angle|7|Degrees
+Day|Highest Bat Speed|Time to Contact|.27|Sec
+Day|Highest Bat Speed|Blast Factor|57|Score
+Day|Highest Bat Speed|Power|1.11|kW
+Day|Highest Bat Speed|Peak Bat Speed|48.4|MPH
+Day|Highest Bat Speed|On Plane|54|Percent
+Day|Highest Bat Speed|Body Rotation|44|Percent
+Day|Highest Bat Speed|Vertical Bat Angle|-19|Degrees
+Day|Lowest Peak Hand Speed|Bat Speed|35.8|MPH
+Day|Lowest Peak Hand Speed|Peak Hand Speed|9.5|MPH
+Day|Lowest Peak Hand Speed|Attack Angle|16|Degrees
+Day|Lowest Peak Hand Speed|Time to Contact|.33|Sec
+Day|Lowest Peak Hand Speed|Blast Factor|45|Score
+Day|Lowest Peak Hand Speed|Power|0.50|kW
+Day|Lowest Peak Hand Speed|Peak Bat Speed|35.8|MPH
+Day|Lowest Peak Hand Speed|On Plane|40|Percent
+Day|Lowest Peak Hand Speed|Body Rotation|47|Percent
+Day|Lowest Peak Hand Speed|Vertical Bat Angle|-17|Degrees
+Day|Highest Peak Hand Speed|Bat Speed|41.9|MPH
+Day|Highest Peak Hand Speed|Peak Hand Speed|16.1|MPH
+Day|Highest Peak Hand Speed|Attack Angle|5|Degrees
+Day|Highest Peak Hand Speed|Time to Contact|.30|Sec
+Day|Highest Peak Hand Speed|Blast Factor|34|Score
+Day|Highest Peak Hand Speed|Power|0.74|kW
+Day|Highest Peak Hand Speed|Peak Bat Speed|41.9|MPH
+Day|Highest Peak Hand Speed|On Plane|30|Percent
+Day|Highest Peak Hand Speed|Body Rotation|36|Percent
+Day|Highest Peak Hand Speed|Vertical Bat Angle|-16|Degrees
+Day|Lowest Attack Angle|Bat Speed|41.9|MPH
+Day|Lowest Attack Angle|Peak Hand Speed|16.1|MPH
+Day|Lowest Attack Angle|Attack Angle|5|Degrees
+Day|Lowest Attack Angle|Time to Contact|.30|Sec
+Day|Lowest Attack Angle|Blast Factor|34|Score
+Day|Lowest Attack Angle|Power|0.74|kW
+Day|Lowest Attack Angle|Peak Bat Speed|41.9|MPH
+Day|Lowest Attack Angle|On Plane|30|Percent
+Day|Lowest Attack Angle|Body Rotation|36|Percent
+Day|Lowest Attack Angle|Vertical Bat Angle|-16|Degrees
+Day|Highest Attack Angle|Bat Speed|42.2|MPH
+Day|Highest Attack Angle|Peak Hand Speed|12.3|MPH
+Day|Highest Attack Angle|Attack Angle|24|Degrees
+Day|Highest Attack Angle|Time to Contact|.30|Sec
+Day|Highest Attack Angle|Blast Factor|37|Score
+Day|Highest Attack Angle|Power|0.76|kW
+Day|Highest Attack Angle|Peak Bat Speed|42.2|MPH
+Day|Highest Attack Angle|On Plane|36|Percent
+Day|Highest Attack Angle|Body Rotation|43|Percent
+Day|Highest Attack Angle|Vertical Bat Angle|-14|Degrees
+Day|Lowest Time to Contact|Bat Speed|47.2|MPH
+Day|Lowest Time to Contact|Peak Hand Speed|15.5|MPH
+Day|Lowest Time to Contact|Attack Angle|6|Degrees
+Day|Lowest Time to Contact|Time to Contact|.26|Sec
+Day|Lowest Time to Contact|Blast Factor|51|Score
+Day|Lowest Time to Contact|Power|1.10|kW
+Day|Lowest Time to Contact|Peak Bat Speed|47.2|MPH
+Day|Lowest Time to Contact|On Plane|48|Percent
+Day|Lowest Time to Contact|Body Rotation|42|Percent
+Day|Lowest Time to Contact|Vertical Bat Angle|-15|Degrees
+Day|Highest Time to Contact|Bat Speed|35.8|MPH
+Day|Highest Time to Contact|Peak Hand Speed|9.5|MPH
+Day|Highest Time to Contact|Attack Angle|16|Degrees
+Day|Highest Time to Contact|Time to Contact|.33|Sec
+Day|Highest Time to Contact|Blast Factor|45|Score
+Day|Highest Time to Contact|Power|0.50|kW
+Day|Highest Time to Contact|Peak Bat Speed|35.8|MPH
+Day|Highest Time to Contact|On Plane|40|Percent
+Day|Highest Time to Contact|Body Rotation|47|Percent
+Day|Highest Time to Contact|Vertical Bat Angle|-17|Degrees
+Day|Lowest Blast Factor|Bat Speed|41.9|MPH
+Day|Lowest Blast Factor|Peak Hand Speed|16.1|MPH
+Day|Lowest Blast Factor|Attack Angle|5|Degrees
+Day|Lowest Blast Factor|Time to Contact|.30|Sec
+Day|Lowest Blast Factor|Blast Factor|34|Score
+Day|Lowest Blast Factor|Power|0.74|kW
+Day|Lowest Blast Factor|Peak Bat Speed|41.9|MPH
+Day|Lowest Blast Factor|On Plane|30|Percent
+Day|Lowest Blast Factor|Body Rotation|36|Percent
+Day|Lowest Blast Factor|Vertical Bat Angle|-16|Degrees
+Day|Highest Blast Factor|Bat Speed|48.4|MPH
+Day|Highest Blast Factor|Peak Hand Speed|14.6|MPH
+Day|Highest Blast Factor|Attack Angle|7|Degrees
+Day|Highest Blast Factor|Time to Contact|.27|Sec
+Day|Highest Blast Factor|Blast Factor|57|Score
+Day|Highest Blast Factor|Power|1.11|kW
+Day|Highest Blast Factor|Peak Bat Speed|48.4|MPH
+Day|Highest Blast Factor|On Plane|54|Percent
+Day|Highest Blast Factor|Body Rotation|44|Percent
+Day|Highest Blast Factor|Vertical Bat Angle|-19|Degrees
+Day|Lowest Power|Bat Speed|35.8|MPH
+Day|Lowest Power|Peak Hand Speed|9.5|MPH
+Day|Lowest Power|Attack Angle|16|Degrees
+Day|Lowest Power|Time to Contact|.33|Sec
+Day|Lowest Power|Blast Factor|45|Score
+Day|Lowest Power|Power|0.50|kW
+Day|Lowest Power|Peak Bat Speed|35.8|MPH
+Day|Lowest Power|On Plane|40|Percent
+Day|Lowest Power|Body Rotation|47|Percent
+Day|Lowest Power|Vertical Bat Angle|-17|Degrees
+Day|Highest Power|Bat Speed|48.4|MPH
+Day|Highest Power|Peak Hand Speed|14.6|MPH
+Day|Highest Power|Attack Angle|7|Degrees
+Day|Highest Power|Time to Contact|.27|Sec
+Day|Highest Power|Blast Factor|57|Score
+Day|Highest Power|Power|1.11|kW
+Day|Highest Power|Peak Bat Speed|48.4|MPH
+Day|Highest Power|On Plane|54|Percent
+Day|Highest Power|Body Rotation|44|Percent
+Day|Highest Power|Vertical Bat Angle|-19|Degrees
+Day|Lowest Peak Bat Speed|Bat Speed|35.8|MPH
+Day|Lowest Peak Bat Speed|Peak Hand Speed|9.5|MPH
+Day|Lowest Peak Bat Speed|Attack Angle|16|Degrees
+Day|Lowest Peak Bat Speed|Time to Contact|.33|Sec
+Day|Lowest Peak Bat Speed|Blast Factor|45|Score
+Day|Lowest Peak Bat Speed|Power|0.50|kW
+Day|Lowest Peak Bat Speed|Peak Bat Speed|35.8|MPH
+Day|Lowest Peak Bat Speed|On Plane|40|Percent
+Day|Lowest Peak Bat Speed|Body Rotation|47|Percent
+Day|Lowest Peak Bat Speed|Vertical Bat Angle|-17|Degrees
+Day|Highest Peak Bat Speed|Bat Speed|48.4|MPH
+Day|Highest Peak Bat Speed|Peak Hand Speed|14.6|MPH
+Day|Highest Peak Bat Speed|Attack Angle|7|Degrees
+Day|Highest Peak Bat Speed|Time to Contact|.27|Sec
+Day|Highest Peak Bat Speed|Blast Factor|57|Score
+Day|Highest Peak Bat Speed|Power|1.11|kW
+Day|Highest Peak Bat Speed|Peak Bat Speed|48.4|MPH
+Day|Highest Peak Bat Speed|On Plane|54|Percent
+Day|Highest Peak Bat Speed|Body Rotation|44|Percent
+Day|Highest Peak Bat Speed|Vertical Bat Angle|-19|Degrees
+Day|Lowest On Plane|Bat Speed|41.9|MPH
+Day|Lowest On Plane|Peak Hand Speed|16.1|MPH
+Day|Lowest On Plane|Attack Angle|5|Degrees
+Day|Lowest On Plane|Time to Contact|.30|Sec
+Day|Lowest On Plane|Blast Factor|34|Score
+Day|Lowest On Plane|Power|0.74|kW
+Day|Lowest On Plane|Peak Bat Speed|41.9|MPH
+Day|Lowest On Plane|On Plane|30|Percent
+Day|Lowest On Plane|Body Rotation|36|Percent
+Day|Lowest On Plane|Vertical Bat Angle|-16|Degrees
+Day|Highest On Plane|Bat Speed|48.4|MPH
+Day|Highest On Plane|Peak Hand Speed|14.6|MPH
+Day|Highest On Plane|Attack Angle|7|Degrees
+Day|Highest On Plane|Time to Contact|.27|Sec
+Day|Highest On Plane|Blast Factor|57|Score
+Day|Highest On Plane|Power|1.11|kW
+Day|Highest On Plane|Peak Bat Speed|48.4|MPH
+Day|Highest On Plane|On Plane|54|Percent
+Day|Highest On Plane|Body Rotation|44|Percent
+Day|Highest On Plane|Vertical Bat Angle|-19|Degrees
+Day|Lowest Body Rotation|Bat Speed|41.9|MPH
+Day|Lowest Body Rotation|Peak Hand Speed|16.1|MPH
+Day|Lowest Body Rotation|Attack Angle|5|Degrees
+Day|Lowest Body Rotation|Time to Contact|.30|Sec
+Day|Lowest Body Rotation|Blast Factor|34|Score
+Day|Lowest Body Rotation|Power|0.74|kW
+Day|Lowest Body Rotation|Peak Bat Speed|41.9|MPH
+Day|Lowest Body Rotation|On Plane|30|Percent
+Day|Lowest Body Rotation|Body Rotation|36|Percent
+Day|Lowest Body Rotation|Vertical Bat Angle|-16|Degrees
+Day|Highest Body Rotation|Bat Speed|35.8|MPH
+Day|Highest Body Rotation|Peak Hand Speed|9.5|MPH
+Day|Highest Body Rotation|Attack Angle|16|Degrees
+Day|Highest Body Rotation|Time to Contact|.33|Sec
+Day|Highest Body Rotation|Blast Factor|45|Score
+Day|Highest Body Rotation|Power|0.50|kW
+Day|Highest Body Rotation|Peak Bat Speed|35.8|MPH
+Day|Highest Body Rotation|On Plane|40|Percent
+Day|Highest Body Rotation|Body Rotation|47|Percent
+Day|Highest Body Rotation|Vertical Bat Angle|-17|Degrees
+Day|Lowest Vertical Bat Angle|Bat Speed|46.2|MPH
+Day|Lowest Vertical Bat Angle|Peak Hand Speed|14.2|MPH
+Day|Lowest Vertical Bat Angle|Attack Angle|9|Degrees
+Day|Lowest Vertical Bat Angle|Time to Contact|.27|Sec
+Day|Lowest Vertical Bat Angle|Blast Factor|52|Score
+Day|Lowest Vertical Bat Angle|Power|1.01|kW
+Day|Lowest Vertical Bat Angle|Peak Bat Speed|46.2|MPH
+Day|Lowest Vertical Bat Angle|On Plane|50|Percent
+Day|Lowest Vertical Bat Angle|Body Rotation|44|Percent
+Day|Lowest Vertical Bat Angle|Vertical Bat Angle|-20|Degrees
+Day|Highest Vertical Bat Angle|Bat Speed|42.2|MPH
+Day|Highest Vertical Bat Angle|Peak Hand Speed|12.3|MPH
+Day|Highest Vertical Bat Angle|Attack Angle|24|Degrees
+Day|Highest Vertical Bat Angle|Time to Contact|.30|Sec
+Day|Highest Vertical Bat Angle|Blast Factor|37|Score
+Day|Highest Vertical Bat Angle|Power|0.76|kW
+Day|Highest Vertical Bat Angle|Peak Bat Speed|42.2|MPH
+Day|Highest Vertical Bat Angle|On Plane|36|Percent
+Day|Highest Vertical Bat Angle|Body Rotation|43|Percent
+Day|Highest Vertical Bat Angle|Vertical Bat Angle|-14|Degrees
+Week|Lowest Bat Speed|Bat Speed|35.8|MPH
+Week|Lowest Bat Speed|Peak Hand Speed|9.5|MPH
+Week|Lowest Bat Speed|Attack Angle|16|Degrees
+Week|Lowest Bat Speed|Time to Contact|.33|Sec
+Week|Lowest Bat Speed|Blast Factor|45|Score
+Week|Lowest Bat Speed|Power|0.50|kW
+Week|Lowest Bat Speed|Peak Bat Speed|35.8|MPH
+Week|Lowest Bat Speed|On Plane|40|Percent
+Week|Lowest Bat Speed|Body Rotation|47|Percent
+Week|Lowest Bat Speed|Vertical Bat Angle|-17|Degrees
+Week|Highest Bat Speed|Bat Speed|75.7|MPH
+Week|Highest Bat Speed|Peak Hand Speed|19.8|MPH
+Week|Highest Bat Speed|Attack Angle|-18|Degrees
+Week|Highest Bat Speed|Time to Contact|.09|Sec
+Week|Highest Bat Speed|Blast Factor|83|Score
+Week|Highest Bat Speed|Power|8.31|kW
+Week|Highest Bat Speed|Peak Bat Speed|75.7|MPH
+Week|Highest Bat Speed|On Plane|93|Percent
+Week|Highest Bat Speed|Body Rotation|41|Percent
+Week|Highest Bat Speed|Vertical Bat Angle|4|Degrees
+Week|Lowest Peak Hand Speed|Bat Speed|35.8|MPH
+Week|Lowest Peak Hand Speed|Peak Hand Speed|9.5|MPH
+Week|Lowest Peak Hand Speed|Attack Angle|16|Degrees
+Week|Lowest Peak Hand Speed|Time to Contact|.33|Sec
+Week|Lowest Peak Hand Speed|Blast Factor|45|Score
+Week|Lowest Peak Hand Speed|Power|0.50|kW
+Week|Lowest Peak Hand Speed|Peak Bat Speed|35.8|MPH
+Week|Lowest Peak Hand Speed|On Plane|40|Percent
+Week|Lowest Peak Hand Speed|Body Rotation|47|Percent
+Week|Lowest Peak Hand Speed|Vertical Bat Angle|-17|Degrees
+Week|Highest Peak Hand Speed|Bat Speed|75.7|MPH
+Week|Highest Peak Hand Speed|Peak Hand Speed|19.8|MPH
+Week|Highest Peak Hand Speed|Attack Angle|-18|Degrees
+Week|Highest Peak Hand Speed|Time to Contact|.09|Sec
+Week|Highest Peak Hand Speed|Blast Factor|83|Score
+Week|Highest Peak Hand Speed|Power|8.31|kW
+Week|Highest Peak Hand Speed|Peak Bat Speed|75.7|MPH
+Week|Highest Peak Hand Speed|On Plane|93|Percent
+Week|Highest Peak Hand Speed|Body Rotation|41|Percent
+Week|Highest Peak Hand Speed|Vertical Bat Angle|4|Degrees
+Week|Lowest Attack Angle|Bat Speed|75.7|MPH
+Week|Lowest Attack Angle|Peak Hand Speed|19.8|MPH
+Week|Lowest Attack Angle|Attack Angle|-18|Degrees
+Week|Lowest Attack Angle|Time to Contact|.09|Sec
+Week|Lowest Attack Angle|Blast Factor|83|Score
+Week|Lowest Attack Angle|Power|8.31|kW
+Week|Lowest Attack Angle|Peak Bat Speed|75.7|MPH
+Week|Lowest Attack Angle|On Plane|93|Percent
+Week|Lowest Attack Angle|Body Rotation|41|Percent
+Week|Lowest Attack Angle|Vertical Bat Angle|4|Degrees
+Week|Highest Attack Angle|Bat Speed|42.2|MPH
+Week|Highest Attack Angle|Peak Hand Speed|12.3|MPH
+Week|Highest Attack Angle|Attack Angle|24|Degrees
+Week|Highest Attack Angle|Time to Contact|.30|Sec
+Week|Highest Attack Angle|Blast Factor|37|Score
+Week|Highest Attack Angle|Power|0.76|kW
+Week|Highest Attack Angle|Peak Bat Speed|42.2|MPH
+Week|Highest Attack Angle|On Plane|36|Percent
+Week|Highest Attack Angle|Body Rotation|43|Percent
+Week|Highest Attack Angle|Vertical Bat Angle|-14|Degrees
+Week|Lowest Time to Contact|Bat Speed|70.7|MPH
+Week|Lowest Time to Contact|Peak Hand Speed|18.4|MPH
+Week|Lowest Time to Contact|Attack Angle|-16|Degrees
+Week|Lowest Time to Contact|Time to Contact|.09|Sec
+Week|Lowest Time to Contact|Blast Factor|85|Score
+Week|Lowest Time to Contact|Power|7.41|kW
+Week|Lowest Time to Contact|Peak Bat Speed|70.9|MPH
+Week|Lowest Time to Contact|On Plane|93|Percent
+Week|Lowest Time to Contact|Body Rotation|42|Percent
+Week|Lowest Time to Contact|Vertical Bat Angle|10|Degrees
+Week|Highest Time to Contact|Bat Speed|35.8|MPH
+Week|Highest Time to Contact|Peak Hand Speed|9.5|MPH
+Week|Highest Time to Contact|Attack Angle|16|Degrees
+Week|Highest Time to Contact|Time to Contact|.33|Sec
+Week|Highest Time to Contact|Blast Factor|45|Score
+Week|Highest Time to Contact|Power|0.50|kW
+Week|Highest Time to Contact|Peak Bat Speed|35.8|MPH
+Week|Highest Time to Contact|On Plane|40|Percent
+Week|Highest Time to Contact|Body Rotation|47|Percent
+Week|Highest Time to Contact|Vertical Bat Angle|-17|Degrees
+Week|Lowest Blast Factor|Bat Speed|41.9|MPH
+Week|Lowest Blast Factor|Peak Hand Speed|16.1|MPH
+Week|Lowest Blast Factor|Attack Angle|5|Degrees
+Week|Lowest Blast Factor|Time to Contact|.30|Sec
+Week|Lowest Blast Factor|Blast Factor|34|Score
+Week|Lowest Blast Factor|Power|0.74|kW
+Week|Lowest Blast Factor|Peak Bat Speed|41.9|MPH
+Week|Lowest Blast Factor|On Plane|30|Percent
+Week|Lowest Blast Factor|Body Rotation|36|Percent
+Week|Lowest Blast Factor|Vertical Bat Angle|-16|Degrees
+Week|Highest Blast Factor|Bat Speed|70.7|MPH
+Week|Highest Blast Factor|Peak Hand Speed|18.4|MPH
+Week|Highest Blast Factor|Attack Angle|-16|Degrees
+Week|Highest Blast Factor|Time to Contact|.09|Sec
+Week|Highest Blast Factor|Blast Factor|85|Score
+Week|Highest Blast Factor|Power|7.41|kW
+Week|Highest Blast Factor|Peak Bat Speed|70.9|MPH
+Week|Highest Blast Factor|On Plane|93|Percent
+Week|Highest Blast Factor|Body Rotation|42|Percent
+Week|Highest Blast Factor|Vertical Bat Angle|10|Degrees
+Week|Lowest Power|Bat Speed|35.8|MPH
+Week|Lowest Power|Peak Hand Speed|9.5|MPH
+Week|Lowest Power|Attack Angle|16|Degrees
+Week|Lowest Power|Time to Contact|.33|Sec
+Week|Lowest Power|Blast Factor|45|Score
+Week|Lowest Power|Power|0.50|kW
+Week|Lowest Power|Peak Bat Speed|35.8|MPH
+Week|Lowest Power|On Plane|40|Percent
+Week|Lowest Power|Body Rotation|47|Percent
+Week|Lowest Power|Vertical Bat Angle|-17|Degrees
+Week|Highest Power|Bat Speed|75.7|MPH
+Week|Highest Power|Peak Hand Speed|19.8|MPH
+Week|Highest Power|Attack Angle|-18|Degrees
+Week|Highest Power|Time to Contact|.09|Sec
+Week|Highest Power|Blast Factor|83|Score
+Week|Highest Power|Power|8.31|kW
+Week|Highest Power|Peak Bat Speed|75.7|MPH
+Week|Highest Power|On Plane|93|Percent
+Week|Highest Power|Body Rotation|41|Percent
+Week|Highest Power|Vertical Bat Angle|4|Degrees
+Week|Lowest Peak Bat Speed|Bat Speed|35.8|MPH
+Week|Lowest Peak Bat Speed|Peak Hand Speed|9.5|MPH
+Week|Lowest Peak Bat Speed|Attack Angle|16|Degrees
+Week|Lowest Peak Bat Speed|Time to Contact|.33|Sec
+Week|Lowest Peak Bat Speed|Blast Factor|45|Score
+Week|Lowest Peak Bat Speed|Power|0.50|kW
+Week|Lowest Peak Bat Speed|Peak Bat Speed|35.8|MPH
+Week|Lowest Peak Bat Speed|On Plane|40|Percent
+Week|Lowest Peak Bat Speed|Body Rotation|47|Percent
+Week|Lowest Peak Bat Speed|Vertical Bat Angle|-17|Degrees
+Week|Highest Peak Bat Speed|Bat Speed|75.7|MPH
+Week|Highest Peak Bat Speed|Peak Hand Speed|19.8|MPH
+Week|Highest Peak Bat Speed|Attack Angle|-18|Degrees
+Week|Highest Peak Bat Speed|Time to Contact|.09|Sec
+Week|Highest Peak Bat Speed|Blast Factor|83|Score
+Week|Highest Peak Bat Speed|Power|8.31|kW
+Week|Highest Peak Bat Speed|Peak Bat Speed|75.7|MPH
+Week|Highest Peak Bat Speed|On Plane|93|Percent
+Week|Highest Peak Bat Speed|Body Rotation|41|Percent
+Week|Highest Peak Bat Speed|Vertical Bat Angle|4|Degrees
+Week|Lowest On Plane|Bat Speed|41.9|MPH
+Week|Lowest On Plane|Peak Hand Speed|16.1|MPH
+Week|Lowest On Plane|Attack Angle|5|Degrees
+Week|Lowest On Plane|Time to Contact|.30|Sec
+Week|Lowest On Plane|Blast Factor|34|Score
+Week|Lowest On Plane|Power|0.74|kW
+Week|Lowest On Plane|Peak Bat Speed|41.9|MPH
+Week|Lowest On Plane|On Plane|30|Percent
+Week|Lowest On Plane|Body Rotation|36|Percent
+Week|Lowest On Plane|Vertical Bat Angle|-16|Degrees
+Week|Highest On Plane|Bat Speed|59.9|MPH
+Week|Highest On Plane|Peak Hand Speed|16.7|MPH
+Week|Highest On Plane|Attack Angle|-16|Degrees
+Week|Highest On Plane|Time to Contact|.09|Sec
+Week|Highest On Plane|Blast Factor|76|Score
+Week|Highest On Plane|Power|5.32|kW
+Week|Highest On Plane|Peak Bat Speed|66.0|MPH
+Week|Highest On Plane|On Plane|98|Percent
+Week|Highest On Plane|Body Rotation|39|Percent
+Week|Highest On Plane|Vertical Bat Angle|6|Degrees
+Week|Lowest Body Rotation|Bat Speed|41.9|MPH
+Week|Lowest Body Rotation|Peak Hand Speed|16.1|MPH
+Week|Lowest Body Rotation|Attack Angle|5|Degrees
+Week|Lowest Body Rotation|Time to Contact|.30|Sec
+Week|Lowest Body Rotation|Blast Factor|34|Score
+Week|Lowest Body Rotation|Power|0.74|kW
+Week|Lowest Body Rotation|Peak Bat Speed|41.9|MPH
+Week|Lowest Body Rotation|On Plane|30|Percent
+Week|Lowest Body Rotation|Body Rotation|36|Percent
+Week|Lowest Body Rotation|Vertical Bat Angle|-16|Degrees
+Week|Highest Body Rotation|Bat Speed|35.8|MPH
+Week|Highest Body Rotation|Peak Hand Speed|9.5|MPH
+Week|Highest Body Rotation|Attack Angle|16|Degrees
+Week|Highest Body Rotation|Time to Contact|.33|Sec
+Week|Highest Body Rotation|Blast Factor|45|Score
+Week|Highest Body Rotation|Power|0.50|kW
+Week|Highest Body Rotation|Peak Bat Speed|35.8|MPH
+Week|Highest Body Rotation|On Plane|40|Percent
+Week|Highest Body Rotation|Body Rotation|47|Percent
+Week|Highest Body Rotation|Vertical Bat Angle|-17|Degrees
+Week|Lowest Vertical Bat Angle|Bat Speed|46.2|MPH
+Week|Lowest Vertical Bat Angle|Peak Hand Speed|14.2|MPH
+Week|Lowest Vertical Bat Angle|Attack Angle|9|Degrees
+Week|Lowest Vertical Bat Angle|Time to Contact|.27|Sec
+Week|Lowest Vertical Bat Angle|Blast Factor|52|Score
+Week|Lowest Vertical Bat Angle|Power|1.01|kW
+Week|Lowest Vertical Bat Angle|Peak Bat Speed|46.2|MPH
+Week|Lowest Vertical Bat Angle|On Plane|50|Percent
+Week|Lowest Vertical Bat Angle|Body Rotation|44|Percent
+Week|Lowest Vertical Bat Angle|Vertical Bat Angle|-20|Degrees
+Week|Highest Vertical Bat Angle|Bat Speed|70.7|MPH
+Week|Highest Vertical Bat Angle|Peak Hand Speed|18.4|MPH
+Week|Highest Vertical Bat Angle|Attack Angle|-16|Degrees
+Week|Highest Vertical Bat Angle|Time to Contact|.09|Sec
+Week|Highest Vertical Bat Angle|Blast Factor|85|Score
+Week|Highest Vertical Bat Angle|Power|7.41|kW
+Week|Highest Vertical Bat Angle|Peak Bat Speed|70.9|MPH
+Week|Highest Vertical Bat Angle|On Plane|93|Percent
+Week|Highest Vertical Bat Angle|Body Rotation|42|Percent
+Week|Highest Vertical Bat Angle|Vertical Bat Angle|10|Degrees
+Month|Lowest Bat Speed|Bat Speed|35.8|MPH
+Month|Lowest Bat Speed|Peak Hand Speed|9.5|MPH
+Month|Lowest Bat Speed|Attack Angle|16|Degrees
+Month|Lowest Bat Speed|Time to Contact|.33|Sec
+Month|Lowest Bat Speed|Blast Factor|45|Score
+Month|Lowest Bat Speed|Power|0.50|kW
+Month|Lowest Bat Speed|Peak Bat Speed|35.8|MPH
+Month|Lowest Bat Speed|On Plane|40|Percent
+Month|Lowest Bat Speed|Body Rotation|47|Percent
+Month|Lowest Bat Speed|Vertical Bat Angle|-17|Degrees
+Month|Highest Bat Speed|Bat Speed|75.7|MPH
+Month|Highest Bat Speed|Peak Hand Speed|19.8|MPH
+Month|Highest Bat Speed|Attack Angle|-18|Degrees
+Month|Highest Bat Speed|Time to Contact|.09|Sec
+Month|Highest Bat Speed|Blast Factor|83|Score
+Month|Highest Bat Speed|Power|8.31|kW
+Month|Highest Bat Speed|Peak Bat Speed|75.7|MPH
+Month|Highest Bat Speed|On Plane|--|Percent
+Month|Highest Bat Speed|Body Rotation|--|Percent
+Month|Highest Bat Speed|Vertical Bat Angle|--|Degrees
+Month|Lowest Peak Hand Speed|Bat Speed|35.8|MPH
+Month|Lowest Peak Hand Speed|Peak Hand Speed|9.5|MPH
+Month|Lowest Peak Hand Speed|Attack Angle|16|Degrees
+Month|Lowest Peak Hand Speed|Time to Contact|.33|Sec
+Month|Lowest Peak Hand Speed|Blast Factor|45|Score
+Month|Lowest Peak Hand Speed|Power|0.50|kW
+Month|Lowest Peak Hand Speed|Peak Bat Speed|35.8|MPH
+Month|Lowest Peak Hand Speed|On Plane|40|Percent
+Month|Lowest Peak Hand Speed|Body Rotation|47|Percent
+Month|Lowest Peak Hand Speed|Vertical Bat Angle|-17|Degrees
+Month|Highest Peak Hand Speed|Bat Speed|75.7|MPH
+Month|Highest Peak Hand Speed|Peak Hand Speed|19.8|MPH
+Month|Highest Peak Hand Speed|Attack Angle|-18|Degrees
+Month|Highest Peak Hand Speed|Time to Contact|.09|Sec
+Month|Highest Peak Hand Speed|Blast Factor|83|Score
+Month|Highest Peak Hand Speed|Power|8.31|kW
+Month|Highest Peak Hand Speed|Peak Bat Speed|75.7|MPH
+Month|Highest Peak Hand Speed|On Plane|93|Percent
+Month|Highest Peak Hand Speed|Body Rotation|41|Percent
+Month|Highest Peak Hand Speed|Vertical Bat Angle|4|Degrees
+Month|Lowest Attack Angle|Bat Speed|75.7|MPH
+Month|Lowest Attack Angle|Peak Hand Speed|19.8|MPH
+Month|Lowest Attack Angle|Attack Angle|-18|Degrees
+Month|Lowest Attack Angle|Time to Contact|.09|Sec
+Month|Lowest Attack Angle|Blast Factor|83|Score
+Month|Lowest Attack Angle|Power|8.31|kW
+Month|Lowest Attack Angle|Peak Bat Speed|75.7|MPH
+Month|Lowest Attack Angle|On Plane|93|Percent
+Month|Lowest Attack Angle|Body Rotation|41|Percent
+Month|Lowest Attack Angle|Vertical Bat Angle|4|Degrees
+Month|Highest Attack Angle|Bat Speed|42.2|MPH
+Month|Highest Attack Angle|Peak Hand Speed|12.3|MPH
+Month|Highest Attack Angle|Attack Angle|24|Degrees
+Month|Highest Attack Angle|Time to Contact|.30|Sec
+Month|Highest Attack Angle|Blast Factor|37|Score
+Month|Highest Attack Angle|Power|0.76|kW
+Month|Highest Attack Angle|Peak Bat Speed|42.2|MPH
+Month|Highest Attack Angle|On Plane|36|Percent
+Month|Highest Attack Angle|Body Rotation|43|Percent
+Month|Highest Attack Angle|Vertical Bat Angle|-14|Degrees
+Month|Lowest Time to Contact|Bat Speed|70.7|MPH
+Month|Lowest Time to Contact|Peak Hand Speed|18.4|MPH
+Month|Lowest Time to Contact|Attack Angle|-16|Degrees
+Month|Lowest Time to Contact|Time to Contact|.09|Sec
+Month|Lowest Time to Contact|Blast Factor|85|Score
+Month|Lowest Time to Contact|Power|7.41|kW
+Month|Lowest Time to Contact|Peak Bat Speed|70.9|MPH
+Month|Lowest Time to Contact|On Plane|93|Percent
+Month|Lowest Time to Contact|Body Rotation|42|Percent
+Month|Lowest Time to Contact|Vertical Bat Angle|10|Degrees
+Month|Highest Time to Contact|Bat Speed|35.8|MPH
+Month|Highest Time to Contact|Peak Hand Speed|9.5|MPH
+Month|Highest Time to Contact|Attack Angle|16|Degrees
+Month|Highest Time to Contact|Time to Contact|.33|Sec
+Month|Highest Time to Contact|Blast Factor|45|Score
+Month|Highest Time to Contact|Power|0.50|kW
+Month|Highest Time to Contact|Peak Bat Speed|35.8|MPH
+Month|Highest Time to Contact|On Plane|40|Percent
+Month|Highest Time to Contact|Body Rotation|47|Percent
+Month|Highest Time to Contact|Vertical Bat Angle|-17|Degrees
+Month|Lowest Blast Factor|Bat Speed|41.9|MPH
+Month|Lowest Blast Factor|Peak Hand Speed|16.1|MPH
+Month|Lowest Blast Factor|Attack Angle|5|Degrees
+Month|Lowest Blast Factor|Time to Contact|.30|Sec
+Month|Lowest Blast Factor|Blast Factor|34|Score
+Month|Lowest Blast Factor|Power|0.74|kW
+Month|Lowest Blast Factor|Peak Bat Speed|41.9|MPH
+Month|Lowest Blast Factor|On Plane|30|Percent
+Month|Lowest Blast Factor|Body Rotation|36|Percent
+Month|Lowest Blast Factor|Vertical Bat Angle|-16|Degrees
+Month|Highest Blast Factor|Bat Speed|70.7|MPH
+Month|Highest Blast Factor|Peak Hand Speed|18.4|MPH
+Month|Highest Blast Factor|Attack Angle|-16|Degrees
+Month|Highest Blast Factor|Time to Contact|.09|Sec
+Month|Highest Blast Factor|Blast Factor|85|Score
+Month|Highest Blast Factor|Power|7.41|kW
+Month|Highest Blast Factor|Peak Bat Speed|70.9|MPH
+Month|Highest Blast Factor|On Plane|93|Percent
+Month|Highest Blast Factor|Body Rotation|42|Percent
+Month|Highest Blast Factor|Vertical Bat Angle|10|Degrees
+Month|Lowest Power|Bat Speed|35.8|MPH
+Month|Lowest Power|Peak Hand Speed|9.5|MPH
+Month|Lowest Power|Attack Angle|16|Degrees
+Month|Lowest Power|Time to Contact|.33|Sec
+Month|Lowest Power|Blast Factor|45|Score
+Month|Lowest Power|Power|0.50|kW
+Month|Lowest Power|Peak Bat Speed|35.8|MPH
+Month|Lowest Power|On Plane|40|Percent
+Month|Lowest Power|Body Rotation|47|Percent
+Month|Lowest Power|Vertical Bat Angle|-17|Degrees
+Month|Highest Power|Bat Speed|75.7|MPH
+Month|Highest Power|Peak Hand Speed|19.8|MPH
+Month|Highest Power|Attack Angle|-18|Degrees
+Month|Highest Power|Time to Contact|.09|Sec
+Month|Highest Power|Blast Factor|83|Score
+Month|Highest Power|Power|8.31|kW
+Month|Highest Power|Peak Bat Speed|75.7|MPH
+Month|Highest Power|On Plane|93|Percent
+Month|Highest Power|Body Rotation|41|Percent
+Month|Highest Power|Vertical Bat Angle|4|Degrees
+Month|Lowest Peak Bat Speed|Bat Speed|35.8|MPH
+Month|Lowest Peak Bat Speed|Peak Hand Speed|9.5|MPH
+Month|Lowest Peak Bat Speed|Attack Angle|16|Degrees
+Month|Lowest Peak Bat Speed|Time to Contact|.33|Sec
+Month|Lowest Peak Bat Speed|Blast Factor|45|Score
+Month|Lowest Peak Bat Speed|Power|0.50|kW
+Month|Lowest Peak Bat Speed|Peak Bat Speed|35.8|MPH
+Month|Lowest Peak Bat Speed|On Plane|40|Percent
+Month|Lowest Peak Bat Speed|Body Rotation|47|Percent
+Month|Lowest Peak Bat Speed|Vertical Bat Angle|-17|Degrees
+Month|Highest Peak Bat Speed|Bat Speed|75.7|MPH
+Month|Highest Peak Bat Speed|Peak Hand Speed|19.8|MPH
+Month|Highest Peak Bat Speed|Attack Angle|-18|Degrees
+Month|Highest Peak Bat Speed|Time to Contact|.09|Sec
+Month|Highest Peak Bat Speed|Blast Factor|83|Score
+Month|Highest Peak Bat Speed|Power|8.31|kW
+Month|Highest Peak Bat Speed|Peak Bat Speed|75.7|MPH
+Month|Highest Peak Bat Speed|On Plane|93|Percent
+Month|Highest Peak Bat Speed|Body Rotation|41|Percent
+Month|Highest Peak Bat Speed|Vertical Bat Angle|4|Degrees
+Month|Lowest On Plane|Bat Speed|41.9|MPH
+Month|Lowest On Plane|Peak Hand Speed|16.1|MPH
+Month|Lowest On Plane|Attack Angle|5|Degrees
+Month|Lowest On Plane|Time to Contact|.30|Sec
+Month|Lowest On Plane|Blast Factor|34|Score
+Month|Lowest On Plane|Power|0.74|kW
+Month|Lowest On Plane|Peak Bat Speed|41.9|MPH
+Month|Lowest On Plane|On Plane|30|Percent
+Month|Lowest On Plane|Body Rotation|36|Percent
+Month|Lowest On Plane|Vertical Bat Angle|-16|Degrees
+Month|Highest On Plane|Bat Speed|59.9|MPH
+Month|Highest On Plane|Peak Hand Speed|16.7|MPH
+Month|Highest On Plane|Attack Angle|-16|Degrees
+Month|Highest On Plane|Time to Contact|.09|Sec
+Month|Highest On Plane|Blast Factor|76|Score
+Month|Highest On Plane|Power|5.32|kW
+Month|Highest On Plane|Peak Bat Speed|66.0|MPH
+Month|Highest On Plane|On Plane|98|Percent
+Month|Highest On Plane|Body Rotation|39|Percent
+Month|Highest On Plane|Vertical Bat Angle|6|Degrees
+Month|Lowest Body Rotation|Bat Speed|41.9|MPH
+Month|Lowest Body Rotation|Peak Hand Speed|16.1|MPH
+Month|Lowest Body Rotation|Attack Angle|5|Degrees
+Month|Lowest Body Rotation|Time to Contact|.30|Sec
+Month|Lowest Body Rotation|Blast Factor|34|Score
+Month|Lowest Body Rotation|Power|0.74|kW
+Month|Lowest Body Rotation|Peak Bat Speed|41.9|MPH
+Month|Lowest Body Rotation|On Plane|30|Percent
+Month|Lowest Body Rotation|Body Rotation|36|Percent
+Month|Lowest Body Rotation|Vertical Bat Angle|-16|Degrees
+Month|Highest Body Rotation|Bat Speed|35.8|MPH
+Month|Highest Body Rotation|Peak Hand Speed|9.5|MPH
+Month|Highest Body Rotation|Attack Angle|16|Degrees
+Month|Highest Body Rotation|Time to Contact|.33|Sec
+Month|Highest Body Rotation|Blast Factor|45|Score
+Month|Highest Body Rotation|Power|0.50|kW
+Month|Highest Body Rotation|Peak Bat Speed|35.8|MPH
+Month|Highest Body Rotation|On Plane|40|Percent
+Month|Highest Body Rotation|Body Rotation|47|Percent
+Month|Highest Body Rotation|Vertical Bat Angle|-17|Degrees
+Month|Lowest Vertical Bat Angle|Bat Speed|52.1|MPH
+Month|Lowest Vertical Bat Angle|Peak Hand Speed|18.1|MPH
+Month|Lowest Vertical Bat Angle|Attack Angle|12|Degrees
+Month|Lowest Vertical Bat Angle|Time to Contact|.24|Sec
+Month|Lowest Vertical Bat Angle|Blast Factor|66|Score
+Month|Lowest Vertical Bat Angle|Power|1.43|kW
+Month|Lowest Vertical Bat Angle|Peak Bat Speed|52.1|MPH
+Month|Lowest Vertical Bat Angle|On Plane|57|Percent
+Month|Lowest Vertical Bat Angle|Body Rotation|46|Percent
+Month|Lowest Vertical Bat Angle|Vertical Bat Angle|-29|Degrees
+Month|Highest Vertical Bat Angle|Bat Speed|70.7|MPH
+Month|Highest Vertical Bat Angle|Peak Hand Speed|18.4|MPH
+Month|Highest Vertical Bat Angle|Attack Angle|-16|Degrees
+Month|Highest Vertical Bat Angle|Time to Contact|.09|Sec
+Month|Highest Vertical Bat Angle|Blast Factor|85|Score
+Month|Highest Vertical Bat Angle|Power|7.41|kW
+Month|Highest Vertical Bat Angle|Peak Bat Speed|70.9|MPH
+Month|Highest Vertical Bat Angle|On Plane|93|Percent
+Month|Highest Vertical Bat Angle|Body Rotation|42|Percent
+Month|Highest Vertical Bat Angle|Vertical Bat Angle|10|Degrees
+Year|Lowest Bat Speed|Bat Speed|33.5|MPH
+Year|Lowest Bat Speed|Peak Hand Speed|11.5|MPH
+Year|Lowest Bat Speed|Attack Angle|10|Degrees
+Year|Lowest Bat Speed|Time to Contact|.26|Sec
+Year|Lowest Bat Speed|Blast Factor|46|Score
+Year|Lowest Bat Speed|Power|0.55|kW
+Year|Lowest Bat Speed|Peak Bat Speed|33.5|MPH
+Year|Lowest Bat Speed|On Plane|36|Percent
+Year|Lowest Bat Speed|Body Rotation|46|Percent
+Year|Lowest Bat Speed|Vertical Bat Angle|-24|Degrees
+Year|Highest Bat Speed|Bat Speed|75.7|MPH
+Year|Highest Bat Speed|Peak Hand Speed|19.8|MPH
+Year|Highest Bat Speed|Attack Angle|-18|Degrees
+Year|Highest Bat Speed|Time to Contact|.09|Sec
+Year|Highest Bat Speed|Blast Factor|83|Score
+Year|Highest Bat Speed|Power|8.31|kW
+Year|Highest Bat Speed|Peak Bat Speed|75.7|MPH
+Year|Highest Bat Speed|On Plane|93|Percent
+Year|Highest Bat Speed|Body Rotation|41|Percent
+Year|Highest Bat Speed|Vertical Bat Angle|4|Degrees
+Year|Lowest Peak Hand Speed|Bat Speed|35.8|MPH
+Year|Lowest Peak Hand Speed|Peak Hand Speed|9.5|MPH
+Year|Lowest Peak Hand Speed|Attack Angle|16|Degrees
+Year|Lowest Peak Hand Speed|Time to Contact|.33|Sec
+Year|Lowest Peak Hand Speed|Blast Factor|45|Score
+Year|Lowest Peak Hand Speed|Power|0.50|kW
+Year|Lowest Peak Hand Speed|Peak Bat Speed|35.8|MPH
+Year|Lowest Peak Hand Speed|On Plane|40|Percent
+Year|Lowest Peak Hand Speed|Body Rotation|47|Percent
+Year|Lowest Peak Hand Speed|Vertical Bat Angle|-17|Degrees
+Year|Highest Peak Hand Speed|Bat Speed|71.6|MPH
+Year|Highest Peak Hand Speed|Peak Hand Speed|21.5|MPH
+Year|Highest Peak Hand Speed|Attack Angle|12|Degrees
+Year|Highest Peak Hand Speed|Time to Contact|.16|Sec
+Year|Highest Peak Hand Speed|Blast Factor|81|Score
+Year|Highest Peak Hand Speed|Power|4.13|kW
+Year|Highest Peak Hand Speed|Peak Bat Speed|71.6|MPH
+Year|Highest Peak Hand Speed|On Plane|48|Percent
+Year|Highest Peak Hand Speed|Body Rotation|33|Percent
+Year|Highest Peak Hand Speed|Vertical Bat Angle|-27|Degrees
+Year|Lowest Attack Angle|Bat Speed|41.8|MPH
+Year|Lowest Attack Angle|Peak Hand Speed|16.4|MPH
+Year|Lowest Attack Angle|Attack Angle|-32|Degrees
+Year|Lowest Attack Angle|Time to Contact|.13|Sec
+Year|Lowest Attack Angle|Blast Factor|57|Score
+Year|Lowest Attack Angle|Power|1.67|kW
+Year|Lowest Attack Angle|Peak Bat Speed|41.8|MPH
+Year|Lowest Attack Angle|On Plane|77|Percent
+Year|Lowest Attack Angle|Body Rotation|51|Percent
+Year|Lowest Attack Angle|Vertical Bat Angle|-11|Degrees
+Year|Highest Attack Angle|Bat Speed|59.8|MPH
+Year|Highest Attack Angle|Peak Hand Speed|18.7|MPH
+Year|Highest Attack Angle|Attack Angle|30|Degrees
+Year|Highest Attack Angle|Time to Contact|.18|Sec
+Year|Highest Attack Angle|Blast Factor|45|Score
+Year|Highest Attack Angle|Power|2.56|kW
+Year|Highest Attack Angle|Peak Bat Speed|59.8|MPH
+Year|Highest Attack Angle|On Plane|5|Percent
+Year|Highest Attack Angle|Body Rotation|29|Percent
+Year|Highest Attack Angle|Vertical Bat Angle|-20|Degrees
+Year|Lowest Time to Contact|Bat Speed|70.7|MPH
+Year|Lowest Time to Contact|Peak Hand Speed|18.4|MPH
+Year|Lowest Time to Contact|Attack Angle|-16|Degrees
+Year|Lowest Time to Contact|Time to Contact|.09|Sec
+Year|Lowest Time to Contact|Blast Factor|85|Score
+Year|Lowest Time to Contact|Power|7.41|kW
+Year|Lowest Time to Contact|Peak Bat Speed|70.9|MPH
+Year|Lowest Time to Contact|On Plane|93|Percent
+Year|Lowest Time to Contact|Body Rotation|42|Percent
+Year|Lowest Time to Contact|Vertical Bat Angle|10|Degrees
+Year|Highest Time to Contact|Bat Speed|36.5|MPH
+Year|Highest Time to Contact|Peak Hand Speed|13.3|MPH
+Year|Highest Time to Contact|Attack Angle|-1|Degrees
+Year|Highest Time to Contact|Time to Contact|.35|Sec
+Year|Highest Time to Contact|Blast Factor|30|Score
+Year|Highest Time to Contact|Power|0.49|kW
+Year|Highest Time to Contact|Peak Bat Speed|36.5|MPH
+Year|Highest Time to Contact|On Plane|42|Percent
+Year|Highest Time to Contact|Body Rotation|37|Percent
+Year|Highest Time to Contact|Vertical Bat Angle|-20|Degrees
+Year|Lowest Blast Factor|Bat Speed|36.5|MPH
+Year|Lowest Blast Factor|Peak Hand Speed|13.3|MPH
+Year|Lowest Blast Factor|Attack Angle|-1|Degrees
+Year|Lowest Blast Factor|Time to Contact|.35|Sec
+Year|Lowest Blast Factor|Blast Factor|30|Score
+Year|Lowest Blast Factor|Power|0.49|kW
+Year|Lowest Blast Factor|Peak Bat Speed|36.5|MPH
+Year|Lowest Blast Factor|On Plane|42|Percent
+Year|Lowest Blast Factor|Body Rotation|37|Percent
+Year|Lowest Blast Factor|Vertical Bat Angle|-20|Degrees
+Year|Highest Blast Factor|Bat Speed|70.7|MPH
+Year|Highest Blast Factor|Peak Hand Speed|18.4|MPH
+Year|Highest Blast Factor|Attack Angle|-16|Degrees
+Year|Highest Blast Factor|Time to Contact|.09|Sec
+Year|Highest Blast Factor|Blast Factor|85|Score
+Year|Highest Blast Factor|Power|7.41|kW
+Year|Highest Blast Factor|Peak Bat Speed|70.9|MPH
+Year|Highest Blast Factor|On Plane|93|Percent
+Year|Highest Blast Factor|Body Rotation|42|Percent
+Year|Highest Blast Factor|Vertical Bat Angle|10|Degrees
+Year|Lowest Power|Bat Speed|36.5|MPH
+Year|Lowest Power|Peak Hand Speed|13.3|MPH
+Year|Lowest Power|Attack Angle|-1|Degrees
+Year|Lowest Power|Time to Contact|.35|Sec
+Year|Lowest Power|Blast Factor|30|Score
+Year|Lowest Power|Power|0.49|kW
+Year|Lowest Power|Peak Bat Speed|36.5|MPH
+Year|Lowest Power|On Plane|42|Percent
+Year|Lowest Power|Body Rotation|37|Percent
+Year|Lowest Power|Vertical Bat Angle|-20|Degrees
+Year|Highest Power|Bat Speed|75.7|MPH
+Year|Highest Power|Peak Hand Speed|19.8|MPH
+Year|Highest Power|Attack Angle|-18|Degrees
+Year|Highest Power|Time to Contact|.09|Sec
+Year|Highest Power|Blast Factor|83|Score
+Year|Highest Power|Power|8.31|kW
+Year|Highest Power|Peak Bat Speed|75.7|MPH
+Year|Highest Power|On Plane|93|Percent
+Year|Highest Power|Body Rotation|41|Percent
+Year|Highest Power|Vertical Bat Angle|4|Degrees
+Year|Lowest Peak Bat Speed|Bat Speed|33.5|MPH
+Year|Lowest Peak Bat Speed|Peak Hand Speed|11.5|MPH
+Year|Lowest Peak Bat Speed|Attack Angle|10|Degrees
+Year|Lowest Peak Bat Speed|Time to Contact|.26|Sec
+Year|Lowest Peak Bat Speed|Blast Factor|46|Score
+Year|Lowest Peak Bat Speed|Power|0.55|kW
+Year|Lowest Peak Bat Speed|Peak Bat Speed|33.5|MPH
+Year|Lowest Peak Bat Speed|On Plane|36|Percent
+Year|Lowest Peak Bat Speed|Body Rotation|46|Percent
+Year|Lowest Peak Bat Speed|Vertical Bat Angle|-24|Degrees
+Year|Highest Peak Bat Speed|Bat Speed|75.7|MPH
+Year|Highest Peak Bat Speed|Peak Hand Speed|19.8|MPH
+Year|Highest Peak Bat Speed|Attack Angle|-18|Degrees
+Year|Highest Peak Bat Speed|Time to Contact|.09|Sec
+Year|Highest Peak Bat Speed|Blast Factor|83|Score
+Year|Highest Peak Bat Speed|Power|8.31|kW
+Year|Highest Peak Bat Speed|Peak Bat Speed|75.7|MPH
+Year|Highest Peak Bat Speed|On Plane|93|Percent
+Year|Highest Peak Bat Speed|Body Rotation|41|Percent
+Year|Highest Peak Bat Speed|Vertical Bat Angle|4|Degrees
+Year|Lowest On Plane|Bat Speed|59.8|MPH
+Year|Lowest On Plane|Peak Hand Speed|18.7|MPH
+Year|Lowest On Plane|Attack Angle|30|Degrees
+Year|Lowest On Plane|Time to Contact|.18|Sec
+Year|Lowest On Plane|Blast Factor|45|Score
+Year|Lowest On Plane|Power|2.56|kW
+Year|Lowest On Plane|Peak Bat Speed|59.8|MPH
+Year|Lowest On Plane|On Plane|5|Percent
+Year|Lowest On Plane|Body Rotation|29|Percent
+Year|Lowest On Plane|Vertical Bat Angle|-20|Degrees
+Year|Highest On Plane|Bat Speed|48.3|MPH
+Year|Highest On Plane|Peak Hand Speed|15.7|MPH
+Year|Highest On Plane|Attack Angle|8|Degrees
+Year|Highest On Plane|Time to Contact|.22|Sec
+Year|Highest On Plane|Blast Factor|55|Score
+Year|Highest On Plane|Power|1.33|kW
+Year|Highest On Plane|Peak Bat Speed|48.3|MPH
+Year|Highest On Plane|On Plane|99|Percent
+Year|Highest On Plane|Body Rotation|37|Percent
+Year|Highest On Plane|Vertical Bat Angle|-32|Degrees
+Year|Lowest Body Rotation|Bat Speed|61.3|MPH
+Year|Lowest Body Rotation|Peak Hand Speed|15.3|MPH
+Year|Lowest Body Rotation|Attack Angle|-2|Degrees
+Year|Lowest Body Rotation|Time to Contact|.16|Sec
+Year|Lowest Body Rotation|Blast Factor|51|Score
+Year|Lowest Body Rotation|Power|2.95|kW
+Year|Lowest Body Rotation|Peak Bat Speed|61.3|MPH
+Year|Lowest Body Rotation|On Plane|22|Percent
+Year|Lowest Body Rotation|Body Rotation|22|Percent
+Year|Lowest Body Rotation|Vertical Bat Angle|-10|Degrees
+Year|Highest Body Rotation|Bat Speed|39.7|MPH
+Year|Highest Body Rotation|Peak Hand Speed|15.9|MPH
+Year|Highest Body Rotation|Attack Angle|4|Degrees
+Year|Highest Body Rotation|Time to Contact|.16|Sec
+Year|Highest Body Rotation|Blast Factor|54|Score
+Year|Highest Body Rotation|Power|1.24|kW
+Year|Highest Body Rotation|Peak Bat Speed|39.7|MPH
+Year|Highest Body Rotation|On Plane|63|Percent
+Year|Highest Body Rotation|Body Rotation|56|Percent
+Year|Highest Body Rotation|Vertical Bat Angle|-10|Degrees
+Year|Lowest Vertical Bat Angle|Bat Speed|54.7|MPH
+Year|Lowest Vertical Bat Angle|Peak Hand Speed|18.3|MPH
+Year|Lowest Vertical Bat Angle|Attack Angle|0|Degrees
+Year|Lowest Vertical Bat Angle|Time to Contact|.19|Sec
+Year|Lowest Vertical Bat Angle|Blast Factor|62|Score
+Year|Lowest Vertical Bat Angle|Power|2.05|kW
+Year|Lowest Vertical Bat Angle|Peak Bat Speed|54.7|MPH
+Year|Lowest Vertical Bat Angle|On Plane|65|Percent
+Year|Lowest Vertical Bat Angle|Body Rotation|42|Percent
+Year|Lowest Vertical Bat Angle|Vertical Bat Angle|-43|Degrees
+Year|Highest Vertical Bat Angle|Bat Speed|70.7|MPH
+Year|Highest Vertical Bat Angle|Peak Hand Speed|18.4|MPH
+Year|Highest Vertical Bat Angle|Attack Angle|-16|Degrees
+Year|Highest Vertical Bat Angle|Time to Contact|.09|Sec
+Year|Highest Vertical Bat Angle|Blast Factor|85|Score
+Year|Highest Vertical Bat Angle|Power|7.41|kW
+Year|Highest Vertical Bat Angle|Peak Bat Speed|70.9|MPH
+Year|Highest Vertical Bat Angle|On Plane|93|Percent
+Year|Highest Vertical Bat Angle|Body Rotation|42|Percent
+Year|Highest Vertical Bat Angle|Vertical Bat Angle|10|Degrees

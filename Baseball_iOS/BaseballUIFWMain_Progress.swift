@@ -32,13 +32,13 @@ public class ui_Progress: ui_Main{
     /// <#Description#>
     ///
     /// - Parameter testname: <#testname description#>
-    func ScrapeProgressStatData(testname:String?="test1"){
+    func ScrapeProgressStatData(testname:String?="test1",startdatechart:String?="Day|Lowest Bat Speed"){
         print("ScrapeProgressStatData")
         var datakey:String
         let as_statnames: [String] = (self.uifw.TESTDATA?.getTestValueStrArr(
             fieldname: "main_progress_chartnames"))!
         var datakeyreport:String = ""
-
+        var datalist:[String] = []
         //var s_daterange:String
         
         let as_dateranges:[String] = (self.uifw.TESTDATA?.getTestValueStrArr(
@@ -47,26 +47,47 @@ public class ui_Progress: ui_Main{
         let as_hilow:[String] = (self.uifw.TESTDATA?.getTestValueStrArr(
             fieldname: "main_progress_stats_profile_lowhigh"))!
         var statsrn:ui_Progress_Stats? = nil
+        var search:String = startdatechart!//"Year|Highest On Plane"//"Day|Lowest Bat Speed|Bat Speed"//|35.8|MPH"
+        var testforskip:String = ""
+        var run:Bool = false
         //loop1 iterate dateranges
         for dt in as_dateranges{
             setDateRange(range: dt)
             setToFirstChart(chartlist: as_statnames)
             //loop2 iterate charts
             for chartstat in as_statnames{
-               searchChartNameSwipeLeft(chartname: chartstat, chartlist: as_statnames)
+                searchChartNameSwipeLeft(chartname: chartstat, chartlist: as_statnames)
                 //loop3 iterate hi/low stats
                 for hl in as_hilow{
-                    //drill into stat details
-                    statsrn=tapHighestLowestStat(hilow: hl)
-                    
-                    datakey=setdatalabel(testname:testname!,daterange:dt,chart:chartstat,hilo:hl)
-                    print(datakey+"====================")
-                    sleep(1)
-                    statsrn?.tap_Close()
+                    testforskip = dt+"|"+hl+" "+chartstat
+                    print(testforskip)
+                    if (!run) && (testforskip == search){
+                        run = true
+                    }
+                    if run{
+                        //drill into stat details
+                        statsrn=tapHighestLowestStat(hilow: hl)
+                        
+                        datakey=setdatalabel(testname:testname!,daterange:dt,chart:chartstat,hilo:hl)
+                        print(datakey+"====================")
+                        sleep(1)
+                        
+                        datalist.append(contentsOf: (statsrn?.scrapeStatsDetails(testname:testname!,daterange:dt, title: hl+" "+chartstat, batname: "##", statpages: as_statnames))!)
+                        statsrn?.tap_Close()
+                        print(datalist)
+                    }
+                    else{
+                        print("Skip: "+testforskip)
+                    }
                 }
             }
             
         }
+        datakeyreport = datalist.joined(separator: "\n")
+        print(datakeyreport)
+        let ut = UIFrameworkUtils.Utils()
+        ut.SaveDataToFile(path: testname!+".txt", txtdata: datakeyreport)
+
     }
 //        XCUIDevice.shared().orientation = .portrait
 //        let lowhigh:[String]=["Lowest","Highest"]

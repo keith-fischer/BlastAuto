@@ -38,6 +38,88 @@ public class ui_Progress_Stats: ui_Main{
     func tap_Close(){
         self.uifw.fwapp.buttons["icClose"].tap()
     }
+    
+    func scrapeStatsDetails(testname:String, daterange:String, title: String, batname: String, statpages: [String])->[String]{
+        self.uifw.fwapp.staticTexts[title].tap()
+        //self.uifw.fwapp.staticTexts[batname].tap()
+
+        
+        let collectionViewsQuery = self.uifw.fwapp.collectionViews
+        var elementLabels = [String]()
+        //let statnames: [String]=["Bat Speed","Peak Hand Speed","Attack Angle","Time to Contact","Blast Factor","Power","Peak Bat Speed","On Plane","Body Rotation","Vertical Bat Angle"]
+        var statinfo: String = ""
+        var lastel:XCUIElement
+        var firstel:XCUIElement
+        var statlabel:String = ""
+        var stattype:String = ""
+        var datakey:String = ""
+        var failcount:Int = 0
+        var pagecount:Int = 0
+        //var i:Int = 0
+        //var lastindex:UInt32=0
+        //for stat in statpages{
+        while (true){
+            var id:UInt = 0
+            let sequence = stride(from: 0, to: collectionViewsQuery.staticTexts.count, by: 3)
+            for i in sequence{
+
+                //statinfo = title+"|"+stat+"|" + collectionViewsQuery.staticTexts.element(boundBy: i).label
+                if collectionViewsQuery.staticTexts.count>2{
+                    statlabel = collectionViewsQuery.staticTexts.element(boundBy: i + 0).label
+                    statinfo = collectionViewsQuery.staticTexts.element(boundBy: i + 1).label
+                    stattype = collectionViewsQuery.staticTexts.element(boundBy: i + 2).label
+                    datakey = testname+"|"+daterange + "|" + title + "|" + statlabel + "|" + statinfo + "|" + stattype
+                    
+                    if collectionViewsQuery.staticTexts.element(boundBy: i + 2).isHittable{
+                        id = i + 2
+                    }
+                }
+                else{
+                    failcount+=1
+                    datakey="FAILED:"+String(failcount)+"|"+title//+"|"+stat
+                    print(datakey)
+                }
+                if !elementLabels.contains(datakey){
+                    elementLabels.append (datakey)
+                    
+                }
+            }
+            lastel=collectionViewsQuery.staticTexts.element(boundBy: id)
+            firstel=self.uifw.fwapp.staticTexts[title]
+            
+            for i in 0...2{
+                do{
+                    try lastel.press(forDuration: 1, thenDragTo: firstel)
+                    sleep(1)
+                    break
+                }
+                catch{
+                    print("FAILED " + String(i) + " DragTo on:" + datakey)
+                    sleep(1)
+                }
+            }
+            //print (elementLabels)
+            if elementLabels.count>9{
+                break
+            }
+            else{
+                pagecount+=1
+            }
+            if pagecount>5{
+                break
+            }
+            
+        }
+        //print (elementLabels)
+        if elementLabels.count>0{
+            let datakeyreport:String = elementLabels.joined(separator: "\n")
+            print(datakeyreport)
+            let ut = UIFrameworkUtils.Utils()
+            ut.SaveDataToFile(path: testname+".txt", txtdata: datakeyreport)
+        }
+        return elementLabels
+
+    }
 }
 //    func BatSpeed_Low_Day_StatProfile(){
 //        self.TestTitle("Lowest Bat Speed")

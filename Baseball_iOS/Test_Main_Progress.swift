@@ -15,14 +15,16 @@ extension NGABaseballUITests{
         print("ttestMain ============")
         XCUIDevice.shared().orientation = .faceUp
         //let app = XCUIApplication()
-        let fw=UIFramework()
+        let fw=UIFramework(testname: "blastmotionqa-lt-student13-gmail") //"blastmotionqa.lt+student13@gmail.com")
+        
         // startup screen ------------------------------------------------------
         fw.printinfo(msg: "startup",in_out: 0,fninfo:"fn: \(#function), line: \(#line), file: \(#file)")
         sleep(10) //wait for account info fetch
         let main=ui_Main(fw1:fw,welcome:false)
-        
         let prog=main.tap_Progress()
-        let rpt = prog.ScrapeProgressStatData(testname: "LongAcct")
+        let rpt = prog.ScrapeProgressStatData(
+            testname: prog.uifw.testName,
+            startdatechart: "Day|Lowest Bat Speed") //first data item, can override to start logging someplace else like "Year|Lowest Bat Speed"
         print (rpt)
         sleep(10)
         
